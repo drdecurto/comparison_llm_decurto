@@ -1,0 +1,553 @@
+{
+  "model": "NousResearch/Hermes-4-405B",
+  "problems": [
+    {
+      "problem": "If a train travels 120 km in 2 hours, what is its average speed in km/h?",
+      "solution": "The average speed of the train is 60 km/h.",
+      "solution_steps": [
+        "Identify the formula: Average speed = Total distance / Total time",
+        "Plug in the values: Average speed = 120 km / 2 hours",
+        "Perform the calculation: Average speed = 60 km/h"
+      ],
+      "category": "Physics",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "A ball is thrown vertically upward with an initial velocity of 20 m/s. How high will it go, ignoring air resistance? (Use g = 9.8 m/s\u00b2)",
+      "solution": "The ball will reach a maximum height of 20.41 meters.",
+      "solution_steps": [
+        "Identify the equation: v\u00b2 = u\u00b2 + 2as, where v (final velocity) = 0 at the highest point",
+        "Rearrange the equation to solve for s (displacement): s = (v\u00b2 - u\u00b2) / (2a)",
+        "Plug in the values: s = (0\u00b2 - 20\u00b2) / (2 * -9.8)",
+        "Calculate: s = 400 / 19.6 = 20.41 meters"
+      ],
+      "category": "Physics",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "Solve the quadratic equation: 2x\u00b2 - 5x - 12 = 0",
+      "solution": "The solutions are x = 4 and x = -1.5",
+      "solution_steps": [
+        "Identify the quadratic formula: x = (-b \u00b1 \u221a(b\u00b2 - 4ac)) / (2a)",
+        "Identify a, b, and c: a = 2, b = -5, c = -12",
+        "Plug into the formula: x = (5 \u00b1 \u221a((-5)\u00b2 - 4(2)(-12))) / (2(2))",
+        "Simplify: x = (5 \u00b1 \u221a(25 + 96)) / 4 = (5 \u00b1 \u221a121) / 4 = (5 \u00b1 11) / 4",
+        "Calculate the two solutions: x = 16/4 = 4 or x = -6/4 = -1.5"
+      ],
+      "category": "Mathematics",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "What is the pH of a 0.01 M HCl solution?",
+      "solution": "The pH of the 0.01 M HCl solution is 2.",
+      "solution_steps": [
+        "Recall that pH = -log[H\u207a]",
+        "For a strong acid like HCl, [H\u207a] is equal to the concentration of the acid",
+        "Therefore, pH = -log(0.01)",
+        "Calculate: pH = -(-2) = 2"
+      ],
+      "category": "Chemistry",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "A company's revenue grew from $1 million to $1.5 million in one year. What was the percentage increase?",
+      "solution": "The percentage increase in revenue was 50%.",
+      "solution_steps": [
+        "Calculate the absolute increase: $1.5 million - $1 million = $0.5 million",
+        "Set up the percentage formula: Percentage increase = (Increase / Original) \u00d7 100",
+        "Plug in the values: Percentage increase = ($0.5 million / $1 million) \u00d7 100",
+        "Calculate: Percentage increase = 0.5 \u00d7 100 = 50%"
+      ],
+      "category": "Economics",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "In a population of 1000 individuals, 490 have brown eyes, 390 have blue eyes, and the rest have green eyes. What is the probability of randomly selecting an individual with green eyes?",
+      "solution": "The probability of selecting an individual with green eyes is 0.12 or 12%.",
+      "solution_steps": [
+        "Calculate the number of individuals with green eyes: 1000 - 490 - 390 = 120",
+        "Set up the probability formula: P(green eyes) = Number with green eyes / Total population",
+        "Plug in the values: P(green eyes) = 120 / 1000",
+        "Calculate: P(green eyes) = 0.12 or 12%"
+      ],
+      "category": "Statistics",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "What is the expected number of heterozygous offspring from a cross between two organisms heterozygous for a single gene (Aa x Aa)?",
+      "solution": "The expected proportion of heterozygous offspring is 1/2 or 50%.",
+      "solution_steps": [
+        "Set up a Punnett square with parents Aa x Aa",
+        "Fill in the Punnett square: AA, Aa, Aa, aa",
+        "Count the number of heterozygous offspring (Aa): 2 out of 4",
+        "Calculate the proportion: 2/4 = 1/2 = 0.5 or 50%"
+      ],
+      "category": "Biology",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "If f(x) = 2x\u00b2 + 3x - 5, what is f'(x)?",
+      "solution": "The derivative f'(x) = 4x + 3",
+      "solution_steps": [
+        "Apply the power rule to 2x\u00b2: The derivative of 2x\u00b2 is 2 * 2x = 4x",
+        "Apply the coefficient rule to 3x: The derivative of 3x is 3",
+        "The derivative of a constant (-5) is 0",
+        "Combine the terms: f'(x) = 4x + 3"
+      ],
+      "category": "Calculus",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "A farmer has 100 meters of fencing and wants to create a rectangular enclosure against a straight river (which requires no fencing). What are the dimensions of the enclosure that will maximize the area?",
+      "solution": "The optimal dimensions are 50 meters along the river and 25 meters perpendicular to the river.",
+      "solution_steps": [
+        "Let x be the width and y be the length along the river",
+        "Set up the equation: x + 2y = 100 (total fencing used)",
+        "Express y in terms of x: y = (100 - x) / 2",
+        "Area function: A(x) = x * y = x * (100 - x) / 2 = 50x - x\u00b2/2",
+        "Find the maximum by setting A'(x) = 0: A'(x) = 50 - x = 0",
+        "Solve for x: x = 50",
+        "Calculate y: y = (100 - 50) / 2 = 25"
+      ],
+      "category": "Optimization",
+      "difficulty": "Hard"
+    },
+    {
+      "problem": "In a balanced chemical equation, how many moles of hydrogen gas (H\u2082) are needed to react completely with 3 moles of nitrogen gas (N\u2082) to form ammonia (NH\u2083)?",
+      "solution": "9 moles of hydrogen gas (H\u2082) are needed.",
+      "solution_steps": [
+        "Write the balanced equation: N\u2082 + 3H\u2082 \u2192 2NH\u2083",
+        "Identify the mole ratio of N\u2082 to H\u2082: 1:3",
+        "Set up the proportion: 1 mol N\u2082 : 3 mol H\u2082 = 3 mol N\u2082 : x mol H\u2082",
+        "Solve for x: x = 3 * 3 = 9 mol H\u2082"
+      ],
+      "category": "Chemistry",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "A car accelerates uniformly from rest to a speed of 30 m/s over a distance of 100 m. Calculate the acceleration of the car.",
+      "solution": "The acceleration of the car is 4.5 m/s\u00b2.",
+      "solution_steps": [
+        "Identify the equation: v\u00b2 = u\u00b2 + 2as, where u (initial velocity) = 0",
+        "Rearrange the equation to solve for a: a = (v\u00b2 - u\u00b2) / (2s)",
+        "Plug in the values: a = (30\u00b2 - 0\u00b2) / (2 * 100)",
+        "Calculate: a = 900 / 200 = 4.5 m/s\u00b2"
+      ],
+      "category": "Physics",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "Solve the system of equations: 3x + 2y = 14 and x - y = 1",
+      "solution": "The solution is x = 4 and y = 3",
+      "solution_steps": [
+        "From the second equation, express x in terms of y: x = y + 1",
+        "Substitute this into the first equation: 3(y + 1) + 2y = 14",
+        "Simplify: 3y + 3 + 2y = 14",
+        "Solve for y: 5y = 11, so y = 11/5 = 2.2",
+        "Substitute back to find x: x = 2.2 + 1 = 3.2",
+        "Round to whole numbers: x = 4, y = 3"
+      ],
+      "category": "Mathematics",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "Calculate the molarity of a solution prepared by dissolving 5.85 g of NaCl in enough water to make 500 mL of solution.",
+      "solution": "The molarity of the solution is 0.2 M.",
+      "solution_steps": [
+        "Calculate the moles of NaCl: moles = mass / molar mass",
+        "Molar mass of NaCl = 23 + 35.5 = 58.5 g/mol",
+        "Moles of NaCl = 5.85 g / 58.5 g/mol = 0.1 mol",
+        "Convert volume to liters: 500 mL = 0.5 L",
+        "Calculate molarity: M = moles / liters = 0.1 mol / 0.5 L = 0.2 M"
+      ],
+      "category": "Chemistry",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "If a company's stock price increases by 20% and then decreases by 15%, what is the overall percentage change?",
+      "solution": "The overall percentage change is an increase of 2%.",
+      "solution_steps": [
+        "Calculate the factor after 20% increase: 1 + 0.20 = 1.20",
+        "Calculate the factor after 15% decrease: 1 - 0.15 = 0.85",
+        "Multiply the factors: 1.20 * 0.85 = 1.02",
+        "Convert to percentage change: (1.02 - 1) * 100 = 2%"
+      ],
+      "category": "Economics",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "In a clinical trial, 300 patients were given a new drug, and 270 showed improvement. Calculate the 95% confidence interval for the true proportion of patients who improve with this drug.",
+      "solution": "The 95% confidence interval is approximately (0.86, 0.94).",
+      "solution_steps": [
+        "Calculate the sample proportion: p = 270 / 300 = 0.9",
+        "Calculate the standard error: SE = sqrt(p * (1-p) / n) = sqrt(0.9 * 0.1 / 300) \u2248 0.0173",
+        "For 95% CI, use z-score of 1.96",
+        "Calculate the margin of error: 1.96 * SE \u2248 0.034",
+        "CI: (0.9 - 0.034, 0.9 + 0.034) \u2248 (0.866, 0.934)"
+      ],
+      "category": "Statistics",
+      "difficulty": "Hard"
+    },
+    {
+      "problem": "In a population of moths, 75% have dark wings (dominant allele) and 25% have light wings (recessive allele). Assuming Hardy-Weinberg equilibrium, what proportion of the population are heterozygous for this trait?",
+      "solution": "The proportion of heterozygotes in the population is 0.375 or 37.5%.",
+      "solution_steps": [
+        "Let p = frequency of dominant allele, q = frequency of recessive allele",
+        "q\u00b2 = 0.25 (proportion of recessive phenotype)",
+        "Calculate q: sqrt(0.25) = 0.5",
+        "Calculate p: p = 1 - q = 1 - 0.5 = 0.5",
+        "Frequency of heterozygotes = 2pq = 2 * 0.5 * 0.5 = 0.5"
+      ],
+      "category": "Biology",
+      "difficulty": "Hard"
+    },
+    {
+      "problem": "Find the volume of the solid obtained by rotating the region bounded by y = x\u00b2, y = 0, and x = 2 around the y-axis.",
+      "solution": "The volume of the solid is 16\u03c0/5 cubic units.",
+      "solution_steps": [
+        "Identify the method: Use the washer method",
+        "Set up the integral: V = \u03c0 \u222b(0 to 4) [2\u00b2 - (\u221ay)\u00b2] dy",
+        "Simplify: V = \u03c0 \u222b(0 to 4) (4 - y) dy",
+        "Integrate: V = \u03c0 [4y - y\u00b2/2] from 0 to 4",
+        "Evaluate: V = \u03c0 [16 - 8] = 8\u03c0 cubic units"
+      ],
+      "category": "Calculus",
+      "difficulty": "Hard"
+    },
+    {
+      "problem": "A company produces two types of products, A and B. Product A requires 2 hours of labor and 3 units of raw material, while Product B requires 3 hours of labor and 2 units of raw material. The company has 100 hours of labor and 90 units of raw material available. If the profit for Product A is $40 and for Product B is $50, how many of each product should be produced to maximize profit?",
+      "solution": "The company should produce 20 units of Product A and 20 units of Product B for a maximum profit of $1800.",
+      "solution_steps": [
+        "Define variables: x = units of A, y = units of B",
+        "Set up constraints: 2x + 3y \u2264 100 (labor), 3x + 2y \u2264 90 (material)",
+        "Define objective function: P = 40x + 50y",
+        "Graph the constraints and identify the feasible region",
+        "Find the corner points: (0,0), (30,0), (20,20), (0,33.33)",
+        "Evaluate P at each point: P(0,0)=0, P(30,0)=1200, P(20,20)=1800, P(0,33.33)=1666.5",
+        "The maximum profit occurs at (20,20)"
+      ],
+      "category": "Optimization",
+      "difficulty": "Hard"
+    },
+    {
+      "problem": "A radioactive sample initially contains 100 mg of a certain isotope. After 30 days, 25 mg of the isotope remains. What is the half-life of this isotope?",
+      "solution": "The half-life of the isotope is approximately 15 days.",
+      "solution_steps": [
+        "Use the decay formula: A = A\u2080 * (1/2)^(t/t\u2081/\u2082), where t\u2081/\u2082 is the half-life",
+        "Plug in known values: 25 = 100 * (1/2)^(30/t\u2081/\u2082)",
+        "Simplify: 1/4 = (1/2)^(30/t\u2081/\u2082)",
+        "Take log of both sides: log(1/4) = 30/t\u2081/\u2082 * log(1/2)",
+        "Solve for t\u2081/\u2082: t\u2081/\u2082 = 30 * log(1/2) / log(1/4) \u2248 15 days"
+      ],
+      "category": "Physics",
+      "difficulty": "Hard"
+    }
+  ],
+  "evaluations": [
+    {
+      "average_score": 0.8710286392924629,
+      "score_std": 0.03572303265950787,
+      "solutions": [
+        "To find the average speed of the train, we need to use the formula for speed, which is:\n\nSpeed = Distance / Time\n\nWe are given the distance (120 km) and the time (2 hours). Now, let's plug these values into the formula:\n\nSpeed = 120 km / 2 hours\n\nWhen we divide 120 by 2, we get:\n\nSpeed = 60 km/h\n\nSo, the average speed of the train is 60 kilometers per hour.",
+        "To find the average speed of the train, we need to use the formula for speed, which is:\n\nSpeed = Distance / Time\n\nHere's how to solve the problem step by step:\n\n1. Understand the given information:\n   * The train travels a distance of 120 km.\n   * It takes 2 hours to cover this distance.\n\n2. Identify the formula to use:\n   * Speed = Distance / Time\n\n3. Plug in the values into the formula:\n   * Speed = 120 km / 2 hours\n\n4. Perform the calculation:\n   * Speed = 60 km/h\n\nTherefore, the average speed of the train is 60 km/h.",
+        "To find the average speed of the train, you need to divide the total distance traveled by the total time taken. Here's how to do it step by step:\n\n1. **Understand the formula for average speed**: Average speed is calculated by dividing the total distance by the total time. The formula is:\n\n   \\[\n   \\text{Average speed} = \\frac{\\text{Total distance}}{\\text{Total time}}\n   \\]\n\n2. **Identify the given values**: From the problem, we know that the train travels 120 km in 2 hours. So, the total distance is 120 km, and the total time is 2 hours.\n\n3. **Substitute the values into the formula**: Plug the given values into the formula for average speed:\n\n   \\[\n   \\text{Average speed} = \\frac{120 \\text{ km}}{2 \\text{ hours}}\n   \\]\n\n4. **Perform the division**: Divide 120 by 2:\n\n   \\[\n   \\frac{120}{2} = 60\n   \\]\n\n5. **State the answer with the correct units**: Since the distance is in kilometers (km) and the time is in hours (h), the average speed is in kilometers per hour (km/h).\n\nTherefore, the average speed of the train is 60 km/h."
+      ],
+      "step_scores": [
+        0.8312134147851727
+      ],
+      "average_step_score": 0.8312134147851727
+    },
+    {
+      "average_score": 0.8851139550517179,
+      "score_std": 0.01410135486735825,
+      "solutions": [
+        "To determine how high the ball will go, we need to calculate the maximum height it reaches. Here's how we can solve this problem step by step:\n\nGiven:\n- Initial velocity (v\u2080) = 20 m/s\n- Acceleration due to gravity (g) = 9.8 m/s\u00b2\n\nStep 1: Determine the final velocity at the maximum height.\nAt the maximum height, the ball's velocity will be zero. Let's call this final velocity v\u2081.\nv\u2081 = 0 m/s\n\nStep 2: Use the kinematic equation to find the maximum height.\nWe can use the following kinematic equation to solve for the maximum height (h):\nv\u2081\u00b2 = v\u2080\u00b2 + 2gh\n\nSubstitute the known values:\n0\u00b2 = 20\u00b2 + 2 \u00d7 (-9.8) \u00d7 h\n0 = 400 - 19.6h\n\nStep 3: Solve the equation for the maximum height (h).\n19.6h = 400\nh = 400 \u00f7 19.6\nh \u2248 20.41 meters\n\nTherefore, the ball will reach a maximum height of approximately 20.41 meters when thrown vertically upward with an initial velocity of 20 m/s, ignoring air resistance.",
+        "To determine how high the ball will go when thrown vertically upward with an initial velocity of 20 m/s, we will use the following steps:\n\n1. **Convert the initial velocity to the appropriate units**:\n   The initial velocity is given as 20 m/s, which is already in meters per second, so no conversion is needed.\n\n2. **Use the kinematic equation**:\n   The equation to find the maximum height reached by the ball is:\n   \\[\n   v^2 = u^2 + 2as\n   \\]\n   where:\n   - \\(v\\) is the final velocity (0 m/s at the highest point),\n   - \\(u\\) is the initial velocity (20 m/s),\n   - \\(a\\) is the acceleration due to gravity (-9.8 m/s\u00b2, negative because it acts downward),\n   - \\(s\\) is the displacement (height).\n\n3. **Substitute the known values into the equation**:\n   \\[\n   0^2 = 20^2 + 2(-9.8)s\n   \\]\n\n4. **Solve for \\(s\\)**:\n   \\[\n   0 = 400 - 19.6s\n   \\]\n   \\[\n   19.6s = 400\n   \\]\n   \\[\n   s = \\frac{400}{19.6} \\approx 20.41 \\text{ meters}\n   \\]\n\nThus, the ball will",
+        "To determine how high the ball will go, we need to calculate the maximum height it reaches. Here's how we can solve this problem step by step:\n\nGiven:\n- Initial velocity (v\u2080) = 20 m/s\n- Acceleration due to gravity (g) = 9.8 m/s\u00b2\n\nStep 1: Determine the final velocity at the maximum height.\nAt the maximum height, the ball's velocity will be zero. Let's call this final velocity v.\n\nv = 0 m/s\n\nStep 2: Use the kinematic equation that relates initial velocity, final velocity, acceleration, and displacement (height).\nv\u00b2 = v\u2080\u00b2 + 2gh\nwhere:\n- v is the final velocity (0 m/s)\n- v\u2080 is the initial velocity (20 m/s)\n- g is the acceleration due to gravity (-9.8 m/s\u00b2, negative because it's acting downward)\n- h is the maximum height (unknown)\n\nStep 3: Substitute the known values into the equation and solve for h.\n0\u00b2 = 20\u00b2 + 2(-9.8)h\n0 = 400 - 19.6h\n19.6h = 400\nh = 400 \u00f7 19.6\nh \u2248 20.41 m\n\nTherefore, the ball will reach a maximum height of approximately 20.41 meters when thrown vertically upward with an initial velocity of 20 m/s, ignoring air resistance"
+      ],
+      "step_scores": [
+        0.17088281493248517,
+        0.20630528925467484,
+        0.7303408547849889,
+        0.7729844105580155
+      ],
+      "average_step_score": 0.4701283423825411
+    },
+    {
+      "average_score": 0.5515410168225001,
+      "score_std": 0.11980421718744172,
+      "solutions": [
+        "To solve the quadratic equation 2x\u00b2 - 5x - 12 = 0, we can use the quadratic formula:\n\nx = (-b \u00b1 \u221a(b\u00b2 - 4ac)) / 2a\n\nwhere a, b, and c are the coefficients of the quadratic equation in the standard form ax\u00b2 + bx + c = 0.\n\nStep 1: Identify the values of a, b, and c.\nIn this case, a = 2, b = -5, and c = -12.\n\nStep 2: Substitute the values into the quadratic formula.\nx = (-(-5) \u00b1 \u221a((-5)\u00b2 - 4(2)(-12))) / (2(2))\nx = (5 \u00b1 \u221a(25 + 96)) / 4\nx = (5 \u00b1 \u221a121) / 4\n\nStep 3: Simplify the expression under the square root.\n\u221a121 = 11\n\nStep 4: Solve for the two possible values of x.\nx = (5 \u00b1 11) / 4\n\nx\u2081 = (5 + 11) / 4\nx\u2081 = 16 / 4\nx\u2081 = 4\n\nx\u2082 = (5 - 11) / 4\nx\u2082 = -6 / 4\nx\u2082 = -3/2 or -1.5\n\nTherefore, the solutions to the quadratic equation 2x\u00b2 - 5x -",
+        "To solve the quadratic equation 2x\u00b2 - 5x - 12 = 0, we can use the quadratic formula:\n\nx = (-b \u00b1 \u221a(b\u00b2 - 4ac)) / 2a\n\nwhere a, b, and c are the coefficients of the quadratic equation in the form ax\u00b2 + bx + c = 0.\n\nStep 1: Identify the values of a, b, and c.\na = 2\nb = -5\nc = -12\n\nStep 2: Substitute the values into the quadratic formula.\nx = (5 \u00b1 \u221a((-5)\u00b2 - 4(2)(-12))) / (2(2))\n\nStep 3: Simplify the expression under the square root.\nx = (5 \u00b1 \u221a(25 + 96)) / 4\nx = (5 \u00b1 \u221a121) / 4\n\nStep 4: Simplify the square root.\nx = (5 \u00b1 11) / 4\n\nStep 5: Solve for the two possible values of x.\nx\u2081 = (5 + 11) / 4 = 16 / 4 = 4\nx\u2082 = (5 - 11) / 4 = -6 / 4 = -3/2\n\nTherefore, the solutions to the quadratic equation 2x\u00b2 - 5x - 12 = 0 are x\u2081 = 4 and x\u2082 = -3/2.",
+        "To solve the quadratic equation 2x\u00b2 - 5x - 12 = 0, we can use the quadratic formula. Here are the steps:\n\nStep 1: Identify the values of a, b, and c in the equation ax\u00b2 + bx + c = 0.\nIn this case:\na = 2\nb = -5\nc = -12\n\nStep 2: Apply the quadratic formula: x = [-b \u00b1 \u221a(b\u00b2 - 4ac)] / (2a)\n\nStep 3: Substitute the values of a, b, and c into the formula.\nx = [5 \u00b1 \u221a((-5)\u00b2 - 4(2)(-12))] / (2(2))\n  = [5 \u00b1 \u221a(25 + 96)] / 4\n  = [5 \u00b1 \u221a121] / 4\n  = (5 \u00b1 11) / 4\n\nStep 4: Simplify the expression.\nx\u2081 = (5 + 11) / 4 = 16 / 4 = 4\nx\u2082 = (5 - 11) / 4 = -6 / 4 = -3/2\n\nTherefore, the solutions to the quadratic equation 2x\u00b2 - 5x - 12 = 0 are x\u2081 = 4 and x\u2082 = -3/2."
+      ],
+      "step_scores": [
+        0.7706548310662793,
+        0.8031761710334797,
+        0.930895587868912,
+        0.46395538454068963,
+        0.7969857535794416
+      ],
+      "average_step_score": 0.7531335456177605
+    },
+    {
+      "average_score": 0.85926779006726,
+      "score_std": 0.006744968709433778,
+      "solutions": [
+        "To determine the pH of a 0.01 M HCl solution, we can follow these steps:\n\nStep 1: Identify the concentration of HCl.\nThe concentration of HCl is given as 0.01 M.\n\nStep 2: Determine the concentration of H+ ions.\nHCl is a strong acid, which means it dissociates completely in water. Therefore, the concentration of H+ ions will be equal to the concentration of HCl.\n[H+] = 0.01 M\n\nStep 3: Calculate the pH using the pH formula.\nThe pH formula is: pH = -log10[H+]\nSubstitute the concentration of H+ ions into the formula:\npH = -log10(0.01)\n\nStep 4: Evaluate the logarithm.\nlog10(0.01) = -2\nTherefore, pH = -(-2) = 2\n\nSo, the pH of a 0.01 M HCl solution is 2.",
+        "To determine the pH of a 0.01 M HCl solution, we can follow these steps:\n\nStep 1: Identify the concentration of H+ ions.\nHCl is a strong acid, which means it completely dissociates in water. Therefore, the concentration of H+ ions in the solution will be equal to the concentration of the HCl solution.\n[H+] = 0.01 M\n\nStep 2: Calculate the pH using the formula.\nThe pH of a solution is given by the formula:\npH = -log10[H+]\n\nStep 3: Substitute the value of [H+] into the formula.\npH = -log10(0.01)\n\nStep 4: Evaluate the logarithm.\nlog10(0.01) = -2\n\nStep 5: Calculate the pH.\npH = -(-2)\npH = 2\n\nTherefore, the pH of a 0.01 M HCl solution is 2.",
+        "To determine the pH of a 0.01 M HCl solution, we can follow these steps:\n\nStep 1: Identify the concentration of HCl.\nThe problem states that the concentration of HCl is 0.01 M.\n\nStep 2: Determine the concentration of H+ ions.\nHCl is a strong acid, which means it dissociates completely in water. Therefore, the concentration of H+ ions will be equal to the concentration of HCl.\n[H+] = 0.01 M\n\nStep 3: Calculate the pH using the pH formula.\nThe pH formula is:\npH = -log10[H+]\n\nSubstitute the concentration of H+ ions into the formula:\npH = -log10(0.01)\n\nStep 4: Solve for pH.\nUsing a calculator or logarithm table, we find that:\nlog10(0.01) = -2\n\nTherefore:\npH = -(-2)\npH = 2\n\nSo, the pH of a 0.01 M HCl solution is 2."
+      ],
+      "step_scores": [
+        0.7911323339078602,
+        0.7789772315508179,
+        0.7544641917103428,
+        0.3007308515258003
+      ],
+      "average_step_score": 0.6563261521737053
+    },
+    {
+      "average_score": 0.8565219733117974,
+      "score_std": 0.005998654672885644,
+      "solutions": [
+        "To solve this problem, we need to find the percentage increase in the company's revenue. Here's how we do it:\n\n1. Find the difference in revenue:\n   * Initial revenue = $1 million\n   * Final revenue = $1.5 million\n   * Difference = Final revenue - Initial revenue\n   * Difference = $1.5 million - $1 million = $0.5 million\n\n2. Calculate the percentage increase:\n   * Percentage increase = (Difference / Initial revenue) * 100\n   * Percentage increase = ($0.5 million / $1 million) * 100\n   * Percentage increase = 0.5 * 100 = 50\n\nSo, the company's revenue increased by 50% in one year.",
+        "To solve this problem, we need to find the percentage increase in the company's revenue. Here's how we can do it step by step:\n\nStep 1: Find the absolute increase in revenue.\nAbsolute increase = Final revenue - Initial revenue\n= $1.5 million - $1 million\n= $0.5 million\n\nStep 2: Calculate the percentage increase using the formula:\nPercentage increase = (Absolute increase / Initial revenue) \u00d7 100\n\nPercentage increase = ($0.5 million / $1 million) \u00d7 100\n= 0.5 \u00d7 100\n= 50%\n\nTherefore, the company's revenue increased by 50% in one year.",
+        "To solve this problem, we need to find the percentage increase in the company's revenue. Here's how we do it:\n\n1. Find the difference in revenue:\n   $1.5 million - $1 million = $0.5 million\n\n2. Divide the difference by the original revenue:\n   $0.5 million / $1 million = 0.5\n\n3. Convert the result to a percentage by multiplying by 100:\n   0.5 * 100 = 50%\n\nSo, the company's revenue increased by 50% in one year."
+      ],
+      "step_scores": [
+        0.7792033016760872
+      ],
+      "average_step_score": 0.7792033016760872
+    },
+    {
+      "average_score": 0.8908257347960049,
+      "score_std": 0.008667256138503256,
+      "solutions": [
+        "To solve this problem, let's break it down into clear steps:\n\nGiven:\n- Total population = 1000 individuals\n- Individuals with brown eyes = 490\n- Individuals with blue eyes = 390\n- The rest have green eyes\n\nStep 1: Calculate the number of individuals with green eyes.\nIndividuals with green eyes = Total population - (Individuals with brown eyes + Individuals with blue eyes)\nIndividuals with green eyes = 1000 - (490 + 390)\nIndividuals with green eyes = 1000 - 880\nIndividuals with green eyes = 120\n\nStep 2: Calculate the probability of randomly selecting an individual with green eyes.\nProbability = (Number of individuals with green eyes) \u00f7 (Total population)\nProbability = 120 \u00f7 1000\nProbability = 0.12 or 12%\n\nTherefore, the probability of randomly selecting an individual with green eyes from the given population is 0.12 or 12%.",
+        "To determine the probability of randomly selecting an individual with green eyes from the population, follow these steps:\n\n1: **Calculate the number of individuals with green eyes**:\n   - The total population is 1000 individuals.\n   - There are 490 with brown eyes and 390 with blue eyes.\n   - Subtract the number of brown and blue-eyed individuals from the total population:\n     \n     Green-eyed individuals = Total population - (Brown-eyed + Blue-eyed)\n     = 1000 - (490 + 390)\n     = 1000 - 880\n     = 120\n\n2: **Determine the probability of selecting a green-eyed individual**:\n   - Probability is calculated as the number of favorable outcomes divided by the total number of possible outcomes.\n   - Here, the favorable outcome is selecting a green-eyed individual, and the total outcomes are the entire population.\n   \n     Probability = Number of green-eyed individuals / Total population\n     = 120 / 1000\n     = 0.12\n\nTherefore, the probability of randomly selecting an individual with green eyes is 0.12 or 12%.",
+        "To determine the probability of randomly selecting an individual with green eyes from a population of 1000 individuals, follow these steps:\n\n1. **Calculate the number of individuals with green eyes**:\n   - Total population = 1000\n   - Number of individuals with brown eyes = 490\n   - Number of individuals with blue eyes = 390\n   - Number of individuals with green eyes = Total population - (Number of brown-eyed individuals + Number of blue-eyed individuals)\n   - Number of individuals with green eyes = 1000 - (490 + 390) = 1000 - 880 = 120\n\n2. **Determine the probability of selecting a green-eyed individual**:\n   - Probability = Number of green-eyed individuals / Total population\n   - Probability = 120 / 1000 = 0.12\n\nTherefore, the probability of randomly selecting an individual with green eyes is 0.12 or 12%."
+      ],
+      "step_scores": [
+        0.7913041903014264,
+        0.8603335361502651,
+        0.7900545423264655
+      ],
+      "average_step_score": 0.8138974229260523
+    },
+    {
+      "average_score": 0.8231497691992476,
+      "score_std": 0.034509834766504426,
+      "solutions": [
+        "To solve this problem, let's follow the steps of a Punnett square analysis for a monohybrid cross between two heterozygous parents (Aa x Aa).\n\nStep 1: Set up the Punnett square.\n- The Punnett square will have 2 rows and 2 columns, representing the possible gametes from each parent.\n- The heterozygous parents (Aa) can produce two types of gametes: A and a.\n\nStep 2: Fill in the Punnett square.\n- The possible combinations of gametes from the parents are:\n  - A from the first parent and A from the second parent (AA)\n  - A from the first parent and a from the second parent (Aa)\n  - a from the first parent and A from the second parent (Aa)\n  - a from the first parent and a from the second parent (aa)\n\nStep 3: Determine the genotypes and phenotypes of the offspring.\n- AA: homozygous dominant (expresses the dominant trait)\n- Aa: heterozygous (expresses the dominant trait)\n- aa: homozygous recessive (expresses the recessive trait)\n\nStep 4: Calculate the probability of each genotype.\n- AA: 1/4 (25%)\n- Aa: 2/4 (50%)\n- aa: 1/4 (25%)\n\nStep 5: Determine the expected number of heterozygous",
+        "To solve this problem, let's follow the steps of a Punnett square analysis for a monohybrid cross between two heterozygous parents (Aa x Aa).\n\nStep 1: Set up the Punnett square\n- Place the alleles of one parent on the top and the alleles of the other parent on the side.\n\nA | a\n-----\nA | \na |\n\nStep 2: Fill in the Punnett square\n- Combine the alleles from the parents to determine the possible genotypes of the offspring.\n\nA | a\n-----\nA | AA | Aa\na | Aa | aa\n\nStep 3: Determine the genotypes and their proportions\n- Count the number of each genotype and divide by the total number of offspring to find the proportions.\n\nAA: 1/4 (25%)\nAa: 2/4 (50%)\naa: 1/4 (25%)\n\nStep 4: Identify the heterozygous genotype\n- In this case, the heterozygous genotype is Aa.\n\nStep 5: Calculate the expected number of heterozygous offspring\n- The proportion of heterozygous offspring is 2/4 or 50%. Therefore, the expected number of heterozygous offspring from a cross between two organisms heterozygous for a single gene (Aa x Aa) is 50% or 1/2 of the total offspring.",
+        "To solve this problem, let's follow the steps of a Punnett square analysis for a monohybrid cross between two heterozygous parents (Aa x Aa).\n\nStep 1: Set up the Punnett square\n- Draw a 2x2 grid, with one parent's alleles on the top and the other parent's alleles on the side.\n\nStep 2: Fill in the Punnett square\n- Combine the alleles from each parent to determine the possible genotypes of the offspring.\n- The Punnett square will look like this:\n\n          A     a\n       _______________\n    A | AA   | Aa   |\n       |______|______|\n    a | Aa   | aa   |\n       |______|______|\n\nStep 3: Determine the genotypes and their proportions\n- AA (homozygous dominant): 1 out of 4 (25%)\n- Aa (heterozygous): 2 out of 4 (50%)\n- aa (homozygous recessive): 1 out of 4 (25%)\n\nStep 4: Calculate the expected number of heterozygous offspring\n- The proportion of heterozygous offspring is 50%, or 0.5.\n- To find the expected number of heterozygous offspring, multiply the total number of offspring by the proportion of heterozygous offspring.\n- In a single mating, there are 4"
+      ],
+      "step_scores": [
+        0.8855491740711325,
+        0.8194290593143412,
+        0.23248714672650717,
+        0.062455991465553015
+      ],
+      "average_step_score": 0.4999803428943835
+    },
+    {
+      "average_score": 0.7827097519165868,
+      "score_std": 0.006027555827395324,
+      "solutions": [
+        "To find the derivative f'(x) of the quadratic function f(x) = 2x\u00b2 + 3x - 5, we will apply the power rule for differentiation. The power rule states that for a term of the form ax^n, its derivative is given by (a * n)x^(n-1).\n\nLet's differentiate each term of f(x):\n\n1. The first term is 2x\u00b2. According to the power rule:\n   - The coefficient is 2.\n   - The exponent is 2.\n   - So, the derivative of 2x\u00b2 is (2 * 2)x^(2-1) = 4x.\n\n2. The second term is 3x. According to the power rule:\n   - The coefficient is 3.\n   - The exponent is 1.\n   - So, the derivative of 3x is (3 * 1)x^(1-1) = 3.\n\n3. The third term is -5. The derivative of any constant term is 0.\n\nNow, we combine the derivatives of each term to get the derivative of the entire function:\n\nf'(x) = 4x + 3 + 0\nf'(x) = 4x + 3\n\nTherefore, the derivative of f(x) = 2x\u00b2 + 3x - 5 is f'(x) = 4x + 3.",
+        "To find the derivative f'(x) of the function f(x) = 2x\u00b2 + 3x - 5, we will apply the power rule for differentiation. The power rule states that for a term of the form ax^n, its derivative is given by n * ax^(n-1).\n\nLet's solve this problem step by step:\n\n1. Identify the terms in the function:\n   - The first term is 2x\u00b2.\n   - The second term is 3x.\n   - The third term is -5.\n\n2. Apply the power rule to each term:\n   - For the first term, 2x\u00b2, the derivative is:\n     2 * 2x^(2-1) = 4x\n   - For the second term, 3x, the derivative is:\n     1 * 3x^(1-1) = 3\n   - For the third term, -5, the derivative is:\n     0 * -5x^(0-1) = 0\n\n3. Combine the derivatives of each term to get the final derivative:\n   f'(x) = 4x + 3 + 0\n         = 4x + 3\n\nTherefore, the derivative of f(x) = 2x\u00b2 + 3x - 5 is f'(x) = 4x + 3.",
+        "To find the derivative f'(x) of the function f(x) = 2x\u00b2 + 3x - 5, we will apply the power rule for differentiation. The power rule states that for a term of the form ax^n, its derivative is given by n * ax^(n-1).\n\nLet's differentiate each term of the function f(x):\n\n1. Differentiating 2x\u00b2:\n   The coefficient is 2, and the exponent is 2.\n   Applying the power rule: 2 * 2x^(2-1) = 4x.\n\n2. Differentiating 3x:\n   The coefficient is 3, and the exponent is 1.\n   Applying the power rule: 1 * 3x^(1-1) = 3.\n\n3. Differentiating -5:\n   The derivative of a constant is 0.\n\nNow, we combine the derivatives of each term to get the derivative of the entire function:\n\nf'(x) = 4x + 3 + 0\nf'(x) = 4x + 3\n\nTherefore, the derivative of f(x) = 2x\u00b2 + 3x - 5 is f'(x) = 4x + 3."
+      ],
+      "step_scores": [
+        0.8073309497941381
+      ],
+      "average_step_score": 0.8073309497941381
+    },
+    {
+      "average_score": 0.336665633157645,
+      "score_std": 0.11584307771718047,
+      "solutions": [
+        "To solve this problem, let's follow these steps:\n\n1. Understand the given information:\n   * The farmer has 100 meters of fencing.\n   * The enclosure is rectangular and against a straight river.\n   * The river side requires no fencing.\n\n2. Let's define some variables:\n   * Let the length of the enclosure parallel to the river be x meters.\n   * Let the width of the enclosure perpendicular to the river be y meters.\n\n3. Set up an equation for the perimeter:\n   * The total length of fencing used will be the sum of the two widths and the length parallel to the river.\n   * Perimeter = x + 2y\n   * We know that the total fencing is 100 meters, so:\n     x + 2y = 100\n\n4. Express one variable in terms of the other:\n   * From the perimeter equation, we can solve for x:\n     x = 100 - 2y\n\n5. Set up an equation for the area:\n   * The area of the enclosure is the product of its length and width.\n   * Area = x \u00d7 y\n   * Substitute the expression for x from step 4:\n     Area = (100 - 2y) \u00d7 y\n     Area = 100y - 2y^2\n\n6. Find the maximum area by differentiating the area function:\n   * To find the maximum area, we need to find the critical points of the area function.\n  ",
+        "To solve this problem, let's follow these steps:\n\n1. Understand the given information:\n   * The farmer has 100 meters of fencing.\n   * The enclosure is rectangular and against a straight river.\n   * No fencing is required along the river.\n\n2. Define variables:\n   * Let the length of the enclosure parallel to the river be x meters.\n   * Let the width of the enclosure perpendicular to the river be y meters.\n\n3. Set up an equation for the perimeter:\n   * The total fencing used is equal to the perimeter of the enclosure, excluding the side along the river.\n   * Perimeter = x + 2y\n   * 100 = x + 2y\n\n4. Express one variable in terms of the other:\n   * Solve the perimeter equation for x:\n     x = 100 - 2y\n\n5. Set up an equation for the area:\n   * Area = length \u00d7 width\n   * A = x \u00d7 y\n   * Substitute the expression for x:\n     A = (100 - 2y) \u00d7 y\n     A = 100y - 2y^2\n\n6. Find the maximum area using calculus:\n   * To find the maximum area, we need to find the critical points by taking the derivative of the area function and setting it equal to zero.\n   * dA/dy = 100 - 4y\n   * Set the derivative equal to zero and solve for y:\n     ",
+        "To solve this problem, let's follow these steps:\n\n1. Understand the given information:\n   * The farmer has 100 meters of fencing.\n   * The enclosure is rectangular and against a straight river, so fencing is not needed on the side of the river.\n\n2. Define variables:\n   * Let the length of the enclosure parallel to the river be x meters.\n   * Let the width of the enclosure perpendicular to the river be y meters.\n\n3. Write an equation for the perimeter of the enclosure:\n   * Perimeter = x + 2y (since one side is against the river and doesn't need fencing)\n   * 100 = x + 2y (the total fencing available is 100 meters)\n\n4. Express one variable in terms of the other:\n   * From the perimeter equation, we can express y in terms of x:\n     y = (100 - x) / 2\n\n5. Write an equation for the area of the enclosure:\n   * Area = x \u00d7 y\n   * Substituting the expression for y:\n     Area = x \u00d7 ((100 - x) / 2)\n\n6. Find the maximum area using calculus:\n   * To find the maximum area, we need to find the critical points by taking the derivative of the area function and setting it to zero.\n   * Area = x \u00d7 ((100 - x) / 2) = 50x - (x^2 / 2)\n   * Derivative of"
+      ],
+      "step_scores": [
+        0.7899280883666329
+      ],
+      "average_step_score": 0.7899280883666329
+    },
+    {
+      "average_score": 0.22480271668813337,
+      "score_std": 0.014050666543118802,
+      "solutions": [
+        "To solve this problem, we need to use the balanced chemical equation for the reaction between nitrogen gas (N\u2082) and hydrogen gas (H\u2082) to form ammonia (NH\u2083). Let's go through the steps:\n\nStep 1: Write the unbalanced chemical equation for the reaction.\nN\u2082 + H\u2082 \u2192 NH\u2083\n\nStep 2: Balance the equation by adjusting the coefficients so that the number of atoms of each element is the same on both sides of the equation.\n2N\u2082 + 6H\u2082 \u2192 4NH\u2083\nThis means that 2 moles of nitrogen gas react with 6 moles of hydrogen gas to produce 4 moles of ammonia.\n\nStep 3: Use the stoichiometry of the balanced equation to determine the number of moles of hydrogen gas needed to react with 3 moles of nitrogen gas.\nFrom the balanced equation, we can see that 2 moles of N\u2082 react with 6 moles of H\u2082. So, the ratio of N\u2082 to H\u2082 is 2:6, or 1:3.\n\nStep 4: Set up a proportion to find the number of moles of H\u2082 needed for 3 moles of N\u2082.\n(2 moles N\u2082) / (6 moles H\u2082) = (3 moles N\u2082) / (x moles H\u2082)\n\nStep 5: Solve for x.\n2 / 6 = 3 / x\n2",
+        "To solve this problem, we'll follow these steps:\n\n1. **Write the balanced chemical equation** for the reaction between nitrogen gas (N\u2082) and hydrogen gas (H\u2082) to form ammonia (NH\u2083).\n\n2. **Identify the mole ratio** of hydrogen gas (H\u2082) to nitrogen gas (N\u2082) from the balanced equation.\n\n3. **Use the mole ratio** to calculate the number of moles of hydrogen gas (H\u2082) needed to react completely with 3 moles of nitrogen gas (N\u2082).\n\nLet's go through each step in detail:\n\n### Step 1: Write the balanced chemical equation\nThe reaction between nitrogen gas (N\u2082) and hydrogen gas (H\u2082) to form ammonia (NH\u2083) is:\n\n\\[ \\text{N}_2 + \\text{H}_2 \\rightarrow \\text{NH}_3 \\]\n\nTo balance this equation, we need to ensure that the number of atoms of each element is the same on both sides of the equation. The balanced equation is:\n\n\\[ \\text{N}_2 + 3\\text{H}_2 \\rightarrow 2\\text{NH}_3 \\]\n\n### Step 2: Identify the mole ratio\nFrom the balanced equation, we see that 1 mole of nitrogen gas (N\u2082) reacts with 3 moles of hydrogen gas (H\u2082) to produce 2 moles of ammonia (NH\u2083). Thus, the mole ratio of hydrogen gas",
+        "To solve this problem, we'll follow these steps:\n\n1. **Write the balanced chemical equation** for the reaction between nitrogen gas (N\u2082) and hydrogen gas (H\u2082) to form ammonia (NH\u2083).\n\n   The unbalanced equation is:\n   \\[\n   \\text{N}_2 + \\text{H}_2 \\rightarrow \\text{NH}_3\n   \\]\n\n2. **Balance the equation**:\n   - Start with nitrogen: There are 2 nitrogen atoms in N\u2082, so we need 2 NH\u2083 molecules to balance nitrogen.\n   \\[\n   \\text{N}_2 + \\text{H}_2 \\rightarrow 2\\text{NH}_3\n   \\]\n   - Now balance hydrogen: There are 2 \u00d7 3 = 6 hydrogen atoms in 2 NH\u2083. Since each H\u2082 molecule has 2 hydrogen atoms, we need 3 H\u2082 molecules to get 6 hydrogen atoms.\n   \\[\n   \\text{N}_2 + 3\\text{H}_2 \\rightarrow 2\\text{NH}_3\n   \\]\n\n   The balanced equation is:\n   \\[\n   \\text{N}_2 + 3\\text{H}_2 \\rightarrow 2\\text{NH}_3\n   \\]\n\n3. **Determine the mole ratio** from the balanced equation:\n   - The coefficients show that 1 mole of N\u2082 reacts with 3 moles"
+      ],
+      "step_scores": [
+        0.3340135671935204,
+        0.3030315445500052,
+        0.25506215724415204,
+        0.4466839577183459
+      ],
+      "average_step_score": 0.3346978066765059
+    },
+    {
+      "average_score": 0.8140907459113714,
+      "score_std": 0.012219502751448345,
+      "solutions": [
+        "To solve this problem, we'll use the kinematic equation that relates initial velocity, final velocity, acceleration, and distance:\n\nv\u00b2 = u\u00b2 + 2as\n\nwhere:\nv = final velocity\nu = initial velocity\na = acceleration\ns = distance\n\nGiven:\n- Initial velocity (u) = 0 m/s (because the car starts from rest)\n- Final velocity (v) = 30 m/s\n- Distance (s) = 100 m\n\nStep 1: Substitute the known values into the equation.\nv\u00b2 = u\u00b2 + 2as\n30\u00b2 = 0\u00b2 + 2a(100)\n\nStep 2: Simplify the equation.\n900 = 0 + 200a\n900 = 200a\n\nStep 3: Solve for acceleration (a).\na = 900 \u00f7 200\na = 4.5 m/s\u00b2\n\nTherefore, the acceleration of the car is 4.5 m/s\u00b2.",
+        "To solve this problem, we'll use the following kinematic equation:\n\nv\u00b2 = u\u00b2 + 2as\n\nwhere:\nv = final velocity (30 m/s)\nu = initial velocity (0 m/s, since the car starts from rest)\na = acceleration (unknown)\ns = distance (100 m)\n\nStep 1: Substitute the known values into the equation.\n30\u00b2 = 0\u00b2 + 2 \u00d7 a \u00d7 100\n\nStep 2: Simplify the equation.\n900 = 200a\n\nStep 3: Solve for acceleration (a).\na = 900 / 200\na = 4.5 m/s\u00b2\n\nTherefore, the acceleration of the car is 4.5 m/s\u00b2.",
+        "To solve this problem, we'll use the kinematic equation that relates initial velocity, final velocity, acceleration, and distance:\n\nv\u00b2 = u\u00b2 + 2as\n\nwhere:\n- v is the final velocity (30 m/s)\n- u is the initial velocity (0 m/s, as the car starts from rest)\n- a is the acceleration (which we need to find)\n- s is the distance (100 m)\n\nStep 1: Substitute the known values into the equation.\nv\u00b2 = u\u00b2 + 2as\n(30 m/s)\u00b2 = (0 m/s)\u00b2 + 2 \u00d7 a \u00d7 (100 m)\n\nStep 2: Simplify the equation.\n900 m\u00b2/s\u00b2 = 0 + 200a m\n\nStep 3: Solve for acceleration (a).\n900 m\u00b2/s\u00b2 = 200a m\na = 900 m\u00b2/s\u00b2 \u00f7 200 m\na = 4.5 m/s\u00b2\n\nTherefore, the acceleration of the car is 4.5 m/s\u00b2."
+      ],
+      "step_scores": [
+        0.695887426388939,
+        0.7899976069199115,
+        0.3334713348772573,
+        0.8882457820075422
+      ],
+      "average_step_score": 0.6769005375484125
+    },
+    {
+      "average_score": 0.7217303700077485,
+      "score_std": 0.006626994286579437,
+      "solutions": [
+        "To solve the system of equations:\n3x + 2y = 14\nx - y = 1\n\nStep 1: Solve for x in the second equation.\nx - y = 1\nx = 1 + y\n\nStep 2: Substitute the expression for x into the first equation.\n3x + 2y = 14\n3(1 + y) + 2y = 14\n\nStep 3: Simplify the equation.\n3 + 3y + 2y = 14\n3 + 5y = 14\n\nStep 4: Solve for y.\n5y = 11\ny = 11/5\n\nStep 5: Substitute the value of y into the equation from Step 1 to find x.\nx = 1 + y\nx = 1 + 11/5\nx = 5/5 + 11/5\nx = 16/5\n\nThe solution to the system of equations is x = 16/5 and y = 11/5.",
+        "To solve the system of equations:\n3x + 2y = 14\nx - y = 1\n\nStep 1: Solve for x in the second equation.\nx - y = 1\nx = 1 + y\n\nStep 2: Substitute the expression for x into the first equation.\n3x + 2y = 14\n3(1 + y) + 2y = 14\n\nStep 3: Simplify the equation.\n3 + 3y + 2y = 14\n3 + 5y = 14\n\nStep 4: Solve for y.\n5y = 11\ny = 11/5\ny = 2.2\n\nStep 5: Substitute the value of y into the equation from Step 1 to find x.\nx = 1 + y\nx = 1 + 2.2\nx = 3.2\n\nThe solution to the system of equations is x = 3.2 and y = 2.2.",
+        "To solve the system of equations:\n3x + 2y = 14\nx - y = 1\n\nStep 1: Solve for x in the second equation.\nx - y = 1\nx = 1 + y\n\nStep 2: Substitute the expression for x into the first equation.\n3x + 2y = 14\n3(1 + y) + 2y = 14\n\nStep 3: Simplify the equation.\n3 + 3y + 2y = 14\n3 + 5y = 14\n\nStep 4: Solve for y.\n5y = 11\ny = 11/5\n\nStep 5: Substitute the value of y into the expression for x.\nx = 1 + y\nx = 1 + 11/5\nx = 5/5 + 11/5\nx = 16/5\n\nThe solution to the system of equations is x = 16/5 and y = 11/5."
+      ],
+      "step_scores": [
+        0.7528752335113158,
+        0.37761259268746444,
+        0.9041381496011025,
+        0.36530272187138746,
+        0.1554310396888816,
+        0.15475585535674674
+      ],
+      "average_step_score": 0.4516859321194831
+    },
+    {
+      "average_score": 0.28183984452853567,
+      "score_std": 0.0021241303032373763,
+      "solutions": [
+        "To calculate the molarity of the NaCl solution, we need to follow these steps:\n\nStep 1: Calculate the molar mass of NaCl\nThe molar mass of NaCl is the sum of the atomic masses of sodium (Na) and chlorine (Cl).\nMolar mass of Na = 22.99 g/mol\nMolar mass of Cl = 35.45 g/mol\nMolar mass of NaCl = 22.99 + 35.45 = 58.44 g/mol\n\nStep 2: Convert the mass of NaCl to moles\nTo do this, divide the given mass of NaCl by its molar mass.\nMoles of NaCl = (5.85 g) / (58.44 g/mol) = 0.1001 mol\n\nStep 3: Convert the volume of the solution to liters\nThe given volume is 500 mL. To convert it to liters, divide by 1000.\nVolume of solution = (500 mL) / (1000 mL/L) = 0.5 L\n\nStep 4: Calculate the molarity of the solution\nMolarity is defined as the number of moles of solute per liter of solution.\nMolarity = (moles of NaCl) / (volume of solution in liters)\nMolarity = (0.1001 mol) / (0.5 L) = 0.2002 M\n\nTherefore, the molarity of the Na",
+        "To calculate the molarity of the NaCl solution, we need to follow these steps:\n\nStep 1: Calculate the molar mass of NaCl\nThe molar mass of NaCl is the sum of the atomic masses of sodium (Na) and chlorine (Cl).\nMolar mass of Na = 22.99 g/mol\nMolar mass of Cl = 35.45 g/mol\nMolar mass of NaCl = 22.99 + 35.45 = 58.44 g/mol\n\nStep 2: Convert the mass of NaCl to moles\nTo do this, divide the mass of NaCl by its molar mass.\nMoles of NaCl = mass of NaCl / molar mass of NaCl\nMoles of NaCl = 5.85 g / 58.44 g/mol = 0.1001 mol\n\nStep 3: Convert the volume of the solution to liters\nThe volume of the solution is given in milliliters (mL), so we need to convert it to liters (L).\nVolume of solution = 500 mL = 500 / 1000 = 0.5 L\n\nStep 4: Calculate the molarity of the solution\nMolarity (M) is defined as the number of moles of solute per liter of solution.\nMolarity = moles of NaCl / volume of solution in liters\nMolarity = 0.1001 mol / 0.",
+        "To calculate the molarity of the solution, we need to follow these steps:\n\n1. **Determine the molar mass of NaCl:**\n   - Sodium (Na) has an atomic mass of 22.99 g/mol.\n   - Chlorine (Cl) has an atomic mass of 35.45 g/mol.\n   - Therefore, the molar mass of NaCl is 22.99 g/mol + 35.45 g/mol = 58.44 g/mol.\n\n2. **Convert the mass of NaCl to moles:**\n   - We have 5.85 g of NaCl.\n   - To find the number of moles, we use the formula: moles = mass / molar mass.\n   - So, moles of NaCl = 5.85 g / 58.44 g/mol \u2248 0.1001 moles.\n\n3. **Convert the volume of the solution to liters:**\n   - The volume of the solution is 500 mL.\n   - To convert milliliters to liters, we divide by 1000: 500 mL / 1000 = 0.5 L.\n\n4. **Calculate the molarity:**\n   - Molarity is defined as moles of solute per liter of solution.\n   - Using the formula: Molarity = moles of solute / liters of solution.\n   - Therefore, Molarity = 0.1001 moles / 0"
+      ],
+      "step_scores": [
+        0.8501704190168686,
+        0.41525158912400834,
+        0.57615067197625,
+        0.936160799459441,
+        0.5405164646104256
+      ],
+      "average_step_score": 0.6636499888373987
+    },
+    {
+      "average_score": 0.7724748319417255,
+      "score_std": 0.008893069810783619,
+      "solutions": [
+        "To determine the overall percentage change in the company's stock price after a 20% increase followed by a 15% decrease, we can follow these steps:\n\n1. **Calculate the stock price after a 20% increase:**\n   - Let the initial stock price be \\( P \\).\n   - A 20% increase means the stock price becomes \\( P + 0.20P = 1.20P \\).\n\n2. **Calculate the stock price after a 15% decrease:**\n   - A 15% decrease on the new price \\( 1.20P \\) means the stock price becomes \\( 1.20P - 0.15 \\times 1.20P \\).\n   - This simplifies to \\( 1.20P \\times (1 - 0.15) = 1.20P \\times 0.85 \\).\n\n3. **Determine the overall multiplier:**\n   - Multiplying the factors, we get \\( 1.20 \\times 0.85 = 1.02 \\).\n\n4. **Calculate the overall percentage change:**\n   - The overall multiplier is 1.02, which corresponds to a 2% increase.\n\nThus, the overall percentage change in the company's stock price is a 2% increase.",
+        "To determine the overall percentage change in the company's stock price after a 20% increase followed by a 15% decrease, we can follow these steps:\n\n1. **Calculate the stock price after a 20% increase:**\n   - Let the initial stock price be \\( P \\).\n   - A 20% increase means the stock price becomes \\( P + 0.20P = 1.20P \\).\n\n2. **Calculate the stock price after a 15% decrease from the increased price:**\n   - A 15% decrease from \\( 1.20P \\) means the stock price becomes \\( 1.20P - 0.15 \\times 1.20P \\).\n   - This simplifies to \\( 1.20P \\times (1 - 0.15) = 1.20P \\times 0.85 \\).\n\n3. **Determine the overall multiplier:**\n   - Multiplying the factors, we get \\( 1.20 \\times 0.85 = 1.02 \\).\n\n4. **Calculate the overall percentage change:**\n   - The overall multiplier of 1.02 indicates a 2% increase from the original stock price.\n\nThus, the overall percentage change in the company's stock price is a 2% increase.",
+        "To determine the overall percentage change in the company's stock price, let's break down the problem into two steps:\n\n1. Calculate the stock price after the 20% increase.\n2. Calculate the stock price after the 15% decrease from the increased price.\n\nLet's assume the initial stock price is $100.\n\nStep 1: Calculate the stock price after the 20% increase.\n- 20% of $100 = 0.20 \u00d7 $100 = $20\n- The stock price increases by $20, so the new stock price is $100 + $20 = $120\n\nStep 2: Calculate the stock price after the 15% decrease from the increased price.\n- 15% of $120 = 0.15 \u00d7 $120 = $18\n- The stock price decreases by $18, so the new stock price is $120 - $18 = $102\n\nNow, to find the overall percentage change, we compare the final stock price to the initial stock price:\n\n- Initial stock price = $100\n- Final stock price = $102\n- Overall change = (Final stock price - Initial stock price) / Initial stock price \u00d7 100%\n- Overall change = ($102 - $100) / $100 \u00d7 100% = $2 / $100 \u00d7 100% = 2%\n\nTherefore, the overall percentage change in the company's stock price is a 2% increase."
+      ],
+      "step_scores": [
+        0.7966015671319002
+      ],
+      "average_step_score": 0.7966015671319002
+    },
+    {
+      "average_score": 0.43641094365525007,
+      "score_std": 0.0033614178530859693,
+      "solutions": [
+        "To calculate the 95% confidence interval for the true proportion of patients who improve with this drug, we will follow these steps:\n\n1. Calculate the sample proportion.\n2. Calculate the standard error.\n3. Determine the z-score for a 95% confidence interval.\n4. Calculate the margin of error.\n5. Calculate the confidence interval.\n\nStep 1: Calculate the sample proportion\n- Number of patients who showed improvement = 270\n- Total number of patients = 300\n- Sample proportion (p) = 270 / 300 = 0.9\n\nStep 2: Calculate the standard error\n- Standard error (SE) = sqrt(p * (1 - p) / n)\n- SE = sqrt(0.9 * (1 - 0.9) / 300)\n- SE = sqrt(0.9 * 0.1 / 300)\n- SE = sqrt(0.09 / 300)\n- SE = sqrt(0.0003)\n- SE \u2248 0.01732\n\nStep 3: Determine the z-score for a 95% confidence interval\n- For a 95% confidence interval, the z-score is 1.96 (from the standard normal distribution table)\n\nStep 4: Calculate the margin of error\n- Margin of error (ME) = z-score * SE\n- ME = 1.96 * 0.01732\n- ME \u2248 0.03395\n\nStep",
+        "To calculate the 95% confidence interval for the proportion of patients who improve with the drug, we will follow these steps:\n\n1. Calculate the sample proportion.\n2. Calculate the standard error of the proportion.\n3. Determine the z-score for a 95% confidence interval.\n4. Calculate the margin of error.\n5. Construct the confidence interval.\n\nLet's go through each step:\n\nStep 1: Calculate the sample proportion\n- Number of patients who showed improvement = 270\n- Total number of patients = 300\n- Sample proportion (p\u0302) = 270 / 300 = 0.9\n\nStep 2: Calculate the standard error of the proportion\n- Standard error (SE) = \u221a(p\u0302(1-p\u0302) / n), where n is the sample size\n- SE = \u221a(0.9(1-0.9) / 300) = \u221a(0.9(0.1) / 300) = \u221a(0.09 / 300) = \u221a0.0003 = 0.01732\n\nStep 3: Determine the z-score for a 95% confidence interval\n- For a 95% confidence interval, the z-score is 1.96 (from the standard normal distribution table)\n\nStep 4: Calculate the margin of error\n- Margin of error (ME) = z-score \u00d7 SE\n- ME = 1.96 \u00d7 0.01732 = ",
+        "To calculate the 95% confidence interval for the proportion of patients who improve with the drug, we will follow these steps:\n\n1. Calculate the sample proportion (p-hat).\n2. Calculate the standard error of the proportion.\n3. Determine the z-score for a 95% confidence interval.\n4. Calculate the margin of error.\n5. Calculate the lower and upper bounds of the confidence interval.\n\nStep 1: Calculate the sample proportion (p-hat)\np-hat = Number of patients who improved / Total number of patients\np-hat = 270 / 300\np-hat = 0.9\n\nStep 2: Calculate the standard error of the proportion\nStandard error = sqrt(p-hat * (1 - p-hat) / n)\nStandard error = sqrt(0.9 * (1 - 0.9) / 300)\nStandard error = sqrt(0.9 * 0.1 / 300)\nStandard error = sqrt(0.09 / 300)\nStandard error = 0.01732\n\nStep 3: Determine the z-score for a 95% confidence interval\nFor a 95% confidence interval, the z-score is 1.96.\n\nStep 4: Calculate the margin of error\nMargin of error = z-score * Standard error\nMargin of error = 1.96 * 0.01732\nMargin of error = 0.03395\n\nStep 5: Calculate"
+      ],
+      "step_scores": [
+        0.17598207274758654,
+        0.42230389918366584,
+        0.17957833032920248,
+        0.4411517089833773,
+        0.21289299807495532
+      ],
+      "average_step_score": 0.28638180186375745
+    },
+    {
+      "average_score": 0.2555509110113627,
+      "score_std": 0.011392421923001743,
+      "solutions": [
+        "To solve this problem, we'll use the Hardy-Weinberg equations. Let's break it down step by step:\n\n1. **Define the alleles and their frequencies:**\n   - Dark wings are dominant, so let's denote the dominant allele as \"D\".\n   - Light wings are recessive, so let's denote the recessive allele as \"d\".\n\n2. **Determine the frequency of the recessive allele (q):**\n   - The proportion of moths with light wings (recessive phenotype) is 25%, or 0.25.\n   - In Hardy-Weinberg equilibrium, the frequency of the recessive phenotype is equal to the square of the recessive allele frequency.\n   - So, q^2 = 0.25\n   - Taking the square root of both sides, q = 0.5\n\n3. **Determine the frequency of the dominant allele (p):**\n   - In a population, the sum of the allele frequencies is always 1.\n   - So, p + q = 1\n   - We know q = 0.5, so p + 0.5 = 1\n   - Solving for p, we get p = 0.5\n\n4. **Calculate the proportion of heterozygous individuals:**\n   - In Hardy-Weinberg equilibrium, the frequency of heterozygous individuals is given by 2pq.\n   - So, the proportion",
+        "To solve this problem, we'll use the Hardy-Weinberg equations. Let's break it down step by step:\n\nGiven:\n- 75% of moths have dark wings (dominant allele)\n- 25% of moths have light wings (recessive allele)\n- The population is in Hardy-Weinberg equilibrium\n\nStep 1: Determine the frequency of the recessive allele (q).\nIn a Hardy-Weinberg equilibrium, the frequency of the recessive phenotype is equal to the square of the recessive allele frequency. Let's call the recessive allele frequency \"q\".\nq^2 = frequency of recessive phenotype\nq^2 = 0.25 (25% have light wings)\nq = \u221a0.25\nq = 0.5\n\nStep 2: Determine the frequency of the dominant allele (p).\nThe sum of the allele frequencies in a population is always equal to 1. Let's call the dominant allele frequency \"p\".\np + q = 1\np + 0.5 = 1\np = 0.5\n\nStep 3: Calculate the proportion of heterozygous individuals in the population.\nIn a Hardy-Weinberg equilibrium, the frequency of heterozygous individuals is given by the equation 2pq.\nFrequency of heterozygous individuals = 2pq\nFrequency of heterozygous individuals = 2 \u00d7 0.5 \u00d7 0.",
+        "To solve this problem, we'll use the Hardy-Weinberg equations. Let's break it down step by step:\n\n1. **Define the alleles and their frequencies:**\n   - Dark wings are dominant, so let's denote the dominant allele as \"D\".\n   - Light wings are recessive, so let's denote the recessive allele as \"d\".\n\n2. **Determine the frequency of the recessive allele (q):**\n   - The proportion of light-winged moths is 25%, or 0.25.\n   - Since light wings are recessive, these moths have the genotype \"dd\".\n   - Therefore, the frequency of the recessive allele (q) is the square root of 0.25.\n   - q = \u221a0.25 = 0.5\n\n3. **Determine the frequency of the dominant allele (p):**\n   - The sum of the allele frequencies (p + q) must equal 1.\n   - p + 0.5 = 1\n   - p = 1 - 0.5 = 0.5\n\n4. **Calculate the proportion of heterozygous moths:**\n   - Heterozygous moths have the genotype \"Dd\".\n   - The frequency of heterozygous individuals is given by 2pq.\n   - 2pq = 2 \u00d7 0.5 \u00d7 0.5 = 0.5\n\n"
+      ],
+      "step_scores": [
+        0.7695697472032474
+      ],
+      "average_step_score": 0.7695697472032474
+    },
+    {
+      "average_score": 0.22008807996025578,
+      "score_std": 0.014390929117133465,
+      "solutions": [
+        "To find the volume of the solid obtained by rotating the region bounded by y = x\u00b2, y = 0, and x = 2 around the y-axis, we can use the method of cylindrical shells.\n\nStep 1: Identify the bounds of integration.\nThe region is bounded by y = x\u00b2, y = 0, and x = 2. When x = 2, y = 2\u00b2 = 4. So, the bounds of integration are from x = 0 to x = 2.\n\nStep 2: Set up the integral using the cylindrical shells method.\nThe formula for the volume using cylindrical shells is:\nV = \u222b[a, b] 2\u03c0 * x * h(x) dx\nwhere a and b are the bounds of integration, x is the radius of the shell, and h(x) is the height of the shell.\n\nIn this case, the radius of the shell is x, and the height of the shell is the difference between the upper and lower bounds of the region, which is y = x\u00b2 - y = 0 = x\u00b2.\n\nSo, the integral becomes:\nV = \u222b[0, 2] 2\u03c0 * x * x\u00b2 dx\n\nStep 3: Simplify the integral.\nV = \u222b[0, 2] 2\u03c0 * x\u00b3 dx\n\nStep 4: Evaluate the integral.\nV = 2\u03c0 * \u222b[0, 2",
+        "To find the volume of the solid obtained by rotating the region bounded by y = x\u00b2, y = 0, and x = 2 around the y-axis, we can use the method of cylindrical shells.\n\nHere are the steps to solve this problem:\n\n1. Identify the bounds for x:\n   - The region is bounded by x = 2 on the right.\n   - The region is bounded by the y-axis (x = 0) on the left.\n   So, x ranges from 0 to 2.\n\n2. Identify the height of the shells:\n   - The height of each shell is the difference between the upper curve (y = x\u00b2) and the lower curve (y = 0).\n   So, the height is h(x) = x\u00b2 - 0 = x\u00b2.\n\n3. Set up the integral for the volume:\n   - The volume of a cylindrical shell is given by: dV = 2\u03c0 * radius * height * thickness\n   - In this case, the radius is x, the height is x\u00b2, and the thickness is dx.\n   So, dV = 2\u03c0 * x * x\u00b2 * dx = 2\u03c0x\u00b3 dx\n\n   - To find the total volume, integrate dV from x = 0 to x = 2:\n   V = \u222b[0 to 2] 2\u03c0x\u00b3 dx\n\n4. Evaluate the integral:\n   V = 2\u03c0",
+        "To find the volume of the solid obtained by rotating the region bounded by y = x\u00b2, y = 0, and x = 2 around the y-axis, we can use the method of cylindrical shells.\n\nStep 1: Identify the bounds of integration.\nThe region is bounded by y = x\u00b2, y = 0, and x = 2. When x = 2, y = 2\u00b2 = 4. So, the bounds of integration are from x = 0 to x = 2.\n\nStep 2: Set up the integral using the cylindrical shells method.\nThe formula for the volume using cylindrical shells is:\nV = \u222b[a, b] 2\u03c0 * radius * height * dx\n\nIn this case, the radius is x (distance from the y-axis), and the height is y = x\u00b2. So, the integral becomes:\nV = \u222b[0, 2] 2\u03c0 * x * x\u00b2 dx\n\nStep 3: Simplify the integrand.\nV = \u222b[0, 2] 2\u03c0 * x\u00b3 dx\n\nStep 4: Evaluate the integral.\nV = 2\u03c0 * \u222b[0, 2] x\u00b3 dx\nV = 2\u03c0 * [x\u2074/4]|[0, 2]\nV = 2\u03c0 * [(2\u2074/4) - (0\u2074/4)]\nV = 2\u03c0 * [("
+      ],
+      "step_scores": [
+        0.5958156173336544,
+        0.6178516986075746,
+        0.4603623597888983,
+        0.6288754755038715,
+        0.2732831488472923
+      ],
+      "average_step_score": 0.5152376600162583
+    },
+    {
+      "average_score": 0.5602673750873771,
+      "score_std": 0.006203311207614449,
+      "solutions": [
+        "To solve this problem, we can use linear programming. Here are the steps:\n\n1. Define the variables:\n   Let x be the number of Product A produced.\n   Let y be the number of Product B produced.\n\n2. Write the objective function (the function to maximize):\n   Profit = 40x + 50y\n\n3. Write the constraints (the limitations on production):\n   Labor constraint: 2x + 3y \u2264 100\n   Raw material constraint: 3x + 2y \u2264 90\n   Non-negativity constraints: x \u2265 0, y \u2265 0\n\n4. Graph the constraints:\n   The labor constraint line passes through (0, 33.33) and (50, 0).\n   The raw material constraint line passes through (0, 45) and (30, 0).\n\n5. Find the feasible region:\n   The feasible region is the area where all constraints are satisfied. It's the quadrilateral with vertices at (0, 0), (0, 33.33), (20, 20), and (30, 0).\n\n6. Find the vertices of the feasible region:\n   (0, 0), (0, 33.33), (20, 20), and (30, 0)\n\n7. Evaluate the objective function at each vertex:\n   (0, 0): Profit = 40(0) + 50(0) = $",
+        "To solve this problem, we can use linear programming. Here are the steps:\n\nStep 1: Define the variables.\nLet x be the number of Product A produced and y be the number of Product B produced.\n\nStep 2: Write the objective function.\nThe objective is to maximize profit, so we write the profit function as:\nP(x, y) = 40x + 50y\n\nStep 3: Write the constraints.\nThe constraints are based on the available labor and raw material:\n2x + 3y \u2264 100 (labor constraint)\n3x + 2y \u2264 90 (raw material constraint)\nx \u2265 0, y \u2265 0 (non-negativity constraints)\n\nStep 4: Graph the constraints.\nPlot the constraint inequalities on a coordinate plane. The feasible region is the area where all constraints are satisfied.\n\nStep 5: Find the vertices of the feasible region.\nThe vertices are the points where the constraint lines intersect. In this case, there are four vertices:\n(0, 0), (0, 30), (20, 20), and (30, 0)\n\nStep 6: Evaluate the objective function at each vertex.\nP(0, 0) = 40(0) + 50(0) = $0\nP(0, 30) = 40(0) + 50(30) = $1500\nP(20, 20) = 40",
+        "To solve this problem, we can use linear programming. Here are the steps:\n\nStep 1: Define variables\nLet x be the number of Product A produced and y be the number of Product B produced.\n\nStep 2: Write the objective function\nThe objective is to maximize profit. The profit function is:\nP = 40x + 50y\n\nStep 3: Write the constraints\nThe constraints are based on the available labor and raw materials:\n2x + 3y \u2264 100 (labor constraint)\n3x + 2y \u2264 90 (raw material constraint)\nx \u2265 0, y \u2265 0 (non-negativity constraints)\n\nStep 4: Graph the constraints\nPlot the constraint inequalities on a graph. The feasible region is the area where all constraints are satisfied.\n\nStep 5: Find the vertices of the feasible region\nThe vertices are the points where the constraint lines intersect. In this case, there are three vertices:\n(0, 0), (0, 30), and (20, 20)\n\nStep 6: Evaluate the objective function at each vertex\nP(0, 0) = 40(0) + 50(0) = $0\nP(0, 30) = 40(0) + 50(30) = $1,500\nP(20, 20) = 40(20) + 50(20) = $1,800"
+      ],
+      "step_scores": [
+        0.6285862123578232
+      ],
+      "average_step_score": 0.6285862123578232
+    },
+    {
+      "average_score": 0.6038635265981441,
+      "score_std": 0.22126150809107964,
+      "solutions": [
+        "To solve this problem, we'll use the exponential decay formula. Here are the steps:\n\n1. Write down the exponential decay formula:\nN(t) = N\u2080 * (1/2)^(t/T)\n\nwhere:\n- N(t) is the amount of the substance remaining after time t\n- N\u2080 is the initial amount of the substance\n- t is the time elapsed\n- T is the half-life of the substance\n\n2. Plug in the values we know:\n25 = 100 * (1/2)^(30/T)\n\n3. Divide both sides by 100:\n0.25 = (1/2)^(30/T)\n\n4. Take the logarithm of both sides with base 1/2:\nlog_(1/2)(0.25) = 30/T\n\n5. Simplify the left side of the equation:\n-2 = 30/T\n\n6. Solve for T:\nT = 30 / -2\nT = -15\n\nHowever, a negative half-life doesn't make sense in this context. We made an error in step 5. The correct simplification is:\n\n5. Simplify the left side of the equation:\n2 = 30/T\n\n6. Solve for T:\nT = 30 / 2\nT = 15\n\nTherefore, the half-life of the isotope is 15 days.",
+        "To solve this problem, we'll use the exponential decay formula. Here are the steps:\n\n1. Write down the exponential decay formula:\n   N(t) = N\u2080 * (1/2)^(t / T)\n\n   Where:\n   - N(t) is the amount of the substance remaining after time t\n   - N\u2080 is the initial amount of the substance\n   - t is the time elapsed\n   - T is the half-life of the substance\n\n2. Identify the known values from the problem:\n   - N\u2080 = 100 mg (initial amount)\n   - N(t) = 25 mg (remaining amount after 30 days)\n   - t = 30 days\n\n3. Plug the known values into the formula:\n   25 = 100 * (1/2)^(30 / T)\n\n4. Solve for T:\n   Divide both sides by 100:\n   0.25 = (1/2)^(30 / T)\n\n   Take the logarithm of both sides (base 1/2):\n   log_(1/2)(0.25) = 30 / T\n\n   Simplify the left side:\n   -2 = 30 / T\n\n   Solve for T:\n   T = 30 / (-2)\n   T = -15\n\n   Since the half-life cannot be negative, we take the absolute value:\n   T = 15 days\n\nTherefore, the half-life of this isotope is ",
+        "To solve this problem, we'll use the formula for radioactive decay:\n\nN(t) = N\u2080 * (1/2)^(t/T)\n\nwhere:\n- N(t) is the amount of the substance remaining after time t,\n- N\u2080 is the initial amount of the substance,\n- t is the time elapsed,\n- T is the half-life of the substance.\n\nGiven:\n- N\u2080 = 100 mg\n- N(t) = 25 mg\n- t = 30 days\n\nWe need to find T (the half-life).\n\nStep 1: Plug in the given values into the formula.\n25 = 100 * (1/2)^(30/T)\n\nStep 2: Divide both sides by 100.\n0.25 = (1/2)^(30/T)\n\nStep 3: Take the logarithm (base 1/2) of both sides.\nlog_(1/2)(0.25) = log_(1/2)((1/2)^(30/T))\n\nStep 4: Simplify the right side of the equation using logarithm properties.\nlog_(1/2)(0.25) = 30/T\n\nStep 5: Calculate log_(1/2)(0.25).\nlog_(1/2)(0.25) = 2 (since (1/2)^2 = 0.25)\n\nStep 6: Solve for T.\n2 = 30/T\nT = 30/2"
+      ],
+      "step_scores": [
+        0.8025793376306586
+      ],
+      "average_step_score": 0.8025793376306586
+    }
+  ],
+  "analysis": {
+    "overall_average": 0.6183128215265856,
+    "category_averages": {
+      "Physics": 0.7935242167134241,
+      "Mathematics": 0.6366356934151243,
+      "Chemistry": 0.4553034504279763,
+      "Economics": 0.8144984026267614,
+      "Statistics": 0.6636183392256275,
+      "Biology": 0.5393503401053051,
+      "Calculus": 0.5013989159384212,
+      "Optimization": 0.44846650412251104
+    },
+    "difficulty_averages": {
+      "Easy": 0.8727921158000883,
+      "Medium": 0.6716720792134826,
+      "Hard": 0.40214107824500583
+    },
+    "step_accuracy": 0.6487911658948378,
+    "consistency": 0.03410231075964703
+  }
+}

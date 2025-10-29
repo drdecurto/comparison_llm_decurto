@@ -1,0 +1,1665 @@
+{
+  "model": "openai/gpt-oss-20b",
+  "problems": [
+    {
+      "problem": "If a train travels 120 km in 2 hours, what is its average speed in km/h?",
+      "solution": "The average speed of the train is 60 km/h.",
+      "solution_steps": [
+        "Identify the formula: Average speed = Total distance / Total time",
+        "Plug in the values: Average speed = 120 km / 2 hours",
+        "Perform the calculation: Average speed = 60 km/h"
+      ],
+      "category": "Physics",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "A ball is thrown vertically upward with an initial velocity of 20 m/s. How high will it go, ignoring air resistance? (Use g = 9.8 m/s\u00b2)",
+      "solution": "The ball will reach a maximum height of 20.41 meters.",
+      "solution_steps": [
+        "Identify the equation: v\u00b2 = u\u00b2 + 2as, where v (final velocity) = 0 at the highest point",
+        "Rearrange the equation to solve for s (displacement): s = (v\u00b2 - u\u00b2) / (2a)",
+        "Plug in the values: s = (0\u00b2 - 20\u00b2) / (2 * -9.8)",
+        "Calculate: s = 400 / 19.6 = 20.41 meters"
+      ],
+      "category": "Physics",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "A car accelerates uniformly from rest to a speed of 30 m/s over a distance of 100 m. Calculate the acceleration of the car.",
+      "solution": "The acceleration of the car is 4.5 m/s\u00b2.",
+      "solution_steps": [
+        "Identify the equation: v\u00b2 = u\u00b2 + 2as, where u (initial velocity) = 0",
+        "Rearrange the equation to solve for a: a = (v\u00b2 - u\u00b2) / (2s)",
+        "Plug in the values: a = (30\u00b2 - 0\u00b2) / (2 * 100)",
+        "Calculate: a = 900 / 200 = 4.5 m/s\u00b2"
+      ],
+      "category": "Physics",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "A radioactive sample initially contains 100 mg of a certain isotope. After 30 days, 25 mg of the isotope remains. What is the half-life of this isotope?",
+      "solution": "The half-life of the isotope is approximately 15 days.",
+      "solution_steps": [
+        "Use the decay formula: A = A\u2080 * (1/2)^(t/t\u2081/\u2082), where t\u2081/\u2082 is the half-life",
+        "Plug in known values: 25 = 100 * (1/2)^(30/t\u2081/\u2082)",
+        "Simplify: 1/4 = (1/2)^(30/t\u2081/\u2082)",
+        "Take log of both sides: log(1/4) = 30/t\u2081/\u2082 * log(1/2)",
+        "Solve for t\u2081/\u2082: t\u2081/\u2082 = 30 * log(1/2) / log(1/4) \u2248 15 days"
+      ],
+      "category": "Physics",
+      "difficulty": "Hard"
+    },
+    {
+      "problem": "Solve the quadratic equation: 2x\u00b2 - 5x - 12 = 0",
+      "solution": "The solutions are x = 4 and x = -1.5",
+      "solution_steps": [
+        "Identify the quadratic formula: x = (-b \u00b1 \u221a(b\u00b2 - 4ac)) / (2a)",
+        "Identify a, b, and c: a = 2, b = -5, c = -12",
+        "Plug into the formula: x = (5 \u00b1 \u221a((-5)\u00b2 - 4(2)(-12))) / (2(2))",
+        "Simplify: x = (5 \u00b1 \u221a(25 + 96)) / 4 = (5 \u00b1 \u221a121) / 4 = (5 \u00b1 11) / 4",
+        "Calculate the two solutions: x = 16/4 = 4 or x = -6/4 = -1.5"
+      ],
+      "category": "Mathematics",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "Solve the system of equations: 3x + 2y = 14 and x - y = 1",
+      "solution": "The solution is x = 3.2 and y = 2.2",
+      "solution_steps": [
+        "From the second equation, express x in terms of y: x = y + 1",
+        "Substitute this into the first equation: 3(y + 1) + 2y = 14",
+        "Simplify: 3y + 3 + 2y = 14 -> 5y + 3 = 14",
+        "Solve for y: 5y = 11, so y = 11/5 = 2.2",
+        "Substitute back to find x: x = 2.2 + 1 = 3.2"
+      ],
+      "category": "Mathematics",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "What is the pH of a 0.01 M HCl solution?",
+      "solution": "The pH of the 0.01 M HCl solution is 2.",
+      "solution_steps": [
+        "Recall that pH = -log[H\u207a]",
+        "For a strong acid like HCl, [H\u207a] is equal to the concentration of the acid",
+        "Therefore, pH = -log(0.01)",
+        "Calculate: pH = -(-2) = 2"
+      ],
+      "category": "Chemistry",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "In a balanced chemical equation, how many moles of hydrogen gas (H\u2082) are needed to react completely with 3 moles of nitrogen gas (N\u2082) to form ammonia (NH\u2083)?",
+      "solution": "9 moles of hydrogen gas (H\u2082) are needed.",
+      "solution_steps": [
+        "Write the balanced equation: N\u2082 + 3H\u2082 \u2192 2NH\u2083",
+        "Identify the mole ratio of N\u2082 to H\u2082: 1:3",
+        "Set up the proportion: 1 mol N\u2082 : 3 mol H\u2082 = 3 mol N\u2082 : x mol H\u2082",
+        "Solve for x: x = 3 * 3 = 9 mol H\u2082"
+      ],
+      "category": "Chemistry",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "Calculate the molarity of a solution prepared by dissolving 5.85 g of NaCl in enough water to make 500 mL of solution.",
+      "solution": "The molarity of the solution is 0.2 M.",
+      "solution_steps": [
+        "Calculate the moles of NaCl: moles = mass / molar mass",
+        "Molar mass of NaCl = 23 + 35.5 = 58.5 g/mol",
+        "Moles of NaCl = 5.85 g / 58.5 g/mol = 0.1 mol",
+        "Convert volume to liters: 500 mL = 0.5 L",
+        "Calculate molarity: M = moles / liters = 0.1 mol / 0.5 L = 0.2 M"
+      ],
+      "category": "Chemistry",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "A company's revenue grew from $1 million to $1.5 million in one year. What was the percentage increase?",
+      "solution": "The percentage increase in revenue was 50%.",
+      "solution_steps": [
+        "Calculate the absolute increase: $1.5 million - $1 million = $0.5 million",
+        "Set up the percentage formula: Percentage increase = (Increase / Original) \u00d7 100",
+        "Plug in the values: Percentage increase = ($0.5 million / $1 million) \u00d7 100",
+        "Calculate: Percentage increase = 0.5 \u00d7 100 = 50%"
+      ],
+      "category": "Economics",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "If a company's stock price increases by 20% and then decreases by 15%, what is the overall percentage change?",
+      "solution": "The overall percentage change is an increase of 2%.",
+      "solution_steps": [
+        "Calculate the factor after 20% increase: 1 + 0.20 = 1.20",
+        "Calculate the factor after 15% decrease: 1 - 0.15 = 0.85",
+        "Multiply the factors: 1.20 * 0.85 = 1.02",
+        "Convert to percentage change: (1.02 - 1) * 100 = 2%"
+      ],
+      "category": "Economics",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "In a population of 1000 individuals, 490 have brown eyes, 390 have blue eyes, and the rest have green eyes. What is the probability of randomly selecting an individual with green eyes?",
+      "solution": "The probability of selecting an individual with green eyes is 0.12 or 12%.",
+      "solution_steps": [
+        "Calculate the number of individuals with green eyes: 1000 - 490 - 390 = 120",
+        "Set up the probability formula: P(green eyes) = Number with green eyes / Total population",
+        "Plug in the values: P(green eyes) = 120 / 1000",
+        "Calculate: P(green eyes) = 0.12 or 12%"
+      ],
+      "category": "Statistics",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "In a clinical trial, 300 patients were given a new drug, and 270 showed improvement. Calculate the 95% confidence interval for the true proportion of patients who improve with this drug.",
+      "solution": "The 95% confidence interval is approximately (0.866, 0.934).",
+      "solution_steps": [
+        "Calculate the sample proportion: p = 270 / 300 = 0.9",
+        "Calculate the standard error: SE = sqrt(p * (1-p) / n) = sqrt(0.9 * 0.1 / 300) \u2248 0.0173",
+        "For 95% CI, use z-score of 1.96",
+        "Calculate the margin of error: 1.96 * SE \u2248 0.034",
+        "CI: (0.9 - 0.034, 0.9 + 0.034) \u2248 (0.866, 0.934)"
+      ],
+      "category": "Statistics",
+      "difficulty": "Hard"
+    },
+    {
+      "problem": "What is the expected number of heterozygous offspring from a cross between two organisms heterozygous for a single gene (Aa x Aa)?",
+      "solution": "If n offspring are produced, the expected number of heterozygotes is n/2 (since the proportion is 1/2).",
+      "solution_steps": [
+        "Punnett square for Aa \u00d7 Aa gives genotypes: AA, Aa, Aa, aa \u2192 proportions 1/4, 1/2, 1/4.",
+        "The expected proportion of heterozygotes is 1/2.",
+        "For n offspring, expected number = (1/2)\u00b7n = n/2."
+      ],
+      "category": "Biology",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "In a population of moths, 75% have dark wings (dominant allele) and 25% have light wings (recessive allele). Assuming Hardy-Weinberg equilibrium, what proportion of the population are heterozygous for this trait?",
+      "solution": "The proportion of heterozygotes in the population is 0.5 or 50%.",
+      "solution_steps": [
+        "Let p = frequency of dominant allele, q = frequency of recessive allele",
+        "q\u00b2 = 0.25 (proportion of recessive phenotype) \u21d2 q = 0.5",
+        "Calculate p: p = 1 - q = 1 - 0.5 = 0.5",
+        "Frequency of heterozygotes = 2pq = 2 * 0.5 * 0.5 = 0.5"
+      ],
+      "category": "Biology",
+      "difficulty": "Hard"
+    },
+    {
+      "problem": "If f(x) = 2x\u00b2 + 3x - 5, what is f'(x)?",
+      "solution": "The derivative f'(x) = 4x + 3",
+      "solution_steps": [
+        "Apply the power rule to 2x\u00b2: The derivative of 2x\u00b2 is 2 * 2x = 4x",
+        "Apply the coefficient rule to 3x: The derivative of 3x is 3",
+        "The derivative of a constant (-5) is 0",
+        "Combine the terms: f'(x) = 4x + 3"
+      ],
+      "category": "Calculus",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "Find the volume of the solid obtained by rotating the region bounded by y = x\u00b2, y = 0, and x = 2 around the y-axis.",
+      "solution": "The volume of the solid is 8\u03c0 cubic units.",
+      "solution_steps": [
+        "Use the method of cylindrical shells: V = 2\u03c0 \u222b\u2080\u00b2 x (x\u00b2) dx = 2\u03c0 \u222b\u2080\u00b2 x\u00b3 dx",
+        "Evaluate the integral: 2\u03c0 [x\u2074/4]\u2080\u00b2 = 2\u03c0 (16/4) = 2\u03c0 * 4 = 8\u03c0"
+      ],
+      "category": "Calculus",
+      "difficulty": "Hard"
+    },
+    {
+      "problem": "A farmer has 100 meters of fencing and wants to create a rectangular enclosure against a straight river (which requires no fencing). What are the dimensions of the enclosure that will maximize the area?",
+      "solution": "The optimal dimensions are 50 meters along the river and 25 meters perpendicular to the river.",
+      "solution_steps": [
+        "Let x be the width perpendicular to the river and y be the length along the river (river side needs no fencing).",
+        "Set up the fencing constraint: 2x + y = 100.",
+        "Express y in terms of x: y = 100 \u2212 2x.",
+        "Area function: A(x) = x \u00b7 y = x(100 \u2212 2x) = 100x \u2212 2x\u00b2.",
+        "Find the maximum by setting A'(x) = 100 \u2212 4x = 0 \u21d2 x = 25.",
+        "Then y = 100 \u2212 2\u00b725 = 50.",
+        "Optimal dimensions: 50 meters along the river and 25 meters perpendicular to the river."
+      ],
+      "category": "Optimization",
+      "difficulty": "Hard"
+    },
+    {
+      "problem": "A company produces two types of products, A and B. Product A requires 2 hours of labor and 3 units of raw material, while Product B requires 3 hours of labor and 2 units of raw material. The company has 100 hours of labor and 90 units of raw material available. If the profit for Product A is $40 and for Product B is $50, how many of each product should be produced to maximize profit?",
+      "solution": "The company should produce 14 units of Product A and 24 units of Product B for a maximum profit of $1760.",
+      "solution_steps": [
+        "Define variables: x = units of A, y = units of B",
+        "Set up constraints: 2x + 3y \u2264 100 (labor), 3x + 2y \u2264 90 (material)",
+        "Define objective function: P = 40x + 50y",
+        "Graph the constraints and identify the feasible region",
+        "Find the corner points: (30,0), (0,33.33), and the intersection of binding constraints",
+        "Solve intersection of 2x + 3y = 100 and 3x + 2y = 90: x = 14, y = 24",
+        "Evaluate P: P(30,0)=1200; P(0,33.33)\u22481666.67; P(14,24)=1760",
+        "The maximum profit occurs at (14,24) with P = $1760"
+      ],
+      "category": "Optimization",
+      "difficulty": "Hard"
+    },
+    {
+      "problem": "A projectile is launched at 10 m/s at an angle of 30\u00b0 above the horizontal. Ignoring air resistance and using g = 9.8 m/s\u00b2, what is the horizontal range?",
+      "solution": "The horizontal range is approximately 8.84 meters.",
+      "solution_steps": [
+        "Use range formula for level ground: R = (v^2 * sin(2\u03b8)) / g",
+        "Compute v^2 = 10^2 = 100",
+        "Compute sin(2\u03b8) = sin(60\u00b0) = \u221a3 / 2 \u2248 0.8660",
+        "R = (100 * 0.8660) / 9.8 \u2248 8.84 m"
+      ],
+      "category": "Physics",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "Two resistors of 4 \u03a9 and 6 \u03a9 are connected in series across a 12 V battery. Find the circuit current and the voltage across the 6 \u03a9 resistor.",
+      "solution": "The current is 1.2 A and the voltage across the 6 \u03a9 resistor is 7.2 V.",
+      "solution_steps": [
+        "In series: R_total = 4 + 6 = 10 \u03a9",
+        "Ohm\u2019s law: I = V / R_total = 12 / 10 = 1.2 A",
+        "Voltage on 6 \u03a9: V_6 = I * 6 = 7.2 V"
+      ],
+      "category": "Physics",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "Solve the inequality 3(2x \u2212 1) \u2264 5x + 7.",
+      "solution": "The solution set is x \u2264 10.",
+      "solution_steps": [
+        "Expand: 3(2x \u2212 1) = 6x \u2212 3",
+        "Set inequality: 6x \u2212 3 \u2264 5x + 7",
+        "Subtract 5x: x \u2212 3 \u2264 7",
+        "Add 3: x \u2264 10"
+      ],
+      "category": "Mathematics",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "Find the area of a triangle with base 12 units and height 7 units.",
+      "solution": "The area is 42 square units.",
+      "solution_steps": [
+        "Use area formula: A = (1/2) * base * height",
+        "A = (1/2) * 12 * 7 = 6 * 7 = 42"
+      ],
+      "category": "Mathematics",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "How many moles of gas are in a 5.0 L container at 2.0 atm and 300 K? (Use R = 0.082057 L\u00b7atm\u00b7mol\u207b\u00b9\u00b7K\u207b\u00b9.)",
+      "solution": "There are approximately 0.406 moles of gas.",
+      "solution_steps": [
+        "Use ideal gas law: PV = nRT \u2192 n = PV / RT",
+        "Compute numerator: P*V = 2.0 * 5.0 = 10.0 atm\u00b7L",
+        "Compute denominator: R*T = 0.082057 * 300 \u2248 24.6171",
+        "n \u2248 10.0 / 24.6171 \u2248 0.406 mol"
+      ],
+      "category": "Chemistry",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "You have 200 mL of a 0.50 M NaCl solution. To prepare a 0.20 M solution, what should the final volume be, and how much water must be added?",
+      "solution": "Final volume should be 500 mL; add 300 mL of water.",
+      "solution_steps": [
+        "Use dilution: C1 V1 = C2 V2 \u2192 V2 = (C1 * V1) / C2",
+        "V2 = (0.50 * 200 mL) / 0.20 = 100 / 0.20 = 500 mL",
+        "Water added = V2 \u2212 V1 = 500 \u2212 200 = 300 mL"
+      ],
+      "category": "Chemistry",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "Using the arc elasticity formula, compute price elasticity of demand if price rises from 100 to 110 and quantity demanded falls from 1000 to 950.",
+      "solution": "The arc price elasticity of demand is approximately \u22120.54 (inelastic).",
+      "solution_steps": [
+        "Arc elasticity E = [(\u0394Q / avg Q)] / [(\u0394P / avg P)]",
+        "\u0394Q = 950 \u2212 1000 = \u221250, avg Q = (1000 + 950)/2 = 975",
+        "\u0394P = 110 \u2212 100 = 10, avg P = (110 + 100)/2 = 105",
+        "E = (\u221250/975) / (10/105) \u2248 (\u22120.05128) / (0.09524) \u2248 \u22120.5385"
+      ],
+      "category": "Economics",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "Compute the NPV of an investment with an initial outlay of $1000 and cash inflows of $400 at the end of years 1, 2, and 3. Discount rate is 10%.",
+      "solution": "The NPV is approximately \u2212$5 (slightly negative).",
+      "solution_steps": [
+        "NPV = \u22121000 + 400/1.1 + 400/1.1^2 + 400/1.1^3",
+        "400/1.1 \u2248 363.636, 400/1.21 \u2248 330.579, 400/1.331 \u2248 300.752",
+        "Sum inflows \u2248 363.636 + 330.579 + 300.752 \u2248 995.0",
+        "NPV \u2248 \u22121000 + 995.0 \u2248 \u22125.0"
+      ],
+      "category": "Economics",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "An enzyme follows Michaelis\u2013Menten kinetics with Vmax = 100 units and Km = 5 mM. What is the reaction rate at [S] = 5 mM?",
+      "solution": "The rate is 50 units.",
+      "solution_steps": [
+        "Use v = (Vmax [S]) / (Km + [S])",
+        "Substitute: v = (100 * 5) / (5 + 5) = 500 / 10 = 50"
+      ],
+      "category": "Biology",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "In a dihybrid cross AaBb \u00d7 AaBb, what is the probability of an offspring showing both dominant phenotypes (A_B_)?",
+      "solution": "The probability is 9/16 (56.25%).",
+      "solution_steps": [
+        "For each gene: probability of dominant phenotype = 3/4",
+        "Assuming independence: P(A_) * P(B_) = (3/4) * (3/4) = 9/16",
+        "Convert to percentage: (9/16) * 100% = 56.25%"
+      ],
+      "category": "Biology",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "A disease has prevalence 1%. Test sensitivity is 95% and specificity is 90%. If a person tests positive, what is the probability they actually have the disease?",
+      "solution": "Approximately 8.76%.",
+      "solution_steps": [
+        "Use Bayes: PPV = [P(D) * Se] / [P(D)*Se + P(~D)*(1\u2212Sp)]",
+        "P(D)=0.01, Se=0.95, Sp=0.90 \u2192 P(~D)=0.99",
+        "PPV = (0.01*0.95) / (0.01*0.95 + 0.99*0.10)",
+        "PPV = 0.0095 / (0.0095 + 0.099) = 0.0095 / 0.1085 \u2248 0.0876 = 8.76%"
+      ],
+      "category": "Statistics",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "A discrete variable X takes values {0, 1, 2} with probabilities {0.2, 0.5, 0.3}. Compute E[X] and Var(X).",
+      "solution": "E[X] = 1.1 and Var(X) = 0.49.",
+      "solution_steps": [
+        "E[X] = \u03a3 x p(x) = 0*0.2 + 1*0.5 + 2*0.3 = 1.1",
+        "E[X^2] = 0^2*0.2 + 1^2*0.5 + 2^2*0.3 = 0 + 0.5 + 1.2 = 1.7",
+        "Var(X) = E[X^2] \u2212 (E[X])^2 = 1.7 \u2212 (1.1)^2 = 0.49"
+      ],
+      "category": "Statistics",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "Evaluate the definite integral \u222b\u2080\u00b9 (3x\u00b2 \u2212 2x + 1) dx.",
+      "solution": "The value of the integral is 1.",
+      "solution_steps": [
+        "Antiderivative: \u222b(3x\u00b2)dx = x^3; \u222b(\u22122x)dx = \u2212x^2; \u222b1 dx = x",
+        "Evaluate [x^3 \u2212 x^2 + x] from 0 to 1",
+        "At x=1: 1 \u2212 1 + 1 = 1; at x=0: 0",
+        "Result: 1 \u2212 0 = 1"
+      ],
+      "category": "Calculus",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "Find and classify the critical points of f(x) = x^3 \u2212 3x.",
+      "solution": "Critical points at x = \u22121 (local maximum, f = 2) and x = 1 (local minimum, f = \u22122).",
+      "solution_steps": [
+        "First derivative: f'(x) = 3x^2 \u2212 3; set f'(x) = 0 \u2192 3x^2 \u2212 3 = 0 \u2192 x = \u00b11",
+        "Second derivative: f''(x) = 6x",
+        "At x = \u22121: f''(\u22121) = \u22126 < 0 \u2192 local maximum; f(\u22121) = (\u22121)^3 \u2212 3(\u22121) = 2",
+        "At x = 1: f''(1) = 6 > 0 \u2192 local minimum; f(1) = 1 \u2212 3 = \u22122"
+      ],
+      "category": "Calculus",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "Minimize f(x) = x^2 \u2212 6x + 13. Find the minimizer and minimum value.",
+      "solution": "Minimum at x = 3 with value f(3) = 4.",
+      "solution_steps": [
+        "Complete the square: x^2 \u2212 6x + 13 = (x \u2212 3)^2 + 4",
+        "Minimum of (x \u2212 3)^2 is 0 at x = 3",
+        "Thus minimum value is 4 at x = 3"
+      ],
+      "category": "Optimization",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "0/1 Knapsack: Given items with (value, weight): A(4,2), B(5,3), C(7,4) and capacity 5, choose items to maximize total value.",
+      "solution": "Choose items A and B (total weight 5, total value 9).",
+      "solution_steps": [
+        "List feasible subsets within capacity 5:",
+        "A only: value 4, weight 2; B only: value 5, weight 3; C only: value 7, weight 4",
+        "A+B: value 9, weight 5 (feasible); A+C: weight 6 (infeasible); B+C: weight 7 (infeasible)",
+        "Best feasible is A+B with value 9"
+      ],
+      "category": "Optimization",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "Two carts collide elastically on a frictionless track. Cart A (m = 2 kg) moves at +3 m/s and Cart B (m = 1 kg) moves at \u22122 m/s. Find the final velocities of A and B after a 1D elastic collision.",
+      "solution": "vA' = \u22121/3 m/s and vB' = 14/3 m/s (\u2248 \u22120.333 m/s and 4.667 m/s).",
+      "solution_steps": [
+        "Use 1D elastic collision formulas:",
+        "v1' = [(m1 \u2212 m2)/(m1 + m2)] v1 + [2 m2/(m1 + m2)] v2",
+        "v2' = [2 m1/(m1 + m2)] v1 + [(m2 \u2212 m1)/(m1 + m2)] v2",
+        "Substitute m1=2, m2=1, v1=+3, v2=\u22122:",
+        "vA' = [(2\u22121)/3](3) + [2(1)/3](\u22122) = (1/3)(3) + (2/3)(\u22122) = 1 \u2212 4/3 = \u22121/3 m/s",
+        "vB' = [2(2)/3](3) + [(1\u22122)/3](\u22122) = (4/3)(3) + (\u22121/3)(\u22122) = 4 + 2/3 = 14/3 m/s"
+      ],
+      "category": "Physics",
+      "difficulty": "Hard"
+    },
+    {
+      "problem": "A 5 kg block is pulled up a rough incline (\u03b8 = 30\u00b0) at constant speed by a 50 N force parallel to the plane. The coefficient of kinetic friction is \u03bck = 0.2. Find the work done by the pulling force over 4 m.",
+      "solution": "The work done by the pulling force is 200 J.",
+      "solution_steps": [
+        "At constant speed, net force along plane is zero: but work by pulling force is W = F d cos(0).",
+        "Compute W = 50 \u00d7 4 = 200 J."
+      ],
+      "category": "Physics",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "How many distinct permutations are there of the letters in the word 'MISSISSIPPI'?",
+      "solution": "There are 34,650 distinct permutations.",
+      "solution_steps": [
+        "Total letters = 11. Multiplicities: M=1, I=4, S=4, P=2.",
+        "Count permutations: 11! / (4! 4! 2! 1!) = 39,916,800 / 1,152 = 34,650"
+      ],
+      "category": "Mathematics",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "Solve for x > 9: log10(x) + log10(x \u2212 9) = 2.",
+      "solution": "x = (9 + \u221a481) / 2 \u2248 15.466.",
+      "solution_steps": [
+        "Combine logs: log10[x(x\u22129)] = 2 \u21d2 x(x\u22129) = 100",
+        "Form quadratic: x^2 \u2212 9x \u2212 100 = 0",
+        "Solve: x = [9 \u00b1 \u221a(81 + 400)]/2 = [9 \u00b1 \u221a481]/2",
+        "Domain requires x > 9 \u21d2 x = (9 + \u221a481)/2"
+      ],
+      "category": "Mathematics",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "Limiting reagent: 2Al + 3Cl2 \u2192 2AlCl3. If 10.0 g Al (M=26.98 g/mol) reacts with 20.0 g Cl2 (M=70.90 g/mol), what mass of AlCl3 (M=133.34 g/mol) can form?",
+      "solution": "Chlorine is limiting; theoretical yield is \u2248 25.1 g AlCl3.",
+      "solution_steps": [
+        "n(Al) = 10.0/26.98 \u2248 0.3707 mol; n(Cl2) = 20.0/70.90 \u2248 0.2822 mol",
+        "Stoichiometry needs 1.5 mol Cl2 per mol Al \u21d2 needed Cl2 \u2248 0.556 mol > 0.2822 \u21d2 Cl2 limiting",
+        "From 3 Cl2 \u2192 2 AlCl3: n(AlCl3) = (2/3) n(Cl2) \u2248 0.1881 mol",
+        "Mass = 0.1881 \u00d7 133.34 \u2248 25.1 g"
+      ],
+      "category": "Chemistry",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "An experiment produced 8.50 g of aspirin (theoretical yield 10.0 g). What is the percent yield?",
+      "solution": "Percent yield = 85.0%.",
+      "solution_steps": [
+        "Percent yield = (actual / theoretical) \u00d7 100% = (8.50 / 10.0) \u00d7 100% = 85.0%"
+      ],
+      "category": "Chemistry",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "A firm has fixed costs of $50,000 and variable cost per unit of $30. The product sells for $50 per unit. What is the break-even quantity?",
+      "solution": "Break-even quantity is 2,500 units.",
+      "solution_steps": [
+        "Break-even Q = Fixed Costs / (Price \u2212 Variable Cost)",
+        "Q = 50,000 / (50 \u2212 30) = 2,500"
+      ],
+      "category": "Economics",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "A market basket costs $200 in the base year and $230 this year. Compute the CPI this year (base year CPI = 100) and the inflation rate.",
+      "solution": "CPI = 115; inflation rate = 15%.",
+      "solution_steps": [
+        "CPI = (Current cost / Base cost) \u00d7 100 = (230 / 200) \u00d7 100 = 115",
+        "Inflation rate = (CPI \u2212 100) / 100 \u00d7 100% = 15%"
+      ],
+      "category": "Economics",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "In a sample of 100 individuals, genotype counts are AA=40, Aa=40, aa=20. Compute allele frequencies p and q.",
+      "solution": "p = 0.60 and q = 0.40.",
+      "solution_steps": [
+        "p = (2*AA + Aa) / (2N) = (2*40 + 40)/(200) = 120/200 = 0.60",
+        "q = 1 \u2212 p = 0.40"
+      ],
+      "category": "Biology",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "Parents with genotypes AO and BO for the ABO blood group have a child. What is the probability the child has blood type O?",
+      "solution": "Probability = 1/4 = 25%.",
+      "solution_steps": [
+        "Cross AO \u00d7 BO \u2192 gametes: A,O and B,O",
+        "Offspring genotypes: AB, AO, BO, OO",
+        "Type O corresponds to OO: 1 of 4 outcomes \u2192 25%"
+      ],
+      "category": "Biology",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "What minimum sample size is needed to estimate a population proportion within \u00b13% at 95% confidence using the conservative p = 0.5?",
+      "solution": "n \u2248 1,068.",
+      "solution_steps": [
+        "Use n = (z^2 p(1\u2212p)) / E^2 with z = 1.96, p = 0.5, E = 0.03",
+        "Compute numerator: 1.96^2 * 0.25 = 3.8416 * 0.25 = 0.9604",
+        "Divide by E^2: 0.9604 / 0.0009 \u2248 1067.1 \u2192 round up to 1,068"
+      ],
+      "category": "Statistics",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "A normal population has \u03c3 = 12. For n = 36 observations, the sample mean is 74. Test H0: \u03bc = 70 vs. H1: \u03bc \u2260 70 at \u03b1 = 0.05.",
+      "solution": "z = 2.00, p \u2248 0.0455 < 0.05 \u21d2 reject H0.",
+      "solution_steps": [
+        "Compute standard error: SE = \u03c3/\u221an = 12/6 = 2",
+        "z = (x\u0304 \u2212 \u03bc0)/SE = (74 \u2212 70) / 2 = 2.00",
+        "Two-tailed p-value \u2248 2 * (1 \u2212 \u03a6(2)) \u2248 2 * 0.0228 = 0.0455",
+        "Since p < 0.05, reject H0"
+      ],
+      "category": "Statistics",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "Differentiate y = (3x^2 \u2212 x + 1)^5.",
+      "solution": "dy/dx = 5(3x^2 \u2212 x + 1)^4 (6x \u2212 1).",
+      "solution_steps": [
+        "Use chain rule: d/dx [u^5] = 5u^4 * du/dx with u = 3x^2 \u2212 x + 1",
+        "du/dx = 6x \u2212 1",
+        "Thus dy/dx = 5(3x^2 \u2212 x + 1)^4 (6x \u2212 1)"
+      ],
+      "category": "Calculus",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "Evaluate \u222b x e^{2x} dx.",
+      "solution": "\u222b x e^{2x} dx = (x e^{2x})/2 \u2212 (e^{2x})/4 + C.",
+      "solution_steps": [
+        "Integration by parts: let u = x (du = dx), dv = e^{2x} dx (v = e^{2x}/2)",
+        "\u222b x e^{2x} dx = u v \u2212 \u222b v du = x(e^{2x}/2) \u2212 \u222b (e^{2x}/2) dx",
+        "= (x e^{2x})/2 \u2212 (e^{2x}/4) + C"
+      ],
+      "category": "Calculus",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "Maximize f(x,y) = x y subject to the constraint x + 2y = 12, x, y \u2265 0. Find the optimal (x, y) and maximum value.",
+      "solution": "Optimal at x = 6, y = 3 with maximum value 18.",
+      "solution_steps": [
+        "Use Lagrange multipliers or substitution: y = (12 \u2212 x)/2",
+        "f(x) = x(12 \u2212 x)/2 = 6x \u2212 x^2/2",
+        "Maximize parabola: f'(x) = 6 \u2212 x = 0 \u21d2 x = 6, y = 3",
+        "f_max = 6*3 = 18"
+      ],
+      "category": "Optimization",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "Linear program: Maximize P = 3x + 5y subject to x + 2y \u2264 18, 3x + y \u2264 21, x \u2265 0, y \u2265 0. Find the optimal solution.",
+      "solution": "Optimal at (x, y) = (4.8, 6.6) with P = 47.4.",
+      "solution_steps": [
+        "Find intersection of x + 2y = 18 and 3x + y = 21:",
+        "From 3x + y = 21 \u21d2 y = 21 \u2212 3x; substitute into first: x + 2(21 \u2212 3x) = 18",
+        "x + 42 \u2212 6x = 18 \u21d2 \u22125x = \u221224 \u21d2 x = 4.8, y = 21 \u2212 14.4 = 6.6",
+        "Evaluate P at corners and intersection: best is (4.8, 6.6) with P = 47.4"
+      ],
+      "category": "Optimization",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "Find all real solutions to the equation x\u2074 \u2212 5x\u00b2 + 4 = 0.",
+      "solution": "The real solutions are x = \u00b11 and x = \u00b12.",
+      "solution_steps": [
+        "Let y = x\u00b2 \u2192 equation becomes y\u00b2 \u2212 5y + 4 = 0.",
+        "Factorize: (y \u2212 4)(y \u2212 1) = 0 \u2192 y = 4 or y = 1.",
+        "Then x = \u00b1\u221a4 = \u00b12 and x = \u00b1\u221a1 = \u00b11."
+      ],
+      "category": "Mathematics",
+      "difficulty": "Hard"
+    },
+    {
+      "problem": "At 298 K, the equilibrium constant for the reaction N\u2082O\u2084 \u21cc 2NO\u2082 is Kp = 0.15. If initially only N\u2082O\u2084 is present at 0.5 atm, calculate the equilibrium partial pressures of N\u2082O\u2084 and NO\u2082.",
+      "solution": "At equilibrium: P(NO\u2082) \u2248 0.239 atm, P(N\u2082O\u2084) \u2248 0.381 atm.",
+      "solution_steps": [
+        "Let x = pressure of N\u2082O\u2084 that dissociates: N\u2082O\u2084 \u21cc 2NO\u2082.",
+        "Initial pressures: P\u2080(N\u2082O\u2084)=0.5, P\u2080(NO\u2082)=0.",
+        "At equilibrium: P(N\u2082O\u2084)=0.5\u2212x, P(NO\u2082)=2x.",
+        "Kp = (P(NO\u2082)\u00b2) / (P(N\u2082O\u2084)) = (4x\u00b2)/(0.5\u2212x) = 0.15.",
+        "Rearrange: 4x\u00b2 = 0.15(0.5\u2212x) \u2192 4x\u00b2 + 0.15x \u2212 0.075 = 0",
+        "Using quadratic formula: x = [\u22120.15 + \u221a(0.0225 + 1.2)] / 8 \u2248 0.1195",
+        "Thus P(NO\u2082) = 2(0.1195) \u2248 0.239 atm, P(N\u2082O\u2084) = 0.5 \u2212 0.1195 \u2248 0.381 atm",
+        "Check: Kp = (0.239)\u00b2/0.381 \u2248 0.150 \u2713"
+      ],
+      "category": "Chemistry",
+      "difficulty": "Hard"
+    },
+    {
+      "problem": "A monopolist faces demand P = 100 \u2212 2Q and has total cost C = 20Q + 100. Determine the profit-maximizing output, price, and profit.",
+      "solution": "Optimal output Q* = 20, price P* = 60, and profit = 700.",
+      "solution_steps": [
+        "Revenue: R = P\u00d7Q = (100 \u2212 2Q)Q = 100Q \u2212 2Q\u00b2.",
+        "Marginal revenue: MR = dR/dQ = 100 \u2212 4Q.",
+        "Marginal cost: MC = dC/dQ = 20.",
+        "Set MR = MC \u2192 100 \u2212 4Q = 20 \u2192 Q = 20.",
+        "Price: P = 100 \u2212 2\u00d720 = 60.",
+        "Profit: TR \u2212 TC = (60\u00d720) \u2212 (20\u00d720 + 100) = 1200 \u2212 500 = 700."
+      ],
+      "category": "Economics",
+      "difficulty": "Hard"
+    },
+    {
+      "problem": "A pendulum has a period of 2.0 seconds. What is its length? (Use g = 9.8 m/s\u00b2)",
+      "solution": "The length of the pendulum is approximately 0.994 m.",
+      "solution_steps": [
+        "Formula: T = 2\u03c0\u221a(L/g)",
+        "Rearrange: L = g(T / 2\u03c0)\u00b2 = 9.8 \u00d7 (2 / 6.283)\u00b2 \u2248 0.994 m"
+      ],
+      "category": "Physics",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "A 0.5 kg object moves in a circle of radius 2 m at a constant speed of 4 m/s. Find the centripetal force.",
+      "solution": "The centripetal force is 4 N.",
+      "solution_steps": [
+        "Fc = m v\u00b2 / r = 0.5 \u00d7 4\u00b2 / 2 = 4 N"
+      ],
+      "category": "Physics",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "A 1 kg block attached to a spring oscillates with amplitude 0.1 m and frequency 2 Hz. Find its maximum acceleration.",
+      "solution": "The maximum acceleration is 15.8 m/s\u00b2.",
+      "solution_steps": [
+        "a_max = \u03c9\u00b2 A = (2\u03c0f)\u00b2 \u00d7 0.1 = (4\u03c0\u00b2) \u00d7 0.1 \u2248 15.8 m/s\u00b2"
+      ],
+      "category": "Physics",
+      "difficulty": "Hard"
+    },
+    {
+      "problem": "Simplify: (2x\u00b3y\u00b2)\u00b2 \u00f7 (4x\u00b2y\u00b3).",
+      "solution": "Result = x\u2074y.",
+      "solution_steps": [
+        "(2x\u00b3y\u00b2)\u00b2 = 4x\u2076y\u2074",
+        "Divide by 4x\u00b2y\u00b3: (4x\u2076y\u2074)/(4x\u00b2y\u00b3) = x\u2076\u207b\u00b2y\u2074\u207b\u00b3 = x\u2074y"
+      ],
+      "category": "Mathematics",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "A right triangle has legs 6 and 8. Find the hypotenuse.",
+      "solution": "The hypotenuse is 10 units.",
+      "solution_steps": [
+        "Use Pythagoras: c = \u221a(6\u00b2 + 8\u00b2) = \u221a100 = 10"
+      ],
+      "category": "Mathematics",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "Find the sum of the first 20 terms of the arithmetic sequence 3, 7, 11, ...",
+      "solution": "The sum is 820.",
+      "solution_steps": [
+        "Common difference d = 4; n = 20; a\u2081 = 3; a\u2082\u2080 = 3 + 19\u00d74 = 79",
+        "S\u2099 = n(a\u2081 + a\u2099)/2 = 20(3 + 79)/2 = 20\u00d782/2 = 820"
+      ],
+      "category": "Mathematics",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "Solve for x: e^{2x} \u2212 5e^{x} + 6 = 0.",
+      "solution": "x = ln(2) or x = ln(3).",
+      "solution_steps": [
+        "Let y = e^x \u2192 y\u00b2 \u2212 5y + 6 = 0 \u2192 y = 2 or 3 \u2192 x = ln(2), ln(3)"
+      ],
+      "category": "Mathematics",
+      "difficulty": "Hard"
+    },
+    {
+      "problem": "What is the molar mass of calcium carbonate (CaCO\u2083)?",
+      "solution": "The molar mass is 100.09 g/mol.",
+      "solution_steps": [
+        "Ca=40.08, C=12.01, O\u2083=48 \u2192 total = 100.09 g/mol"
+      ],
+      "category": "Chemistry",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "Calculate the percent composition of oxygen in ethanol (C\u2082H\u2086O).",
+      "solution": "Oxygen makes up 34.7% of ethanol by mass.",
+      "solution_steps": [
+        "M = 2\u00d712.01 + 6\u00d71.008 + 16.00 = 46.07 g/mol",
+        "%O = 16.00 / 46.07 \u00d7 100 = 34.7%"
+      ],
+      "category": "Chemistry",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "The rate constant for a first-order reaction is 0.231 min\u207b\u00b9. What is the half-life?",
+      "solution": "The half-life is 3.00 minutes.",
+      "solution_steps": [
+        "t\u00bd = ln(2)/k = 0.693/0.231 = 3.00 min"
+      ],
+      "category": "Chemistry",
+      "difficulty": "Hard"
+    },
+    {
+      "problem": "If demand Qd = 100 \u2212 5P and supply Qs = 20 + 3P, find the equilibrium price and quantity.",
+      "solution": "Equilibrium price = 10, quantity = 50.",
+      "solution_steps": [
+        "100 \u2212 5P = 20 + 3P \u2192 80 = 8P \u2192 P = 10 \u2192 Q = 50"
+      ],
+      "category": "Economics",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "A bond with a face value of $1,000 pays a 6% annual coupon and matures in 5 years. If the market rate is 5%, what is its price?",
+      "solution": "The bond price is approximately $1,043.",
+      "solution_steps": [
+        "PV = 60\u00d7[1 \u2212 (1+0.05)\u207b\u2075]/0.05 + 1000/(1.05)\u2075 \u2248 259.9 + 783.5 \u2248 1043.4"
+      ],
+      "category": "Economics",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "Given a Cobb\u2013Douglas production function Q = A L^0.5 K^0.5 with A = 10, L = 25, and K = 16, compute output and marginal products.",
+      "solution": "Q = 200; MPL = 4; MPK = 6.25.",
+      "solution_steps": [
+        "Q = 10\u00d7\u221a(25\u00d716) = 10\u00d720 = 200",
+        "MPL = 0.5A(K/L)^0.5 = 0.5\u00d710\u00d7(16/25)^0.5 = 5\u00d7(4/5) = 4",
+        "MPK = 0.5A(L/K)^0.5 = 0.5\u00d710\u00d7(25/16)^0.5 = 5\u00d7(5/4) = 6.25"
+      ],
+      "category": "Economics",
+      "difficulty": "Hard"
+    },
+    {
+      "problem": "What organelle is responsible for energy production in eukaryotic cells?",
+      "solution": "The mitochondrion.",
+      "solution_steps": [
+        "Mitochondria generate ATP through cellular respiration."
+      ],
+      "category": "Biology",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "Explain the role of mRNA in protein synthesis.",
+      "solution": "mRNA carries genetic information from DNA to ribosomes for translation.",
+      "solution_steps": [
+        "mRNA is transcribed from DNA and serves as a template for amino acid assembly."
+      ],
+      "category": "Biology",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "In a population, selection favors heterozygotes. What type of selection is this?",
+      "solution": "Balancing (heterozygote advantage) selection.",
+      "solution_steps": [
+        "Maintains both alleles in population by giving heterozygotes higher fitness."
+      ],
+      "category": "Biology",
+      "difficulty": "Hard"
+    },
+    {
+      "problem": "A fair die is rolled. What is the probability of getting a number greater than 4?",
+      "solution": "Probability = 1/3.",
+      "solution_steps": [
+        "Outcomes >4 are {5,6}: 2/6 = 1/3"
+      ],
+      "category": "Statistics",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "Compute the variance of the dataset [2, 4, 6, 8, 10].",
+      "solution": "Variance = 8.",
+      "solution_steps": [
+        "Mean=6; deviations\u00b2=(16+4+0+4+16)=40; divide by n=5 \u2192 8"
+      ],
+      "category": "Statistics",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "A regression model yields R\u00b2 = 0.81. What does this indicate?",
+      "solution": "81% of the variance in the dependent variable is explained by the model.",
+      "solution_steps": [
+        "R\u00b2 measures explained variance fraction; 0.81 = 81% explained."
+      ],
+      "category": "Statistics",
+      "difficulty": "Hard"
+    },
+    {
+      "problem": "Find the derivative of sin(x)cos(x).",
+      "solution": "f\u2032(x) = cos\u00b2(x) \u2212 sin\u00b2(x).",
+      "solution_steps": [
+        "Product rule: f\u2032 = cos(x)cos(x) \u2212 sin(x)sin(x)"
+      ],
+      "category": "Calculus",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "Evaluate the limit lim\u2093\u21920 (sin(3x)/x).",
+      "solution": "The limit is 3.",
+      "solution_steps": [
+        "lim sin(3x)/x = 3\u00b7lim sin(3x)/(3x) = 3"
+      ],
+      "category": "Calculus",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "Determine the inflection points of f(x)=x^4\u22124x^3+6x^2.",
+      "solution": "There are no inflection points.",
+      "solution_steps": [
+        "Compute f''(x)=12x^2\u221224x+12=12(x\u22121)^2 \u2265 0 for all x.",
+        "The concavity is never negative and does not change sign; f''(1)=0 but with no sign change.",
+        "Therefore, f has no inflection points."
+      ],
+      "category": "Calculus",
+      "difficulty": "Hard"
+    },
+    {
+      "problem": "Find the minimum of f(x)=x\u00b2+4x+8.",
+      "solution": "Minimum at x=\u22122, f(\u22122)=4.",
+      "solution_steps": [
+        "f'(x)=2x+4=0\u2192x=\u22122\u2192f=4"
+      ],
+      "category": "Optimization",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "Maximize f(x,y)=x\u00b2y subject to x+y=6.",
+      "solution": "x=4,y=2,f=32.",
+      "solution_steps": [
+        "Substitute y=6\u2212x\u2192f=x\u00b2(6\u2212x)=6x\u00b2\u2212x\u00b3\u2192f\u2032=12x\u22123x\u00b2=0\u2192x=4,y=2."
+      ],
+      "category": "Optimization",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "A company minimizes C=3x\u00b2+4y\u00b2 subject to x+2y=10. Find x and y.",
+      "solution": "x = 2.5, y = 3.75; minimum cost at (2.5, 3.75).",
+      "solution_steps": [
+        "Set up Lagrangian: L = 3x\u00b2 + 4y\u00b2 + \u03bb(x + 2y \u2212 10).",
+        "Stationary conditions: \u2202L/\u2202x = 6x + \u03bb = 0 \u21d2 \u03bb = \u22126x; \u2202L/\u2202y = 8y + 2\u03bb = 0 \u21d2 8y \u2212 12x = 0 \u21d2 3x = 2y \u21d2 y = 1.5x.",
+        "Use the constraint: x + 2y = 10 \u21d2 x + 3x = 10 \u21d2 x = 2.5; then y = 1.5\u00b72.5 = 3.75.",
+        "Conclusion: (x, y) = (2.5, 3.75) minimizes C subject to the constraint."
+      ],
+      "category": "Optimization",
+      "difficulty": "Hard"
+    }
+  ],
+  "evaluations": [
+    {
+      "average_score": 0.8602788320421535,
+      "score_std": 0.0009413329597045893,
+      "solutions": [
+        "**Step\u2011by\u2011step solution**\n\n1. **Identify the given quantities**  \n   - Distance traveled, \\(D = 120\\) km  \n   - Time taken, \\(t = 2\\) hours  \n\n2. **Recall the formula for average speed**  \n   \\[\n   \\text{Average speed} = \\frac{\\text{Total distance}}{\\text{Total time}}\n   \\]\n\n3. **Plug the numbers into the formula**  \n   \\[\n   \\text{Average speed} = \\frac{120\\ \\text{km}}{2\\ \\text{h}}\n   \\]\n\n4. **Perform the division**  \n   \\[\n   \\frac{120}{2} = 60\n   \\]\n\n5. **State the result with units**  \n   \\[\n   \\text{Average speed} = 60\\ \\text{km/h}\n   \\]\n\n---\n\n**Answer:** The train\u2019s average speed is **60 km/h**.",
+        "**Step\u2011by\u2011step solution**\n\n1. **Identify the given quantities**  \n   - Distance traveled, \\(d = 120\\) km  \n   - Time taken, \\(t = 2\\) hours  \n\n2. **Recall the formula for average speed**  \n   \\[\n   \\text{Average speed} = \\frac{\\text{Total distance}}{\\text{Total time}}\n   \\]\n   The units will be km per hour (km/h) because distance is in kilometers and time is in hours.\n\n3. **Plug the numbers into the formula**  \n   \\[\n   \\text{Average speed} = \\frac{120 \\text{ km}}{2 \\text{ h}}\n   \\]\n\n4. **Perform the division**  \n   \\[\n   \\frac{120}{2} = 60\n   \\]\n\n5. **State the result with units**  \n   \\[\n   \\text{Average speed} = 60 \\text{ km/h}\n   \\]\n\n---\n\n**Answer:** The train\u2019s average speed is **60 km/h**.",
+        "**Step\u2011by\u2011step solution**\n\n1. **Identify the given values**  \n   - Distance traveled, \\(d = 120\\) km  \n   - Time taken, \\(t = 2\\) hours  \n\n2. **Recall the formula for average speed**  \n   \\[\n   \\text{Average speed} = \\frac{\\text{Total distance}}{\\text{Total time}}\n   \\]\n\n3. **Plug the numbers into the formula**  \n   \\[\n   \\text{Average speed} = \\frac{120 \\text{ km}}{2 \\text{ h}}\n   \\]\n\n4. **Perform the division**  \n   \\[\n   \\frac{120}{2} = 60\n   \\]\n\n5. **State the result with units**  \n   \\[\n   \\text{Average speed} = 60 \\text{ km/h}\n   \\]\n\n---\n\n**Answer:** The train\u2019s average speed is **60 km/h**."
+      ],
+      "step_scores": [
+        0.8190567391110286
+      ],
+      "average_step_score": 0.8190567391110286
+    },
+    null,
+    null,
+    {
+      "average_score": 0.23199556747548625,
+      "score_std": 0.054692025908115185,
+      "solutions": [
+        "**Step\u2011by\u2011step solution**\n\n1. **Write the decay law**\n\n   Radioactive decay follows an exponential law:\n\n   \\[\n   N(t)=N_",
+        "**Step\u2011by\u2011step solution**\n\n1. **Write down the exponential decay formula**\n\n   For a radioactive substance the amount remaining after time \\(t\\) is\n\n   \\[\n   A(t)=A_0\\,\\left(\\frac12\\right)^{t/T_{1/2}}\n   \\]\n\n   where  \n   * \\(",
+        "**Step\u2011by\u2011step solution**\n\n1. **Write the exponential decay formula**\n\n   For a radioactive isotope the amount remaining after time \\(t\\) is\n\n   \\[\n   N(t)=N_0\\left(\\frac12\\right)^{t/T_{1/2}}\n   \\]\n\n   where  \n   - \\(N_0\\) = initial amount,  \n   - \\(N(t)\\) = amount after time \\(t\\),  \n   - \\(T_{1/2}\\) = half\u2011life (the time it takes for half the sample to decay).\n\n2. **Insert the known values**\n\n   \\[\n   N_0 = "
+      ],
+      "step_scores": [
+        0.2563736970934296
+      ],
+      "average_step_score": 0.2563736970934296
+    },
+    {
+      "average_score": 0.4248026878822834,
+      "score_std": 0.008059034226795254,
+      "solutions": [
+        "**Step\u2011by\u2011step solution**\n\nWe need to solve  \n\n\\[\n2x^{2}-5x-12=0\n\\]\n\n---\n\n### 1. Identify the coefficients  \nFor a quadratic equation \\(ax^{2}+bx+c=0\\):\n\n- \\(a = 2\\)\n- \\(b = -5\\)\n- \\(c = -12\\)\n\n---\n\n### 2. Use the quadratic formula  \n\n\\[\nx = \\frac{-b \\pm \\sqrt{\\,b^{2}-4ac\\,}}{2a}\n\\]\n\nPlugging in the coefficients:\n\n\\[\nx = \\frac{-(-5) \\pm \\sqrt{(-5)^{2}-4(2)(-12)}}{2(2)}\n\\]\n\n---\n\n### 3. Simplify inside the square root  \n\n\\[\n(-5)^{2}=25\n\\",
+        "**Step\u2011by\u2011step solution**\n\nWe have the quadratic equation  \n\n\\[\n2x^{2}-5x-12=0\n\\]\n\n---\n\n### 1. Identify the coefficients  \nFor a quadratic equation \\(ax^{2}+bx+c=0\\):\n\n- \\(a = 2\\)\n- \\(b = -5\\)\n- \\(c = -12\\)\n\n---\n\n### 2. Use the quadratic formula  \n\n\\[\nx = \\frac{-b \\pm \\sqrt{\\,b^{2}-4ac\\,}}{2a}\n\\]\n\nPlug in the values:\n\n\\[\nx = \\frac{-(-5) \\pm \\sqrt{(-5)^{2}-4(2)(-12)}}{2(2)}\n\\]\n\nSimplify step by step.\n\n---\n\n### 3. Compute the discriminant  \n\n\\",
+        "**Step\u2011by\u2011step solution of**\n\n\\[\n2x^{2}-5x-12=0\n\\]\n\n---\n\n### 1. Identify the coefficients  \nFor a quadratic equation \\(ax^{2}+bx+c=0\\):\n\n- \\(a = 2\\)\n- \\(b = -5\\)\n- \\(c = -12\\)\n\n---\n\n### 2. Compute the discriminant  \nThe discriminant tells us how many real solutions we have:\n\n\\[\n\\Delta = b^{2}-4ac\n"
+      ],
+      "step_scores": [
+        0.7439131511622786
+      ],
+      "average_step_score": 0.7439131511622786
+    },
+    {
+      "average_score": 0.1891342957623902,
+      "score_std": 0.01609234726059851,
+      "solutions": [
+        "**Step\u2011by\u2011step solution**\n\nWe have the linear system  \n\n\\[\n\\begin{cases}\n3x + 2y = 14 \\quad &(1)\\\\[4pt]\nx - y = 1 \\quad &(2)\n\\end{cases}\n\\]\n\n---\n\n### 1. Express one variable in terms of the other\n\nFrom equation (2):\n\n\\[\nx - y = 1 \\;\\Longrightarrow\\; x = y + 1 \\quad\\text{(3)}\n\\]\n\n---\n\n### 2. Substitute into the other equation\n\nInsert \\(x = y + 1\\) into equation (1):\n\n\\[\n3x + 2y = 14 \\;\\Longrightarrow\\; 3(y + 1) + 2y = 14\n",
+        "**Step\u2011by\u2011step solution**\n\nWe have the linear system  \n\n\\[\n\\begin{cases}\n3x + 2y = 14 \\quad &(1)\\\\[2pt]\nx - y = 1 \\quad &(2)\n\\end{cases}\n\\]\n\n---\n\n### 1. Express one variable in terms of the other\n\nFrom equation (2):\n\n\\[\nx - y = 1 \\;\\;\\Longrightarrow\\;\\; x = y + 1\n\\]\n\n---\n\n### 2. Substitute into the other equation\n\nPlug \\(x = y + 1\\) into equation (1):\n\n",
+        "**Step\u2011by\u2011step solution**\n\nWe have the linear system  \n\n\\[\n\\begin{cases}\n3x + 2y = 14 \\quad &(1"
+      ],
+      "step_scores": [
+        0.723537733344638
+      ],
+      "average_step_score": 0.723537733344638
+    },
+    {
+      "average_score": 0.7372620048704251,
+      "score_std": 0.12573744908423096,
+      "solutions": [
+        "**Step 1: Identify the acid and its dissociation**\n\n- HCl is a **strong acid**.  \n- In aqueous solution it dissociates completely:\n\n\\[\n\\text{HCl} \\;\\longrightarrow\\; \\text{H}^+ + \\text{Cl}^-\n\\]\n\n**Step 2: Determine the concentration of hydrogen ions \\([H^+]\\)**\n\n- The initial concentration of HCl is given as \\(0.01\\ \\text{M}\\).  \n- Because it dissociates fully, the concentration of \\(\\text{H}^+\\) produced is the same as the acid concentration:\n\n\\[\n[H^+] = 0.01\\ \\text{M}\n\\]\n\n**Step 3: Calculate the pH**\n\n- pH is defined as the negative base\u201110 logarithm of the hydrogen ion concentration:\n\n\\[\n\\text{pH} = -\\log_{10}[H^+]\n\\]\n\nPlug in the value:\n\n\\[\n\\text{pH} = -\\log_{10}(0.01",
+        "**Step\u2011by\u2011step solution**\n\n1. **Identify the acid and its strength**  \n   HCl is a *strong acid*. That means it dissociates completely in water:\n   \\[\n   \\text{HCl} \\;\\longrightarrow\\; \\text{H}^+ + \\text{Cl}^-\n   \\]\n\n2. **Determine the concentration of hydronium ions \\([H^+]\\)**  \n   Because the dissociation is complete, the concentration of \\(\\text{H}^+\\) ions equals the initial concentration of HCl:\n   \\[\n   [\\text{H}^+] = 0.01\\ \\text{M}\n   \\]\n\n3. **Use the pH definition**  \n   pH is defined as the negative base\u201110 logarithm of the hydrogen ion concentration:\n   \\[\n   \\text{pH} = -\\log_{10}[\\text{H",
+        "**Step\u2011by\u2011step solution**\n\n1. **Identify the acid and its concentration**  \n   - The solution is 0.01\u202fM HCl.  \n   - HCl is a *strong acid*, meaning it dissociates completely in water.\n\n2. **Write the dissociation equation**  \n   \\[\n   \\text{HCl} \\;\\longrightarrow\\; \\text{H}^+ + \\text{Cl}^-\n   \\]\n\n3. **Determine the concentration of hydronium ions \\([H^+]\\)**  \n   - Because HCl dissociates completely, the concentration of \\(\\text{H}^+\\) equals the initial concentration of HCl.  \n   \\[\n   [\\text{H}^+] = 0.01\\ \\text{M}\n   \\]\n\n4. **Calculate the pH**  \n   - pH is defined as the negative base\u201110 logarithm of the hydrogen ion concentration:\n     \\[\n     \\text{pH} = -\\log_{10}\\,[\\text{"
+      ],
+      "step_scores": [
+        0.5494329881701854,
+        0.8475574831928898,
+        0.7621450372096963,
+        0.3199224629924097
+      ],
+      "average_step_score": 0.6197644928912953
+    },
+    {
+      "average_score": 0.22735990210715196,
+      "score_std": 0.002211021746824748,
+      "solutions": [
+        "**Step\u2011by\u2011step solution**\n\n1. **Write the balanced chemical equation for the synthesis of ammonia.**  \n   \\[\n   \\text{N}_2(g) + 3\\,\\text{H}_2(g) \\;\\longrightarrow\\; 2\\,\\text{NH}_3(g)\n   \\]\n\n2. **Identify the stoichiometric ratio between nitrogen and hydrogen.**  \n   From the equation, 1 mole of \\( \\text{N}_2 \\) reacts with 3 moles of \\( \\text{H}_2 \\).\n\n3. **Apply the ratio to the given amount of nitrogen.**  \n   You have 3 moles of \\( \\text{N}_2 \\).  \n   \\[\n   3\\ \\text{mol N}_2 \\times \\frac{3\\ \\text{mol H}_2}{1\\ \\text{mol N}_2}",
+        "**Step\u2011by\u2011step solution**\n\n1. **Write the balanced chemical equation for the synthesis of ammonia.**  \n   The reaction between nitrogen gas and hydrogen gas to produce ammonia is:\n\n   \\[\n   \\text{N}_2(g) + 3\\,\\text{H}_2(g) \\;\\longrightarrow\\; 2\\,\\text{NH}_3(g)\n   \\]\n\n   In this balanced equation the coefficients tell us the mole ratio of the reactants.\n\n2. **Identify the mole ratio between nitrogen (N\u2082) and hydrogen (H\u2082).**  \n   From the coefficients:\n   - 1 mole of N\u2082 reacts with 3 moles of H\u2082.\n\n3. **Apply the ratio to the given amount of nitrogen.**  \n   The problem states we",
+        "**Step 1: Write the balanced chemical equation**\n\nThe reaction that produces ammonia from nitrogen and hydrogen is:\n\n\\[\n\\text{N}_2(g) + 3\\,\\text{H}_2(g) \\;\\longrightarrow\\; 2\\,\\text{NH}_3(g)\n\\]\n\n**Step 2: Identify the stoichiometric ratio**\n\nFrom the balanced equation, the mole ratio between nitrogen and hydrogen is:\n\n\\[\n1\\ \\text{mol N}_2 : 3\\ \\text{mol H}_2\n\\]\n\n**Step 3: Apply the ratio to the given amount of nitrogen**\n\nYou have **3 moles of N\u2082**. Using the ratio:\n\n\\[\n3\\ \\text{mol N}_2 \\"
+      ],
+      "step_scores": [
+        0.8014301826228509
+      ],
+      "average_step_score": 0.8014301826228509
+    },
+    null,
+    {
+      "average_score": 0.4418206925313231,
+      "score_std": 0.2504563339490016,
+      "solutions": [
+        "**Step\u2011by\u2011step solution**\n\n1. **Identify the initial and final values**  \n   - Initial revenue \\(= \\$1{,}000{,}000\\) (1\u202fmillion)  \n   - Final revenue \\(= \\$1{,}500{,}000\\) (1.5\u202fmillion)\n\n2. **Compute the absolute increase**  \n   \\[\n   \\text{Increase} = \\text{Final} - \\text{Initial}\n   = \\$1{,}500{,}000 - \\$1{,}000{,}000\n   = \\$500{,}000\n   \\]\n\n3. **Divide the increase by the initial value** (to get the fractional increase)  \n   \\[\n   \\frac{\\text{Increase}}{\\text{Initial}}\n   = \\frac{\\$500{,}000}{\\$1{,}000{,}000}\n   = 0.5\n   \\]\n\n4. **Convert the fraction to a percentage**  \n   \\[\n   0.5 \\times 100\\% = 50\\%\n   \\]\n\n---\n\n**",
+        "**Step\u2011by\u2011step solution**\n\n1. **Identify the initial and final values**  \n   - Initial revenue (old value) = \\$1\u202fmillion  \n   - Final revenue (new value) = \\$1.5\u202fmillion  \n\n2. **Compute the absolute increase**  \n   \\[\n   \\text{Increase} = \\text{Final} - \\text{Initial} = 1.5\\,\\text{million} - 1.0\\,\\text{million} = 0.5\\,\\text{million}\n   \\]\n\n3. **Calculate the relative increase**  \n   The relative increase is the absolute increase divided by the initial value:\n   \\[\n   \\text{Relative increase} = \\frac{\\text{Increase}}{\\text{Initial}} = \\frac{0.5\\,\\text{million}}{1.0\\,\\text{million}} = 0.5\n   \\]\n\n4. **Convert to a percentage**",
+        "**Step\u2011by\u2011step solution**\n\n1. **Identify the initial and final values**  \n   - Initial revenue \\(R_{\\text{initial}} = \\$1\\,\\text{million}\\)  \n   - Final revenue \\(R_{\\text{final}} = \\$1.5\\,\\text{million}\\)\n\n2. **Compute the absolute change**  \n   \\[\n   \\Delta R = R_{\\text{final}} - R_{\\text{initial}}\n            = 1.5\\,\\text{million} - 1.0\\,\\text{million}\n            = 0.5\\,\\text{million}\n   \\]\n\n3. **Divide the change by the initial value** to get the relative change (fraction of the original amount).  \n   \\[\n   \\text{Relative change} = \\frac{\\Delta R}{R_{\\text{initial}}}\n                           = \\frac{0.5\\,\\text{million}}{1.0\\,\\text{million}}\n                           = 0.5\n   \\]\n\n4. **Convert the relative change to a percentage** by multiplying by 100%.  \n   \\[\n  "
+      ],
+      "step_scores": [
+        0.8216971505487166
+      ],
+      "average_step_score": 0.8216971505487166
+    },
+    {
+      "average_score": 0.20157279282971804,
+      "score_std": 0.0028718049737778734,
+      "solutions": [
+        "**Step\u2011by\u2011step solution**\n\n1. **Start with the original price**  \n   Let the original stock price be \\(P\\).\n\n2. **Apply the 20\u202f% increase**  \n   \\[\n   \\text{After increase} = P \\times (1 + 0.20) = P \\times 1.20\n   \\]\n\n3. **Apply the 15\u202f% decrease to the new price**  \n   A 15\u202f% decrease means we keep \\(100\\% - 15\\% = 85\\%\\) of the current value:\n   \\[\n   \\text{After decrease} = (P \\times 1.20) \\times (1 - 0.15) = P \\times 1.20 \\times 0.85\n   \\]\n\n4. **Compute the product**  \n   \\[\n   1.20 \\times 0.85 = 1.02\n   \\]\n   So,\n   \\[\n",
+        "**Step\u2011by\u2011step solution**\n\n1. **Start with the initial price**  \n   Let the original stock price be \\(P\\).\n\n2. **Apply the 20\u202f% increase**  \n   \\[\n   P_{\\text{after increase}} = P \\times (1 + 0.20) = 1.20\\,P\n   \\]\n\n3. **Apply the 15\u202f% decrease**  \n   The price after the decrease is 15\u202f% less than the new price:\n   \\[\n   P_{\\text{final}} = 1.20\\,P \\times (1 - 0.15) = 1.20\\,P \\times 0.85\n   \\]\n\n4. **Compute the product**  \n   \\",
+        "**Step\u2011by\u2011step solution**\n\n1. **Start with an initial price**  \n   Let the original stock price be \\(P\\).\n\n2. **Apply the 20\u202f% increase**  \n   A 20\u202f% increase means the price becomes  \n   \\[\n   P_{\\text{after increase}} = P \\times (1 + 0.20) = 1.20\\,P\n   \\]\n\n3. **Apply the 15\u202f% decrease**  \n   A 15\u202f% decrease means we multiply by \\(1 - 0.15 = 0.85\\).  \n   So the price after the decrease is  \n   \\[\n   P_{\\text{final}} = 1.20\\,P \\times 0.85 = 1.02\\,P\n   \\]\n\n4. **Compare the final price to the"
+      ],
+      "step_scores": [
+        0.804990746425822
+      ],
+      "average_step_score": 0.804990746425822
+    },
+    {
+      "average_score": 0.42912494593476974,
+      "score_std": 0.1278774271031021,
+      "solutions": [
+        "**Step\u2011by\u2011step solution**\n\n1. **Identify the total population**  \n   The population size is given as  \n   \\[\n   N = 1000 \\text{ individuals}\n   \\]\n\n2. **Count the individuals with known eye colors**  \n   - Brown eyes: \\(B = 490\\)  \n   - Blue eyes: \\(U = 390\\)\n\n3. **Find the number of green\u2011eyed individuals**  \n   The rest of the population must have green eyes.  \n   \\[\n   G = N - (B + U) = 1000 - (490 + 390)\n   \\]\n   Compute the sum inside the parentheses:  \n   \\[\n   490 + 390 = 880\n   \\]\n   Then subtract from the total:  \n   \\[\n   G = 1000 - 880 = 120\n   \\]\n\n4. **Compute the probability of selecting a green\u2011eyed person**  \n   The probability \\(P\\) is the ratio of green\u2011eyed individuals to the",
+        "**Step\u2011by\u2011step solution**\n\n1. **Identify the total population**  \n   The problem says there are **1,000** individuals in total.\n\n2. **Count the people with brown and blue eyes**  \n   - Brown eyes: **490**  \n   - Blue eyes: **390**\n\n3. **Find how many have green eyes**  \n   The remaining individuals must have green eyes.  \n   \\[\n   \\text{Green eyes} = \\text{Total} - (\\text{Brown} + \\text{Blue})\n   \\]\n   \\[\n   = 1\\,000 - (490 + 390) = 1\\,000 - 880 = 120\n   \\]\n\n4. **Compute the probability**  \n   Probability of selecting a green\u2011eyed person =  \n   \\[\n   \\frac{\\text{Number with green eyes}}{\\text{Total population}}\n   = \\frac{120}{1\\,000}\n   \\]\n\n5. **Simplify the fraction**  \n   \\[\n   \\frac{120}{1\\,000} = \\frac{12}{100} = \\frac{3}{25}\n   \\]\n\n6",
+        "**Step\u2011by\u2011step solution**\n\n1. **Identify the total population**  \n   The problem states there are **1000 individuals** in total.\n\n2. **Count the individuals with known eye colors**  \n   - Brown eyes: **490**  \n   - Blue eyes: **390**\n\n3. **Find the number of green\u2011eyed individuals**  \n   The remaining people must have green eyes.  \n   \\[\n   \\text{Green} = \\text{Total} - (\\text{Brown} + \\text{Blue})\n   \\]\n   \\[\n   \\text{Green} = 1000 - (490 + 390) = 1000 - 880 = 120\n   \\]\n\n4. **Compute the probability**  \n   Probability of picking a green\u2011eyed person is the ratio of green\u2011eyed individuals to the total population:\n   \\[\n   P(\\text{green}) = \\frac{\\text{Number of green eyes}}{\\text{Total population}}\n   = \\frac{120}{1000}\n   \\]\n\n5. **Simplify the fraction (optional)**  \n   \\[\n   \\frac{120}{"
+      ],
+      "step_scores": [
+        0.8760722490468575
+      ],
+      "average_step_score": 0.8760722490468575
+    },
+    {
+      "average_score": 0.3560251535099192,
+      "score_std": 0.11186826870645514,
+      "solutions": [
+        "**Step\u2011by\u2011step solution**\n\n1. **Identify the sample proportion**  \n   \\[\n   \\hat{p}=\\frac{\\text{number improved}}{\\text{total patients}}\n          =\\frac{270}{300}=0.90\n   \\]\n\n2. **Choose the confidence level**  \n   95\u202f% confidence \u2192 critical value \\(z_{\\alpha/2}=1.96\\) (from the standard normal table",
+        "**Step\u2011by\u2011step solution**\n\n1. **Identify the sample proportion**\n\n   \\[\n   \\hat{p}=\\frac{\\text{number who improved}}{\\text{total patients}}\n          =\\frac{270}{300}=0.90\n   \\]\n\n2. **Choose the confidence level and the corresponding \\(z\\)-value**\n\n   For a 95\u202f% confidence interval the critical value from the standard normal\n   distribution is  \n\n   \\[\n   z_{0.975}=1.",
+        "**Step\u2011by\u2011step solution**\n\n1. **Observed proportion**\n\n   \\[\n   \\hat p=\\frac{\\text{number improved}}{\\text{total patients}}\n          =\\frac{270}{300}=0.90\n   \\]\n\n2. **Standard error (SE) of a proportion**\n\n   For a sample proportion the standard error is\n\n   \\[\n   SE=\\sqrt{\\frac{\\hat p(1-\\hat p)}{n}}\n   \\]\n\n   Plugging"
+      ],
+      "step_scores": [
+        0.6259954785955282
+      ],
+      "average_step_score": 0.6259954785955282
+    },
+    null,
+    {
+      "average_score": 0.13293711121371335,
+      "score_std": 0.116328239775061,
+      "solutions": [
+        "**Step\u2011by\u2011step solution**\n\n1. **Identify the phenotype frequencies**  \n   - Dark\u2011winged moths (dominant phenotype) = 75\u202f%  \n   - Light\u2011winged moths (recessive phenotype) = 25\u202f%\n\n2. **Relate phenotype to genotype under Hardy\u2013Weinberg**  \n   - The recessive phenotype (light wings) can only come from the homozygous recessive genotype **aa**.  \n   - Therefore",
+        "**Step\u2011by\u2011step solution**\n\n1. **Identify the phenotype frequencies**  \n   - Dark\u2011winged (dominant phenotype) = 75\u202f%  \n   - Light\u2011winged (recessive phenotype) = 25\u202f%\n\n2. **Relate phenotype frequencies to Hardy\u2013Weinberg genotype frequencies**  \n   Under Hardy\u2013Weinberg equilibrium the genotype frequencies are:\n   - \\(p^2\\)\u2003= frequency of homozygous dominant (AA)  \n   - \\(2pq\\) = frequency of heterozygotes (",
+        ""
+      ],
+      "step_scores": [
+        0.7173756437320045
+      ],
+      "average_step_score": 0.7173756437320045
+    },
+    {
+      "average_score": 0.7309998525935546,
+      "score_std": 0.0050005322700212036,
+      "solutions": [
+        "**Step\u2011by\u2011step solution**\n\nWe are given the function  \n\n\\[\nf(x)=2x^{2}+3x-5\n\\]\n\nand we need to find its derivative \\(f'(x)\\).\n\n---\n\n### 1. Recall the power rule for differentiation  \nFor any term of the form \\(ax^{n}\\), the derivative is  \n\n\\[\n\\frac{d}{dx}\\bigl(ax^{n}\\bigr)=a\\,n\\,x^{\\,n-1}\n\\]\n\nThe constant term \\(-5\\) has derivative \\(0\\).\n\n---\n\n### 2. Differentiate each term separately\n\n| Term in \\(f(x)\\) | Derivative |\n|------------------|------------|\n| \\(2x^{2}\\) | \\(2 \\times 2 \\times x^{2-1}=4x\\) |\n| \\(3x\\) | \\(3 \\times 1 \\times x^{1-1}=3\\) |\n| \\(-5\\) | \\(0\\) |\n\n---\n\n### 3. Combine the results\n\n\\[\nf'(x)=4x+3+0=4x+3\n\\]\n\n---\n\n## Answer\n\n\\[\n\\boxed{f'(x)=4x+",
+        "**Step\u2011by\u2011step solution**\n\nWe are given the function  \n\n\\[\nf(x)=2x^{2}+3x-5\n\\]\n\nand we need its derivative \\(f'(x)\\).\n\n---\n\n### 1. Recall the power rule for differentiation  \nFor any term \\(ax^{n}\\) (where \\(a\\) is a constant and \\(n\\) is a real number), the derivative is  \n\n\\[\n\\frac{d}{dx}\\bigl(ax^{n}\\bigr)=a\\,n\\,x^{\\,n-1}.\n\\]\n\nThe derivative of a constant is \\(0\\).\n\n---\n\n### 2. Differentiate each term separately\n\n| Term | Derivative |\n|------|------------|\n| \\(2x^{2}\\) | \\(2 \\times 2 \\times x^{2-1}=4x\\) |\n| \\(3x\\) | \\(3 \\times 1 \\times x^{1-1}=3\\) |\n| \\(-5\\) | \\(0\\",
+        "**Step\u2011by\u2011step solution**\n\nWe are given the function  \n\n\\[\nf(x)=2x^{2}+3x-5\n\\]\n\nand we need its derivative \\(f'(x)\\).\n\n---\n\n### 1. Recall the power rule for differentiation  \nFor any term \\(ax^{n}\\) (where \\(a\\) is a constant and \\(n\\) is a real number),  \n\n\\[\n\\frac{d}{dx}\\bigl(ax^{n}\\bigr)=a\\,n\\,x^{\\,n-1}.\n\\]\n\nThe derivative of a constant is \\(0\\).\n\n---\n\n### 2. Differentiate each term separately\n\n| Term in \\(f(x)\\) | Apply power rule | Result |\n|------------------|------------------|--------|\n| \\(2x^{2}\\) | \\(a=2,\\; n=2\\) | \\(2 \\times 2 \\times x^{2-1}=4x\\) |\n| \\(3x\\) | \\(a=3,\\; n=1\\) | \\(3 \\times 1 \\times x^{1-1}=3\\) |\n| \\(-5\\) | constant | \\("
+      ],
+      "step_scores": [
+        0.7646419924922718
+      ],
+      "average_step_score": 0.7646419924922718
+    },
+    null,
+    {
+      "average_score": 0.2934885369848376,
+      "score_std": 0.004376211772845696,
+      "solutions": [
+        "**Step 1 \u2013 Set up the variables**\n\nLet  \n\n* \\(x\\) = width of the rectangle (the sides that are perpendicular to the river)  \n* \\(y\\) = length of the rectangle (the side that runs along the river)\n\nBecause the river supplies one side of the enclosure, only **three** sides need fencing:\n\n* two",
+        "**Step\u2011by\u2011step solution**\n\n1. **Define the variables**\n\n   * Let \\(x\\) be the width of the rectangle (the side perpendicular to the river).  \n   * Let \\(y\\) be the length of the rectangle (the side parallel to the river).  \n\n   Because the river forms one side of the enclosure, only **three",
+        "**Step\u2011by\u2011step solution**\n\n1. **Define the variables**\n\n   * Let \\(x\\) be the width of the rectangle (the side that is perpendicular to the river).  \n   * Let \\(y\\) be the length of the rectangle (the side that runs along the river).\n\n   The river supplies one side of the rectangle, so only three sides need fencing.\n\n2. **Write the fencing constraint**\n\n   The farmer has 100"
+      ],
+      "step_scores": [
+        0.9275515861933575
+      ],
+      "average_step_score": 0.9275515861933575
+    },
+    null,
+    {
+      "average_score": 0.18340707799965017,
+      "score_std": 0.044744214900418716,
+      "solutions": [
+        "**Step\u2011by\u2011step solution**\n\n1. **Break the launch velocity into horizontal and vertical components**\n\n   \\[\n   v_0 = 10\\ \\text{m/s}, \\qquad \\theta = 30^\\circ\n   \\]\n\n   \\",
+        "**Step\u2011by\u2011step solution**\n\n1. **Break the initial velocity into horizontal and vertical components**\n\n   \\[\n   v_{0x}=v_0\\cos\\theta,\\qquad  \n   v_{0y}=v_0\\sin\\theta\n   \\]\n\n   With \\(v_0 = 10\\;\\text{m/s}\\) and \\(\\theta = 30^\\circ\\):\n\n   \\[\n   \\cos 30^\\circ = \\frac{\\sqrt{3}}{2}\\approx 0.8660,\\qquad\n   \\sin 30^\\circ = \\frac{1}{2}=0.5\n   \\]\n\n   \\[\n   v_{0x}=10(0.8660)=",
+        "**Step\u2011by\u2011step solution**\n\n1. **Identify the given quantities**\n\n   | Symbol | Meaning | Value |\n   |--------|---------|-------|\n   | \\(v_0\\) | Initial speed | \\(10\\ \\text{m/s}\\) |\n   | \\(\\theta\\) | Launch angle above horizontal | \\(30^\\circ\\) |\n   | \\(g\\) | Acceleration due to gravity | \\(9.8\\ \\text{m/s}^2\\) |\n\n2. **Recall the formula for horizontal range**\n\n   For a projectile launched from and landing at the same height (ignoring air resistance), the horizontal range \\(R\\) is\n\n   \\"
+      ],
+      "step_scores": [
+        0.20809517155290266
+      ],
+      "average_step_score": 0.20809517155290266
+    },
+    {
+      "average_score": 0.4984771562295185,
+      "score_std": 0.07949557495702626,
+      "solutions": [
+        "**Step\u2011by\u2011step solution**\n\n1. **Draw the circuit (conceptually)**  \n   ```\n   +12\u202fV \u2500\u2500 R\u2081(4\u202f\u03a9) \u2500\u2500 R\u2082(6\u202f\u03a9) \u2500\u2500 GND\n   ```\n   The two resistors are in series, so the same current flows through both.\n\n2. **Find the total (equivalent) resistance**  \n   In a series connection resistances add:\n   \\[\n   R_{\\text{total}} = R_1 + R_2 = 4\\,\\Omega + 6\\,\\Omega = 10\\,\\Omega\n   \\]\n\n3. **Calculate the circuit current**  \n   Ohm\u2019s law for the whole",
+        "**Step\u2011by\u2011step solution**\n\n1. **Identify the configuration**  \n   The two resistors (4\u202f\u03a9 and 6\u202f\u03a9) are connected *in series* across a 12\u202fV battery.\n\n2. **Compute the total (equivalent) resistance**  \n   In a series circuit the resistances add directly:\n   \\[\n   R_{\\text{total}} = R_1 + R_2 = 4\\,\\Omega + 6\\,\\Omega = 10\\,\\Omega\n   \\]\n\n3. **Find the circuit current**  \n   Ohm\u2019s law for the whole circuit gives:\n   \\[\n   I = \\frac{V_{\\text{battery}}}{R_{\\text{total}}}\n     = \\frac{12\\,\\text{V}}{10\\,\\Omega}\n     = 1.2\\,\\text{A}\n   \\]\n   So the current flowing through the circuit (and through each resistor)",
+        "**Step\u2011by\u2011step solution**\n\n1. **Identify the circuit configuration**  \n   The two resistors (4\u202f\u03a9 and 6\u202f\u03a9) are connected *in series* across a 12\u202fV battery.\n\n2. **Compute the total (equivalent) resistance**  \n   In a series connection the resistances simply add:\n   \\[\n   R_{\\text{total}} = R_1 + R_2 = 4\\,\\Omega + 6\\,\\Omega = 10\\,\\Omega\n   \\]\n\n3. **Apply Ohm\u2019s law to find the circuit current**  \n   Ohm\u2019s law: \\(I = \\dfrac{V}{R}\\).  \n   The battery voltage \\(V = 12\\)\u202fV and the total resistance \\(R_{\\text{total}} = 10\\)\u202f\u03a9:\n   \\"
+      ],
+      "step_scores": [
+        0.7925959465992295
+      ],
+      "average_step_score": 0.7925959465992295
+    },
+    {
+      "average_score": 0.1794140439167041,
+      "score_std": 0.01786497070709199,
+      "solutions": [
+        "**Step\u2011by\u2011step solution**\n\n1. **Expand the left side**  \n   \\[\n   3(2x-1)=3\\cdot 2x-3\\cdot 1=6x-3\n   \\]\n\n2. **Write the inequality with the expanded form**  \n   \\[\n   6x-3 \\;\\le\\; 5x+7\n   \\]\n\n3. **Move all terms involving \\(x\\) to one side**  \n   Subtract \\(5x\\) from both sides:\n   \\[\n   6x-5x-3 \\;\\",
+        "**Step\u2011by\u2011step solution**\n\nWe need to find all real numbers \\(x\\) that satisfy  \n\n\\[\n3(2x-1)\\;\\le\\;5x+7 .\n\\]\n\n---\n\n### 1. Expand the left side\n\n\\[\n3(2x-1)=3\\cdot 2x-3\\cdot 1=6x-",
+        "**Step\u2011by\u2011step solution**\n\nWe want all real numbers \\(x\\) that satisfy  \n\n\\[\n3(2x-1)\\;\\le\\;5x+7 .\n\\]\n\n---\n\n### 1. Expand the left side\n\n\\[\n3(2x-1)=3\\cdot 2x-3\\cdot 1=6x-3 .\n\\]\n\nSo the inequality becomes  \n\n\\[\n6x-3 \\;\\le\\; 5x+7 .\n\\]\n\n---\n\n### 2. Bring all terms involving \\(x\\) to one side\n\nSubtract \\(5x\\) from both sides:\n\n\\[\n6x-5x-3 \\;\\le\\; 7 \\quad\\Longrightarrow\\quad x-3 \\;\\le\\; 7 .\n\\]\n\n---\n\n### 3. Isolate \\(x\\)\n\nAdd \\(3\\) to both sides:\n\n\\[\nx \\;\\le\\; "
+      ],
+      "step_scores": [
+        0.7562745611752928
+      ],
+      "average_step_score": 0.7562745611752928
+    },
+    {
+      "average_score": 0.7740132630086284,
+      "score_std": 0.008347729022008052,
+      "solutions": [
+        "**Step\u2011by\u2011step solution**\n\n1. **Recall the formula for the area of a triangle**  \n   \\[\n   \\text{Area} = \\frac{1}{2}\\times(\\text{base})\\times(\\text{height})\n   \\]\n\n2. **Identify the given values**  \n   - Base \\(b = 12\\) units  \n   - Height \\(h = 7\\) units\n\n3. **Plug the values into the formula**  \n   \\[\n   \\text{Area} = \\frac{1}{2}\\times 12 \\times 7\n   \\]\n\n4. **Simplify the multiplication**  \n   \\[\n   \\frac{1}{2}\\times 12 = 6\n   \\]\n   Then\n   \\[\n   6 \\times 7 = 42\n   \\]\n\n5. **State the result**  \n   \\[\n   \\boxed{42 \\text{ square units}}\n   \\]\n\nSo, the area of the triangle is **42 square units**.",
+        "**Step\u2011by\u2011step solution**\n\n1. **Recall the formula for the area of a triangle**  \n   \\[\n   \\text{Area} = \\frac{1}{2}\\times(\\text{base})\\times(\\text{height})\n   \\]\n\n2. **Identify the given values**  \n   - Base \\(b = 12\\) units  \n   - Height \\(h = 7\\) units\n\n3. **Plug the values into the formula**  \n   \\[\n   \\text{Area} = \\frac{1}{2}\\times 12 \\times 7\n   \\]\n\n4. **Compute the multiplication inside the parentheses**  \n   \\[\n   12 \\times 7 = 84\n   \\]\n\n5. **Apply the half factor**  \n   \\[\n   \\frac{1}{2}\\times 84 = 42\n   \\]\n\n6. **State the result**  \n   \\[\n   \\boxed{42 \\text{ square units}}\n   \\]\n\nSo, the area of the triangle is",
+        "**Step\u2011by\u2011step solution**\n\n1. **Recall the formula for the area of a triangle.**  \n   \\[\n   \\text{Area} = \\frac{1}{2} \\times \\text{base} \\times \\text{height}\n   \\]\n\n2. **Identify the given values.**  \n   - Base \\(b = 12\\) units  \n   - Height \\(h = 7\\) units\n\n3. **Plug the values into the formula.**  \n   \\[\n   \\text{Area} = \\frac{1}{2} \\times 12 \\times 7\n   \\]\n\n4. **Perform the multiplication inside the parentheses first.**  \n   \\[\n   12 \\times 7 = 84\n   \\]\n\n5. **Apply the factor of \\(\\frac{1}{2}\\).**  \n   \\[\n   \\text{Area} = \\frac{1}{2} \\times 84 = 42\n   \\]\n\n6. **State the final answer with units."
+      ],
+      "step_scores": [
+        0.7901443013634732
+      ],
+      "average_step_score": 0.7901443013634732
+    },
+    {
+      "average_score": 0.19430687137958513,
+      "score_std": 0.020170251236661937,
+      "solutions": [
+        "**Step\u2011by\u2011step solution**\n\nThe ideal gas law relates pressure (P), volume (V), temperature (T) and the amount of gas (n):\n\n\\[\nPV = nRT\n\\]\n\nWe\u2019re given:\n\n| Symbol | Value | Units |\n|--------|-------|-------|\n| \\(P\\) | 2.0 | atm |\n| \\(V\\) | 5.0 | L |\n| \\(T\\) | 300 | K |\n| \\(R\\) | 0.082057 | L\u00b7atm\u00b7mol\u207b\u00b9\u00b7K\u207b\u00b9 |\n\nWe need to",
+        "**Step\u2011by\u2011step solution**\n\nThe ideal gas law relates pressure (P), volume (V), temperature (T) and the number of moles (n):\n\n\\[\nPV = nRT\n\\]\n\nWe\u2019re given  \n\n- \\(P = 2.0 \\text{ atm}\\)  \n- \\(V = 5.0 \\text{ L}\\)  \n- \\(T = 300 \\",
+        "**Step\u2011by\u2011step solution**\n\nThe ideal\u2011gas equation relates pressure (P), volume (V), temperature (T) and the amount of gas (n):\n\n\\[\nPV = nRT\n\\]\n\nWe need to solve for \\(n\\):\n\n\\[\nn = \\frac{PV}{RT}\n\\]\n\n---\n\n### 1.  Plug in the given values  \n\n| Symbol | Value | Units |\n|--------|-------|-------|\n| \\(P\\) | 2.0 | atm |\n| \\(V\\) | 5.0 | L |\n| \\(T\\) | 300 | K |\n| \\(R\\) | 0.082057 | L\u00b7atm\u00b7mol\u207b\u00b9\u00b7K"
+      ],
+      "step_scores": [
+        0.8303021666042277
+      ],
+      "average_step_score": 0.8303021666042277
+    },
+    {
+      "average_score": 0.24526683713627548,
+      "score_std": 0.014610930954335664,
+      "solutions": [
+        "**Step\u2011by\u2011step solution**\n\n1. **Write down the known values**\n\n   | Symbol | Meaning | Value |\n   |--------|---------|-------|\n   | \\(C_1\\) | Initial concentration | \\(0.50\\;\\text{M}\\) |\n   | \\(V_1\\) | Initial volume | \\(200\\;\\text{mL}\\) |\n   | \\(C_2\\) | Desired concentration | \\(0.20\\;\\text{M}\\) |\n   | \\(V_2\\) | Final volume (unknown) | \u2013 |\n\n2. **Use the",
+        "**Step\u2011by\u2011step solution**\n\n1. **Write down the known values**\n\n| Symbol | Meaning | Value |\n|--------|---------|-------|\n| \\(C_1\\) | Initial concentration | \\(0.50\\ \\text{M}\\) |\n| \\(V_1\\) | Initial volume | \\(200\\ \\text{mL}\\) |\n| \\(C_2\\) | Desired concentration | \\(0.20\\ \\text{M}\\) |\n| \\(V_2\\) | Final volume (what we want to find) | \u2013 |\n\n2. **Use the dilution equation**\n\n",
+        "**Step\u2011by\u2011step solution**\n\n1. **Write the dilution equation**\n\n   For a simple dilution (no reaction, no volume change due to mixing), the amount of solute stays the same before and after dilution:\n\n   \\[\n   C_i \\, V_i = C_f \\, V_f\n   \\]\n\n   where  \n   \\(C_i\\) = initial concentration,  \n   \\(V_i\\) = initial volume,  \n   \\(C_f\\) = final concentration,  \n   \\(V_f\\) = final volume"
+      ],
+      "step_scores": [
+        0.7793166869923531
+      ],
+      "average_step_score": 0.7793166869923531
+    },
+    {
+      "average_score": 0.2770699636205491,
+      "score_std": 0.02013588369976914,
+      "solutions": [
+        "**Step\u2011by\u2011step calculation of the arc price elasticity of demand**\n\nThe arc elasticity of demand is calculated with the formula  \n\n\\[\nE_d = \\frac{\\Delta Q}{\\Delta P}\\;\\times\\;\\frac{P_{\\text{avg}}}{Q_{\\text{avg}}}\n\\]\n\nwhere  \n\n* \\(\\Delta Q = Q_2 - Q_1\\) (change in quantity demanded)  \n* \\(\\Delta P = P_2 - P_1\\) (change in price)  \n* \\(P_{\\text{avg}} = \\dfrac{P_1 + P_2}{2}\\) (average price)  \n* \\(Q_{\\text{avg}} = \\dfrac{Q_1 + Q_2}{2}\\) (average quantity)\n\n---\n\n### 1. Identify",
+        "**Arc elasticity of demand** measures how a percentage change in price affects a percentage change in quantity demanded, using the *average* values of price and quantity over the interval.\n\nThe formula is  \n\n\\[\nE_d = \\frac{\\Delta Q}{\\Delta P}\\;\\times\\;\\frac{P_{\\text{avg}}}{Q_{\\text{avg}}}\n\\]\n\nwhere  \n\n- \\(\\Delta Q = Q_2 - Q_1\\)  \n- \\(\\Delta P = P_2 - P_1\\)  \n- \\(P_{\\text{avg}} = \\dfrac{P_1 + P_2}{2}\\)  \n- \\(Q_{\\text{avg}} = \\dfrac{Q_1 + Q_2}{2",
+        "**Step\u2011by\u2011step calculation of the arc price elasticity of demand**\n\nThe arc elasticity of demand (also called the midpoint formula) is used when the change in price and quantity is not infinitesimally small.  \nIt is defined as:\n\n\\[\nE_d = \\frac{\\Delta Q}{\\Delta P}\\;\\times\\;\\frac{P_{\\text{avg}}}{Q_{\\text{avg}}}\n\\]\n\nwhere  \n\n* \\(\\Delta Q = Q_2 - Q_1\\)  \n* \\(\\Delta P = P_2 - P_1\\)  \n* \\(P_{\\text{avg}} = \\dfrac{P_1 + P_2}{2}\\)  \n* \\(Q"
+      ],
+      "step_scores": [
+        0.8334632430068171
+      ],
+      "average_step_score": 0.8334632430068171
+    },
+    {
+      "average_score": 0.23933055707711368,
+      "score_std": 0.0011613439845723176,
+      "solutions": [
+        "**Step\u2011by\u2011step NPV calculation**\n\n| Year | Cash Flow | Discount factor \\((1+r)^t\\) | Present value |\n|------|-----------|------------------------------|---------------|\n| 0    | \\(-\\$1{,}000\\) | 1.0000 | \\(-\\$1{,}000\\) |\n| 1    | \\(\\$400\\) | \\(1.10^1 = 1.10\\) | \\(\\displaystyle \\frac{400}{1.10}= \\$363.64\\) |\n| 2    |",
+        "**Step\u2011by\u2011step NPV calculation**\n\n| Year | Cash Flow (CF) | Discount factor \\((1+r)^t\\) | Present Value (PV) |\n|------|----------------|------------------------------|--------------------|\n| 0    | \\(-\\$1,000\\)   | 1.0000                       | \\(-\\$1,000.00\\)    |\n| 1    | \\(+\\$400\\)     | \\(1.10^1 = 1.10\\)            | \\(400 / 1.10 = \\$363.64\\) |\n| 2    | \\(+\\$400\\)     | \\(1.",
+        "**Step\u2011by\u2011step NPV calculation**\n\n| Year | Cash Flow | Discount factor \\((1+r)^t\\) | Present Value |\n|------|-----------|------------------------------|---------------|\n| 0    | \\(-\\$1{,}000\\) | \\(1\\) | \\(-\\$1{,}000\\) |\n| 1    | \\(\\$400\\) | \\(1.10^1 = 1.10\\) | \\(\\displaystyle \\frac{400}{1.10}= \\$363.64\\) |\n| 2    | \\(\\$400\\"
+      ],
+      "step_scores": [
+        0.5034466545133722
+      ],
+      "average_step_score": 0.5034466545133722
+    },
+    {
+      "average_score": 0.27118187504314983,
+      "score_std": 0.2589413977813525,
+      "solutions": [
+        "**Step\u2011by\u2011step solution**\n\nThe Michaelis\u2013Menten equation gives the reaction rate \\(v\\) as  \n\n\\[\nv = \\frac{V_{\\max}\\,[S]}{K_m + [S]}\n\\]\n\nwhere  \n\n- \\(V_{\\max}\\) = maximum velocity (100\u202funits)  \n- \\(K_m\\) = Michaelis constant (5\u202fmM)  \n- \\([S]\\) = substrate concentration (5\u202fmM)\n\n---\n\n### 1. Plug the values into the equation\n\n\\[\nv = \\frac{100 \\times 5}{5 + 5}\n\\]\n\n---\n\n### 2. Compute the numerator\n\n\\[\n100 \\times 5 = 500\n\\]\n\n---\n\n### 3. Compute the denominator\n\n\\[\n5 + 5 = 10\n\\]\n\n---\n\n### 4. Divide\n\n\\[\nv = \\frac{500}{10} = 50\n\\]\n\n---\n\n## Result\n\nThe reaction rate at \\([S",
+        "**Step\u2011by\u2011step solution**\n\nThe Michaelis\u2013Menten equation for an enzyme\u2011catalyzed reaction is  \n\n\\[\nv = \\frac{V_{\\max}\\,[S]}{K_m + [S]}\n\\]\n\nwhere  \n\n- \\(v\\) = reaction rate (units\u202f/\u202ftime)  \n- \\(V_{\\max}\\) = maximum rate (when the enzyme is saturated)  \n- \\([S]\\) = substrate concentration  \n- \\(K_m\\) = Michaelis constant (substrate concentration at which \\(v = \\tfrac{1}{2}V_{\\max}\\))\n\n---\n\n### 1. Identify the given values\n\n| Symbol | Value | Units |\n|--------|-------|-------|\n| \\(V_{\\max}\\) | 100 | units (e.g., \u00b5mol\u202fmin\u207b\u00b9) |\n| \\(K_m\\) | 5 | mM |\n| \\([S]\\) | 5 | mM |\n\n---\n\n### 2. Plug the numbers into the equation\n\n\\[\nv = \\frac{",
+        "**Step\u2011by\u2011step solution**\n\n1. **Recall the Michaelis\u2013Menten equation**  \n   \\[\n   v = \\frac{V_{\\max}\\,[S]}{K_m + [S]}\n   \\]\n   where  \n   - \\(v\\) = reaction rate (units per time)  \n   - \\(V_{\\max}\\) = maximum rate (when the enzyme is saturated)  \n   - \\([S]\\) = substrate concentration  \n   - \\(K_m\\) = Michaelis constant (substrate concentration at half\u2011maximal velocity)\n\n2. **Insert the given values**  \n   - \\(V_{\\max} = 100\\) units  \n   - \\(K_m = 5\\)\u202fmM  \n   - \\([S] = 5\\)\u202fmM  \n\n   \\[\n   v = \\frac{100 \\times 5}{5 + 5}\n   \\]\n\n3."
+      ],
+      "step_scores": [
+        0.7167105992670998
+      ],
+      "average_step_score": 0.7167105992670998
+    },
+    null,
+    null,
+    {
+      "average_score": 0.3611523221194819,
+      "score_std": 0.12573234575561695,
+      "solutions": [
+        "**Step\u2011by\u2011step solution**\n\nWe have a discrete random variable \\(X\\) that can take the values\n\n\\[\nx \\in \\{0,\\;1,\\;2\\}\n\\]\n\nwith the corresponding probabilities\n\n\\[\nP(X=0)=0.2,\\qquad P(X=1)=0.5,\\qquad P(X=2)=0.3 .\n",
+        "**Step\u2011by\u2011step solution**\n\nThe discrete random variable \\(X\\) can take the values\n\n\\[\nx \\in \\{0,\\;1,\\;2\\}\n\\]\n\nwith corresponding probabilities\n\n\\[\nP(X=0)=0.2,\\qquad P(X=1)=0.5,\\qquad P(X=2)=0.3 .\n\\]\n\n---\n\n### 1. Expected value \\(E[X]\\)\n\nThe expectation of a discrete variable is\n\n\\[\nE",
+        "**Step\u2011by\u2011step solution**\n\nWe are given a discrete random variable \\(X\\) that can take the values\n\n\\[\nx \\in \\{0,\\;1,\\;2\\}\n\\]\n\nwith corresponding probabilities\n\n\\[\nP(X=0)=0.2,\\qquad P(X=1)=0.5,\\qquad P(X=2)=0.3 .\n\\]\n\n---\n\n### 1. Expected value \\(E[X]\\)\n\nThe expectation of a discrete random variable is\n\n\\[\nE[X] = \\sum_{x} x \\, P(X=x).\n\\]\n\nPlugging in the values:\n\n\\[\n\\begin{aligned}\nE[X] &= 0 \\cdot 0.2 \\;+\\; 1 \\cdot 0.5 \\;+\\; 2 \\cdot 0.3 \\\\\n     &= 0 \\;+\\; 0.5 \\;+\\; 0.6 \\\\\n     &= 1.1 .\n\\end{aligned}\n\\]\n\nSo\n\n\\[\n\\boxed{E[X] = 1.1}\n\\]\n\n---\n\n### 2. Variance \\(\\operatorname{Var}(X)\\)\n\nThe variance is\n\n\\[\n\\operatorname{Var}(X"
+      ],
+      "step_scores": [
+        0.736931129386907
+      ],
+      "average_step_score": 0.736931129386907
+    },
+    {
+      "average_score": 0.6604636205584732,
+      "score_std": 0.016505366592395262,
+      "solutions": [
+        "**Step\u2011by\u2011step evaluation**\n\nWe need to compute the definite integral  \n\n\\[\n\\int_{0}^{1} (3x^{2}-2x+1)\\,dx .\n\\]\n\n---\n\n### 1. Integrate each term separately\n\nThe integral of a sum is the sum of the integrals, so\n\n\\[\n\\int (3x^{2}-2x+1)\\,dx\n   = \\int 3x^{2}\\,dx \\;-\\; \\int 2x\\,dx \\;+\\; \\int 1\\,dx .\n\\]\n\nCompute each:\n\n| Term | Integral |\n|------|----------|\n| \\(3x^{2}\\) | \\(3 \\cdot \\frac{x^{3}}{3} = x^{3}\\) |\n| \\(-2x\\) | \\(-2",
+        "**Step\u2011by\u2011step solution**\n\nWe need to evaluate the definite integral  \n\n\\[\n\\int_{0}^{1} (3x^{2}-2x+1)\\,dx .\n\\]\n\n---\n\n### 1. Integrate the integrand term by term\n\nThe integrand is a polynomial, so we can integrate each term separately.\n\n| Term | Integral |\n|------|----------|\n| \\(3x^{2}\\) | \\(\\displaystyle \\int 3x^{2}\\,dx = 3\\cdot\\frac{x^{3}}{3}=x^{3}\\) |\n| \\(-2x\\) | \\(\\displaystyle \\int -2x\\,dx = -2\\cdot\\frac{x^{2}}{2}=-x^{2",
+        "**Step\u2011by\u2011step evaluation**\n\nWe want to compute the definite integral  \n\n\\[\n\\int_{0}^{1} (3x^{2}-2x+1)\\,dx .\n\\]\n\n---\n\n### 1. Find an antiderivative\n\nIntegrate each term separately:\n\n| Term | Integral |\n|------|----------|\n| \\(3x^{2}\\) | \\(\\displaystyle \\int 3x^{2}\\,dx = x^{3}\\) |\n| \\(-2x\\) | \\(\\displaystyle \\int -2x\\,dx = -x^{2}\\) |\n| \\(1\\) | \\(\\displaystyle \\int 1\\,dx = x\\) |\n\nAdd them together:\n\n\\[\nF(x)=x^{3}-x^{2}+x .\n\\]\n\n"
+      ],
+      "step_scores": [
+        0.6963565872309174
+      ],
+      "average_step_score": 0.6963565872309174
+    },
+    null,
+    {
+      "average_score": 0.39228297099109816,
+      "score_std": 0.12506538577595272,
+      "solutions": [
+        "**Step 1 \u2013 Identify the function**\n\n\\[\nf(x)=x^{2}-6x+13\n\\]\n\nIt is a quadratic polynomial in \\(x\\). For a quadratic of the form \\(ax^{2}+bx+c\\) with \\(a>0\\), the graph is a parabola opening upward, so it has a single minimum point.\n\n---\n\n**Step 2 \u2013 Complete the square**\n\nRewrite the quadratic so that it contains a perfect square:\n\n\\[\n\\begin{aligned}\nf(x) &= x^{2}-6x+13 \\\\\n     &= \\bigl(x^{2}-6x\\bigr)+13 \\\\\n     &= \\bigl[(x-3)^{2}-9\\bigr]+13 \\qquad\\text{(since }(x-3)^2=x^2-6x+9\\text{)}\\\\\n     &= (x-3)^{2}-9+13 \\\\\n     &= (x-",
+        "**Step\u2011by\u2011step solution**\n\nWe want to find the smallest value of the quadratic function  \n\n\\[\nf(x)=x^{2}-6x+13\n\\]\n\nand the point \\(x\\) where this minimum occurs.\n\n---\n\n### 1. Recognize the form\n\nA quadratic function \\(f(x)=ax^{2}+bx+c\\) with \\(a>0\\) opens upward, so it has a single minimum at its vertex.  \nFor \\(f(x)=x^{2}-6x+13\\):\n\n- \\(a=1>0\\) (so the parabola opens upward)\n- \\(b=-6\\)\n- \\(c=13\\)\n\n---\n\n### 2. Find the vertex (minimizer)\n\nThe \\(x\\)-coordinate of the vertex is\n\n\\[\nx_{\\text{min}} = -\\frac{b}{2a}\n\\]\n\nPlugging in \\(a=1\\) and \\(b=-6\\):\n\n",
+        "**Step 1: Identify the function**\n\n\\[\nf(x)=x^2-6x+13\n\\]\n\nIt is a quadratic function of the form \\(ax^2+bx+c\\) with \\(a=1>0\\), so its graph is a parabola opening upward. Therefore it has a single minimum point.\n\n---\n\n**Step 2: Complete the square**\n\nRewrite the quadratic part:\n\n\\[\nx^2-6x = (x-3)^2-9\n\\]\n\n(We added and subtracted \\(3^2=9\\).)\n\nNow substitute back into \\(f(x)\\):\n\n\\[\nf(x) = \\big[(x-3)^2-9\\big] + 13\n      = (x-3)^2 + 4\n\\]\n\n---\n\n**Step 3: Find the minimizer**\n\nThe term \\((x-3)^2"
+      ],
+      "step_scores": [
+        0.7526157733524151
+      ],
+      "average_step_score": 0.7526157733524151
+    },
+    {
+      "average_score": 0.5541795849707346,
+      "score_std": 0.023914897338890934,
+      "solutions": [
+        "**Step\u2011by\u2011step solution of the 0/1 Knapsack**\n\n| Item | Value | Weight |\n|------|-------|--------|\n| A    | 4     | 2      |\n| B    | 5     | 3      |\n| C    | 7     | 4      |\n\nCapacity of the knapsack: **5**\n\n---\n\n### 1. List all feasible combinations\n\nBecause it is a 0/1 knapsack, each item can be taken **once** or **not at all**.  \nWe enumerate every subset of the three items and check whether",
+        "**Problem**\n\nWe have three items:\n\n| Item | Value | Weight |\n|------|-------|--------|\n| A    | 4     | 2      |\n| B    | 5     | 3      |\n| C    | 7     | 4      |\n\nThe knapsack can hold at most **5 units of weight**.  \nWe must decide which items to put in the knapsack (each item can be taken at most once) so",
+        "**Step\u2011by\u2011step solution of the 0/1 Knapsack**\n\n| Item | Value | Weight |\n|------|-------|--------|\n| A    | 4     | 2      |\n| B    | 5     | 3      |\n| C    | 7     | 4      |\n| **Capacity** | \u2013 | **5** |\n\nThe goal is to pick a subset of the items (each item can be taken at"
+      ],
+      "step_scores": [
+        0.7910171253247943
+      ],
+      "average_step_score": 0.7910171253247943
+    },
+    null,
+    null,
+    null,
+    {
+      "average_score": 0.3958428152569004,
+      "score_std": 0.0020857365376301304,
+      "solutions": [
+        "**Step\u2011by\u2011step solution**\n\nWe are asked to solve  \n\n\\[\n\\log_{10}(x)+\\log_{10}(x-9)=2 , \\qquad x>9\n\\]\n\n---\n\n### 1.  Combine the logarithms\n\nUsing the product rule for logarithms  \n\n",
+        "**Step\u2011by\u2011step solution**\n\nWe are asked to solve  \n\n\\[\n\\log_{10}(x)+\\log_{10}(x-9)=2 ,\\qquad x>9\n\\]\n\n---\n\n### 1.  Combine the logarithms\n\nUsing the product rule for logarithms  \n\n\\[\n\\log",
+        "**Step\u2011by\u2011step solution**\n\nWe are asked to solve  \n\n\\[\n\\log_{10}(x)+\\log_{10}(x-9)=2 , \\qquad x>9\n\\]\n\n---\n\n### 1.  Combine the logarithms  \n\nUsing the product rule for logarithms  \n\n\\[\n\\log_{10}"
+      ],
+      "step_scores": [
+        0.7597828297019873
+      ],
+      "average_step_score": 0.7597828297019873
+    },
+    null,
+    {
+      "average_score": 0.3145388667371434,
+      "score_std": 0.010212387431163115,
+      "solutions": [
+        "**Step\u2011by\u2011step solution**\n\n1. **Identify the given values**  \n   - Actual (experimental) yield of aspirin = **8.50\u202fg**  \n   - Theoretical (maximum possible) yield = **10.0\u202fg**\n\n2. **Recall the formula for percent yield**  \n   \\[\n   \\text{Percent yield} = \\left(\\frac{\\text{Actual yield}}{\\text{Theoretical yield}}\\right) \\times 100\\%\n   \\]\n\n3. **Insert the numbers into the formula**  \n   \\[\n   \\text{Percent yield} = \\left(\\frac{8.50\\ \\text{g}}{10.0\\ \\text{g}}\\right) \\times 100\\%\n   \\]\n\n4. **Perform the division**  \n   \\[\n   \\frac{8.50}{10.0} = 0.85\n   \\]\n\n5. **Convert to a percentage**  \n   \\[\n   0.85 \\times 100\\% = 85\\%\n   \\]\n\n---\n\n**",
+        "**Step\u2011by\u2011step solution**\n\n1. **Identify the given values**  \n   - Actual (experimental) yield of aspirin = **8.50\u202fg**  \n   - Theoretical (maximum possible) yield = **10.0\u202fg**\n\n2. **Recall the formula for percent yield**  \n   \\[\n   \\text{Percent yield} = \\left(\\frac{\\text{Actual yield}}{\\text{Theoretical yield}}\\right) \\times 100\\%\n   \\]\n\n3. **Insert the numbers into the formula**  \n   \\[\n   \\text{Percent yield} = \\left(\\frac{8.50\\,\\text{g}}{10.0\\,\\text{g}}\\right) \\times 100\\%\n   \\]\n\n4. **Perform the division**  \n   \\[\n   \\frac{8.50}{10.0} = 0.85\n   \\]\n\n5. **Convert to a percentage**  \n   \\[\n   0.85 \\times 100\\% = 85\\%\n   \\]\n\n---\n\n**Answer:** The percent yield",
+        "**Step\u2011by\u2011step solution**\n\n1. **Identify the given values**  \n   - Actual (experimental) yield of aspirin = **8.50\u202fg**  \n   - Theoretical (maximum possible) yield = **10.0\u202fg**\n\n2. **Recall the formula for percent yield**  \n   \\[\n   \\text{Percent yield} = \\left(\\frac{\\text{Actual yield}}{\\text{Theoretical yield}}\\right) \\times 100\\%\n   \\]\n\n3. **Plug in the numbers**  \n   \\[\n   \\text{Percent yield} = \\left(\\frac{8.50\\ \\text{g}}{10.0\\ \\text{g}}\\right) \\times 100\\%\n   \\]\n\n4. **Perform the division**  \n   \\[\n   \\frac{8.50}{10.0} = 0.85\n   \\]\n\n5. **Convert to a percentage**  \n   \\[\n   0.85 \\times 100\\% = 85\\%\n   \\]\n\n---\n\n**Answer:** The percent yield of the experiment is **"
+      ],
+      "step_scores": [
+        0.7381597627041792
+      ],
+      "average_step_score": 0.7381597627041792
+    },
+    {
+      "average_score": 0.15976514873758726,
+      "score_std": 0.03415498416362068,
+      "solutions": [
+        "**Step\u2011by\u2011step solution**\n\n1. **Identify the given values**\n\n   | Item | Symbol | Value |\n   |------|--------|-------|\n   | Fixed costs | \\(F\\) | \\$50,000 |\n   | Variable cost per unit | \\(v\\) | \\$30 |\n   | Selling price per unit | \\(p\\) | \\$50 |\n\n2. **Write the break\u2011even condition**\n\n   At the break\u2011even point, total revenue equals total cost.\n\n   \\[\n   \\text{Revenue} = \\text{Total Cost}\n   \\]\n\n   \\[\n   p \\times Q = F + v \\times Q\n   \\]\n\n   where \\(Q\\) is the quantity of units sold.\n\n3. **Substitute the numbers**\n\n   \\[\n   50Q = 50{,}000 + 30Q\n   \\]\n\n4. **Solve for \\(Q\\)**\n\n   - Subtract \\(30Q\\) from both sides:\n\n     \\[\n     50",
+        "**Step\u2011by\u2011step solution**\n\n1. **Identify the components of cost and revenue**\n\n   | Item | Symbol | Value |\n   |------|--------|-------|\n   | Fixed cost | \\(F\\) | \\$50,000 |\n   | Variable cost per unit | \\(v\\) | \\$30 |\n   | Selling price per unit | \\(p\\) | \\$50 |\n\n2. **Write the total cost function**\n\n   Total cost \\(C(Q)\\) for producing \\(Q\\) units is the sum of fixed cost and variable cost:\n   \\[\n   C(Q) = F + vQ = 50{,}000 + 30Q\n   \\]\n\n3. **Write the total revenue function**\n\n   Total revenue \\(R(Q)\\) from selling \\(Q\\) units is:\n   \\",
+        "**Step\u2011by\u2011step solution**\n\n1. **Identify the components of cost and revenue**\n\n   | Item | Symbol | Value |\n   |------|--------|-------|\n   | Fixed cost | \\(F\\) | \\$50,000 |\n   | Variable cost per unit | \\(v\\) | \\$30 |\n   | Selling price per unit | \\(p\\) | \\$50 |\n\n2. **Write the total cost function**\n\n   Total cost \\(C(Q)\\) for producing \\(Q\\) units is the sum of fixed cost and variable cost:\n\n   \\[\n   C(Q) = F + vQ = 50{,}000 + 30Q\n   \\]\n\n3. **Write the total revenue function**\n\n   Total revenue \\(R(Q)\\) for selling \\(Q\\) units is:\n\n   \\[\n   R(Q) = pQ = 50Q\n   \\]\n\n4. **Set revenue equal to cost for the break\u2011even point"
+      ],
+      "step_scores": [
+        0.8209480181089199
+      ],
+      "average_step_score": 0.8209480181089199
+    },
+    {
+      "average_score": 0.35957216935094,
+      "score_std": 0.13555812116934174,
+      "solutions": [
+        "**Step\u2011by\u2011step solution**\n\n1. **Identify the given values**\n\n   | Year | Basket cost | CPI (by definition) |\n   |------|-------------|----------------------|\n   | Base year | $200 | 100 |\n   | Current year | $230 | ? |\n\n2. **Compute the current\u2011year CPI**\n\n   The Consumer Price Index (CPI) is defined as\n\n   \\[\n   \\text{CPI}_{\\text{current}} = \\frac{\\text{Cost of basket in current year}}\n   {\\text{Cost of basket in base year}}\\times 100\n   \\]\n\n   Plugging in the numbers:\n\n   \\[\n   \\text{CPI}_{\\text{current}} = \\frac{230}{200}\\times 100\n   = 1.15 \\times 100\n   = 115\n   \\]\n\n   So the CPI this year is **115",
+        "**Step\u2011by\u2011step solution**\n\n1. **Identify the data**\n\n   | Year | Cost of the basket |\n   |------|--------------------|\n   | Base year | \\$200 |\n   | Current year | \\$230 |\n\n   The base\u2011year CPI is defined to be 100.\n\n2. **Compute the CPI for the current year**\n\n   The Consumer Price Index (CPI) is calculated as\n\n   \\[\n   \\text{CPI}_{\\text{current}} = \\frac{\\text{Cost of basket in current year}}\n                                    {\\text{Cost of basket in base year}}\n                                   \\times 100 .\n   \\]\n\n   Plugging in the numbers:\n\n   \\[\n   \\text",
+        "**Step\u2011by\u2011step solution**\n\n1. **Identify the data**  \n   - Cost of the basket in the base year (2008, for example) = **$200**  \n   - Cost of the same basket this year (2023, for example) = **$230**  \n   - By definition the Consumer Price Index (CPI) for the base year is **100**.\n\n2. **Compute this year\u2019s CPI**  \n   The CPI is calculated as the ratio of the current price level to the base\u2011year price level, multiplied by 100:\n\n   \\[\n   \\text{CPI}_{\\text{this year}} = \\frac{\\text{Cost this year}}{\\text{Cost base year}} \\times 100\n   \\]\n\n   Plugging in the numbers:\n\n   \\[\n   \\text{CPI}_{\\text{this year}} = \\frac{230}{200} \\times 100 = 1.15 \\times 100 = \\boxed{"
+      ],
+      "step_scores": [
+        0.8823706270794296
+      ],
+      "average_step_score": 0.8823706270794296
+    },
+    {
+      "average_score": 0.128207373065342,
+      "score_std": 0.025349213918920924,
+      "solutions": [
+        "**Step\u2011by\u2011step calculation of allele frequencies**\n\n| Genotype | Count | A alleles | a alleles |\n|----------|-------|-----------|-----------|\n| AA       | 40    | 40\u202f\u00d7\u202f2 = 80 | 0 |\n| Aa       | 40    | 40\u202f\u00d7\u202f1 = 40 | 40\u202f\u00d7\u202f1 = 40 |\n| aa       | 20    | 0",
+        "**Step\u2011by\u2011step calculation of allele frequencies**\n\n|",
+        "**Step\u2011by\u2011step calculation of allele frequencies**\n\n| Genotype | Count | A alleles | a alleles |\n|----------|-------|-----------|-----------|\n| AA       | 40    | 2\u202f\u00d7\u202f40 = 80 | 0 |\n| Aa       | 40    | 1\u202f\u00d7\u202f40 = 40 | 1\u202f\u00d7\u202f40 = 40 |\n| aa       | 20    | 0 | 2\u202f\u00d7\u202f20 = 40 |\n\n1. **Total number of alleles"
+      ],
+      "step_scores": [
+        0.4363149934384863
+      ],
+      "average_step_score": 0.4363149934384863
+    },
+    null,
+    {
+      "average_score": 0.2926648235146946,
+      "score_std": 0.1915751660119157,
+      "solutions": [
+        "",
+        "**Step\u2011by\u2011step solution**\n\n1. **Identify the formula for sample size**  \n   For estimating a population proportion \\(p\\) with a desired margin of error \\(E\\) at a given confidence level, the required sample size \\(n\\) is\n\n   \\[\n   n = \\frac{Z^{2}\\,p(1-p)}{E^{2}}\n   \\]\n\n   where  \n   * \\(Z\\) = critical value for the chosen confidence level,  \n   * \\(p\\) = estimated proportion (use a conservative value if unknown),  \n  ",
+        "**Step\u2011by\u2011step solution**\n\n1. **Identify the formula for sample size**  \n   For estimating a population proportion \\(p\\) with a desired margin of error \\(E\\) at a given confidence level, the required sample size is\n\n   \\[\n   n = \\frac{Z^2 \\, p \\, (1-p)}{E^2}\n   \\]\n\n   where  \n   - \\(Z\\) = critical value for the chosen confidence level,  \n   - \\(p\\) = estimated proportion (use 0.5 for the most conservative estimate),  \n  "
+      ],
+      "step_scores": [],
+      "average_step_score": null
+    },
+    {
+      "average_score": 0.22516746877930324,
+      "score_std": 0.02073479042909387,
+      "solutions": [
+        "**Step\u2011by\u2011step solution**\n\n| Step | What to do | Calculation | Result |\n|------|------------|-------------|--------|\n| 1 | **State the hypotheses** | \\(H_0:\\mu = 70\\) \u2003vs\u2003\\(H_1:\\mu \\neq 70\\) | \u2013 |\n| 2 | **Identify the test statistic** | Known population \u03c3 \u2192 use a *z*\u2011test. | \u2013 |\n| 3 | **Compute the standard error (SE)** | \\(\\displaystyle SE = \\frac{\\sigma}{\\sqrt{n}} = \\frac{12}{\\sqrt{36}} = \\frac{",
+        "**Step\u2011by\u2011step solution**\n\n| Step | What to do | Calculation | Result |\n|------|------------|-------------|--------|\n| 1 | **State the hypotheses** | \\(H_0:\\mu = 70\\) \u2003vs\u2003\\(H_1:\\mu \\neq 70\\) | \u2013 |\n| 2 | **Choose the test statistic** | Population standard deviation is known (\\(\\sigma = 12",
+        "**Step\u2011by\u2011step solution**\n\n---\n\n### 1.  State the hypotheses  \n\n\\[\n\\begin{aligned}\nH_0 &: \\mu = 70 \\\\\nH_1 &: \\mu \\neq 70 \\qquad(\\text{two\u2011sided test})\n\\end{aligned}\n\\]\n\n---\n\n### 2.  Identify the test statistic  \n\nBecause the population"
+      ],
+      "step_scores": [
+        0.6591804544853608
+      ],
+      "average_step_score": 0.6591804544853608
+    },
+    {
+      "average_score": 0.7644022268356704,
+      "score_std": 0.04584805352133471,
+      "solutions": [
+        "**Step\u2011by\u2011step differentiation**\n\nWe have the function  \n\n\\[\ny = \\bigl(3x^{2} - x + 1\\bigr)^{5}.\n\\]\n\nThis is a composite function: an outer function \\(u^{5}\\) and an inner function \\(u = 3x^{2} - x + 1\\).  \nTo differentiate, we use the **chain rule**:\n\n\\[\n\\frac{dy}{dx} = \\frac{d}{dx}\\bigl(u^{5}\\bigr)\\Big|_{u=3x^{2}-x+1}\n               = 5u^{4}\\cdot \\frac{du}{dx}.\n\\]\n\n---\n\n### 1. Differentiate the inner function \\(u = 3x^{2} - x + 1\\)\n\n\\",
+        "**Step\u2011by\u2011step differentiation**\n\nWe have  \n\n\\[\ny = \\bigl(3x^{2} - x + 1\\bigr)^{5}\n\\]\n\nLet  \n\n\\[\nu = 3x^{2} - x + 1\n\\]\n\nThen \\(y = u^{5}\\).\n\n---\n\n### 1. Differentiate the outer function (power rule)\n\nFor \\(y = u^{5}\\),\n\n\\[\n\\frac{dy}{du} = 5u^{4}\n\\]\n\n---\n\n### 2. Differentiate the inner function (derivative of \\(u\\))\n\n\\[\nu = 3x^{2} - x + 1\n\\]\n\n\\[\n\\frac{du}{dx} = 6x - 1\n\\]\n\n---\n\n### 3. Apply the chain",
+        "**Step\u2011by\u2011step differentiation**\n\nWe have the function  \n\n\\[\ny = \\bigl(3x^{2}-x+1\\bigr)^{5}.\n\\]\n\nThis is a *composition* of two functions:\n\n1. **Outer function**: \\(u^5\\) where \\(u = 3x^{2}-x+1\\).\n2. **Inner function**: \\(u = 3x^{2}-x+1\\).\n\nTo differentiate \\(y\\) we use the **chain rule**:\n\n\\[\n\\frac{dy}{dx}= \\frac{d}{dx}\\bigl(u^5\\bigr)=5u^{4}\\cdot\\frac{du}{dx}.\n\\]\n\n---\n\n### 1. Differentiate the inner function \\(u = 3x^{2}-x+1\\)\n\n\\[\n\\frac{du}{dx}= \\frac{d}{dx}(3x^{2})-\\frac{d}{dx}("
+      ],
+      "step_scores": [
+        0.8553311190644628
+      ],
+      "average_step_score": 0.8553311190644628
+    },
+    {
+      "average_score": 0.5804402998727175,
+      "score_std": 0.012939653849193704,
+      "solutions": [
+        "**Step\u2011by\u2011step solution**\n\nWe want to evaluate the indefinite integral  \n\n\\[\n\\int x\\,e^{2x}\\,dx .\n\\]\n\nBecause the integrand is a product of a polynomial \\(x\\) and an exponential \\(e^{2x}\\), the natural technique is **integration by parts**.\n\n---\n\n### 1. Recall the integration\u2011by\u2011parts formula\n\n\\[\n\\int u\\,dv = uv - \\int v\\,du .\n\\]\n\nWe need to choose \\(u\\) and \\(dv\\) so that the resulting integral \\(\\int v\\,du\\)",
+        "**Problem**\n\nEvaluate the indefinite integral  \n\n\\[\n\\int x\\,e^{2x}\\,dx .\n\\]\n\n---\n\n## Step\u2011by\u2011step solution\n\nThe integr",
+        "**Problem**\n\nEvaluate the indefinite integral  \n\n\\[\n\\int x\\,e^{2x}\\,dx .\n\\]\n\n---\n\n## Step\u2011by\u2011Step Solution\n\n### 1. Choose the method  \nThe integrand is a product of a polynomial \\(x\\) and an exponential \\(e^{2x}\\).  \nThe standard technique for such products is **integration by parts"
+      ],
+      "step_scores": [
+        0.9016833958611625
+      ],
+      "average_step_score": 0.9016833958611625
+    },
+    null,
+    null,
+    {
+      "average_score": 0.381434352945567,
+      "score_std": 0.006209729763248527,
+      "solutions": [
+        "**Step 1 \u2013 Recognize the type of equation**\n\nThe equation  \n\n\\[\nx^{4}-5x^{2}+4=0\n\\]\n\ncontains only even powers of \\(x\\).  \nIt is a *biquadratic* (a quadratic in \\(x^{2}\\)).  \nSo we can simplify it by substituting\n\n\\[\ny = x^{2}\\quad (\\text{so } y \\ge 0 \\text{ for real } x).\n\\]\n\n---\n\n**Step 2 \u2013 Rewrite the equation in terms of \\(y\\)**  \n\n\\[\nx^{4}-5x^{2}+4",
+        "**Step 1 \u2013 Recognize the structure**\n\nThe equation  \n\n\\[\nx^{4}-5x^{2}+4=0\n\\]\n\nis a *quartic* (degree\u202f4) but it contains only even powers of \\(x\\).  \nThat means we can treat \\(x^{2}\\) as a single variable.\n\n---\n\n**Step 2 \u2013 Substitute \\(y = x^{2}\\)**  \n\nLet  \n\n\\[\ny = x^{2}\\quad(\\text{so } y \\ge 0 \\text{ for real } x)\n\\]\n\nThen the equation becomes a quadratic in \\(y\\",
+        "**Step 1 \u2013 Recognize the type of equation**\n\nThe equation  \n\n\\[\nx^{4}-5x^{2}+4=0\n\\]\n\ncontains only even powers of \\(x\\).  \nThis is a *biquadratic* equation (a quadratic in \\(x^{2}\\)).  \nSo we can simplify it by substituting\n\n\\[\ny = x^{2}\\quad (\\text{with } y\\ge 0 \\text{ for real } x).\n\\]\n\n---\n\n**Step 2 \u2013 Rewrite the equation in terms of \\(y\\)**  \n\n\\[\nx^{4}-5x^{2}+4 = (x^{2})^{2} - 5(x^{"
+      ],
+      "step_scores": [
+        0.6366969363173103
+      ],
+      "average_step_score": 0.6366969363173103
+    },
+    null,
+    {
+      "average_score": 0.26787636568324935,
+      "score_std": 0.017692631012950377,
+      "solutions": [
+        "**Step\u2011by\u2011step solution**\n\n---\n\n### 1.  Write the profit function\n\nThe monopol",
+        "**Step\u2011by\u2011step solution**\n\n1. **Write the profit function**\n\n   The monopolist\u2019s profit is  \n   \\[\n   \\pi(Q)=\\text{Total Revenue}-\\text{Total",
+        "**Step 1 \u2013 Write the profit function**\n\nThe monopolist\u2019s profit is\n\n\\[\n\\pi(Q)=\\text{Revenue}-\\text{"
+      ],
+      "step_scores": [
+        0.21234666750022127
+      ],
+      "average_step_score": 0.21234666750022127
+    },
+    {
+      "average_score": 0.31034750877248285,
+      "score_std": 0.022660678128850607,
+      "solutions": [
+        "**Step\u2011by\u2011step solution**\n\nThe period \\(T\\) of a simple pendulum (small oscillations) is related to its length \\(L\\) by\n\n\\[\nT \\;=\\; 2\\pi \\sqrt{\\frac{L}{g}}\n\\]\n\nwhere  \n\\(g = 9.8\\ \\text{m/s}",
+        "**Step\u2011by\u2011step solution**\n\nThe period \\(T\\) of a simple pendulum (small oscillations) is\n\n\\[\nT \\;=\\; 2\\pi \\sqrt{\\frac{L}{g}}\n\\]\n\nwhere  \n\n* \\(L\\) = length of the pendulum (m)  \n* \\(g\\) = acceleration due to gravity (m\u202fs\\(^{-2}\\))\n\nWe are given  \n\n* \\(T = 2.0\\;\\text{s}\\)  \n* \\(g = 9.8\\;\\text{m\u202fs}^{-2}\\)\n\nWe need to solve for \\(L\\).\n\n---\n\n### ",
+        "**Step\u2011by\u2011step solution**\n\nThe period \\(T\\) of a simple pendulum (small oscillations) is given by  \n\n\\[\nT \\;=\\; 2\\pi \\sqrt{\\frac{L}{g}}\n\\]\n\nwhere  \n\n* \\(L\\) = length of the pendulum (m)  \n* \\(g\\) = acceleration due to gravity (m\u202fs\\(^{-2}\\))  \n\nWe are given  \n\n* \\(T = 2.0\\ \\text{s}\\)  \n* \\(g = 9.8\\ \\text{m/s}^2\\)\n\nWe need to solve for \\(L\\).\n\n---\n\n### 1. Isolate the square\u2011root term\n\n\\[\n\\frac{"
+      ],
+      "step_scores": [
+        0.7373651775160804
+      ],
+      "average_step_score": 0.7373651775160804
+    },
+    {
+      "average_score": 0.7651859913189524,
+      "score_std": 0.016034136528825342,
+      "solutions": [
+        "**Step\u2011by\u2011step solution**\n\n1. **Identify the given quantities**\n\n   | Symbol | Meaning | Value |\n   |--------|---------|-------|\n   | \\(m\\)  | Mass of the object | \\(0.5 \\ \\text{kg}\\) |\n   | \\(v\\)  | Speed (magnitude of velocity) | \\(4 \\ \\text{m/s}\\) |\n   | \\(r\\)  | Radius of the circular path | \\(2 \\ \\text{m}\\) |\n\n2. **Recall the formula for centripetal force**\n\n   The force that keeps an object moving in a circle of radius \\(r\\) at speed \\(v\\) is\n\n   \\[\n   F_{\\text{c}} = \\frac{m v^{2}}{r}\n   \\]\n\n   This force is directed toward the center of the circle.\n\n3. **Compute \\(v^{2}\\)**\n\n   \\[\n   v^{2} =",
+        "**Step 1: Identify the formula for centripetal force**\n\nFor an object of mass \\(m\\) moving in a circle of radius \\(r\\) with a constant speed \\(v\\), the centripetal (inward) force is  \n\n\\[\nF_c = \\frac{m v^{2}}{r}\n\\]\n\n---\n\n**Step 2: Plug in the given values**\n\n- Mass \\(m = 0.5 \\ \\text{kg}\\)\n- Speed \\(v = 4 \\ \\text{m/s}\\)\n- Radius \\(r = 2 \\ \\text{m}\\)\n\n\\[\nF_c = \\frac{(0.5 \\ \\text{kg}) \\times (4 \\ \\text{m/s})^{2}}{2 \\ \\text{m}}\n\\]\n\n---\n\n**Step 3: Compute \\(v^2\\)**\n\n\\[\nv^2 = (4 \\ \\text{m/s})",
+        "**Step\u2011by\u2011step solution**\n\n1. **Identify the given quantities**\n\n   | Symbol | Quantity | Value |\n   |--------|----------|-------|\n   | \\(m\\)  | Mass of the object | \\(0.5\\ \\text{kg}\\) |\n   | \\(v\\)  | Speed (magnitude of velocity) | \\(4\\ \\text{m/s}\\) |\n   | \\(r\\)  | Radius of the circular path | \\(2\\ \\text{m}\\) |\n\n2. **Recall the formula for centripetal force**\n\n   The force that keeps an object moving in a circle of radius \\(r\\) at speed \\(v\\) is\n\n   \\[\n   F_c = \\frac{m v^2}{r}\n   \\]\n\n   where:\n   - \\(F_c\\) is the centripetal force,\n   - \\(m\\) is the mass,\n   - \\(v\\) is the speed,\n   - \\(r\\"
+      ],
+      "step_scores": [
+        0.7244440678119981
+      ],
+      "average_step_score": 0.7244440678119981
+    },
+    {
+      "average_score": 0.10433608844588234,
+      "score_std": 0.027431302323093053,
+      "solutions": [
+        "**Step\u2011by\u2011step solution**\n\n1. **Identify the motion type**  \n   The block is attached to a spring and oscillates with a fixed amplitude and frequency.  \n   This is a *simple harmonic motion* (SHM).\n\n2. **Write the SHM equations**  \n   For SHM the displacement can be written as  \n   \\[\n   x(t)=A\\cos",
+        "**Step\u2011by\u2011step solution**\n\n1. **Identify the known quantities**\n\n   | Symbol | Meaning | Value |\n   |--------|---------|-------|\n   | \\(m\\)  | mass of the block | \\(1\\;\\text{kg}\\) |\n   | \\(A\\)  | amplitude of oscillation | \\(0.1\\;\\text{m}\\) |\n   | \\(f\\)  | frequency | \\(2\\;\\text{Hz}\\) |\n\n2. **",
+        "**Step\u2011by\u2011step solution**\n\n1. **Identify the relevant formula**\n\n   For a mass\u2013spring system undergoing simple harmonic motion (SHM)\n\n   \\[\n   x(t)=A\\cos(\\omega t+\\phi)\n   \\]\n\n   the acceleration is\n\n   \\[\n   a(t) = -A\\omega^{2}\\cos(\\omega t"
+      ],
+      "step_scores": [
+        0.12499655678877425
+      ],
+      "average_step_score": 0.12499655678877425
+    },
+    {
+      "average_score": 0.6744741979775242,
+      "score_std": 0.028199448568482714,
+      "solutions": [
+        "**Step\u2011by\u2011step simplification**\n\n1. **Expand the squared term**  \n   \\[\n  ",
+        "**Step\u2011by\u2011step simplification**\n\n1. **Expand the squared term**  \n   \\[\n   (2x^{3}y^{2})^{2}= (2)^{2}\\,(x^{3})^{2}\\,(y^{2})^{2}\n   \\]\n   \\[\n   = 4\\,x^{6}\\,y^{4}\n   \\]\n\n2. **Write the whole expression**  \n   \\[\n   \\frac{(2x^{3}y",
+        "**Step\u2011by\u2011step simplification**\n\nWe want to simplify  \n\n\\[\n\\frac{(2x^{3}y^{2})^{2}}{4x^{2}y^{3}}\n\\]\n\n---\n\n### 1. Expand the numerator\n\n\\[\n(2x^{3}y^{2})^{2}= (2)"
+      ],
+      "step_scores": [
+        0.2765094393939405
+      ],
+      "average_step_score": 0.2765094393939405
+    },
+    {
+      "average_score": 0.7464950348532242,
+      "score_std": 0.00908809531024342,
+      "solutions": [
+        "**Step\u2011by\u2011step solution**\n\n1. **Identify the known sides**  \n   In a right triangle, the two legs are the sides that form the right angle.  \n   Here the legs are  \n   \\[\n   a = 6 \\quad\\text{and}\\quad b = 8 .\n   \\]\n\n2. **Recall the Pythagorean theorem**  \n   For a right triangle with legs \\(a\\) and \\(b\\) and hypotenuse \\(c\\), the theorem states:  \n   \\[\n   c^{2} = a^{2} + b^{2}.\n   \\]\n\n3. **Plug in the values**  \n   \\[\n   c^{2} = 6^{2} + 8^{2} = 36 + 64 = 100.\n   \\]\n\n4. **Solve for \\(c\\)**  \n   Take the square root of both sides:  \n   \\[\n   c = \\sqrt{100} = 10.\n   \\]\n\n5. **Answer**  \n   The hypotenuse of the triangle is **10",
+        "**Step\u2011by\u2011step solution**\n\n1. **Identify the known sides**  \n   In a right triangle, the two shorter sides are called the *legs*.  \n   Here the legs are  \n   \\[\n   a = 6 \\quad\\text{and}\\quad b = 8 .\n   \\]\n\n2. **Recall the Pythagorean theorem**  \n   For any right triangle,\n   \\[\n   \\text{hypotenuse}^2 = a^2 + b^2 .\n   \\]\n\n3. **Square each leg**  \n   \\[\n   a^2 = 6^2 = 36, \\qquad\n   b^2 = 8^2 = 64 .\n   \\]\n\n4. **Add the squares**  \n   \\[\n   a^2 + b^2 = 36 + 64 = 100 .\n   \\]\n\n5. **Take the square root**  \n   \\[\n   \\text{hypotenuse} = \\sqrt{100} = 10 .\n   \\]\n\n---\n\n**Answer:** The hypotenuse of the right triangle is **10**.",
+        "**Step\u2011by\u2011step solution**\n\n1. **Identify the known sides**  \n   In a right triangle, the two shorter sides are called the *legs*.  \n   Here the legs are  \n   \\[\n   a = 6 \\quad\\text{and}\\quad b = 8 .\n   \\]\n\n2. **Recall the Pythagorean theorem**  \n   For any right triangle,\n   \\[\n   c^2 = a^2 + b^2 ,\n   \\]\n   where \\(c\\) is the length of the *hypotenuse* (the side opposite the right angle).\n\n3. **Plug in the values**  \n   \\[\n   c^2 = 6^2 + 8^2 = 36 + 64 = 100 .\n   \\]\n\n4. **Solve for \\(c\\)**  \n   Take the square root of both sides:\n   \\[\n   c = \\sqrt{100} = 10 .\n   \\]\n\n5. **Answer**  \n   The hypotenuse"
+      ],
+      "step_scores": [
+        0.836617577814615
+      ],
+      "average_step_score": 0.836617577814615
+    },
+    {
+      "average_score": 0.12421913299070787,
+      "score_std": 0.012764424025648828,
+      "solutions": [
+        "**Step 1: Identify the arithmetic sequence parameters**\n\n- First term \\(a_1 = 3\\)\n- Common difference \\(d = 7 - 3 = 4\\)\n\n**Step 2: Recall the formula for the sum of the first \\(n\\) terms of an arithmetic sequence**\n\n\\[\nS_n = \\frac{n}{2}\\bigl(2a_1 + (n-1)d\\bigr)\n\\]\n\n**Step 3: Plug in \\(n = 20\\)**\n\n\\[\nS_{20} = \\frac{20}{2}\\Bigl(2(3) + (20-1)(4)\\Bigr)\n\\]\n\n**Step 4: Simplify inside the parentheses**\n\n\\[\n2(3) = 6\n",
+        "**Step 1 \u2013 Identify the arithmetic sequence parameters**\n\n- First term \\(a_1 = 3\\)\n- Common difference \\(d = 7-3 = 4\\)\n\n**Step 2 \u2013 Find the 20th term**\n\nThe \\(n\\)-th term of an arithmetic sequence is  \n\\[\na_n = a_1 + (n-1)d\n\\]\n\nFor \\(n =",
+        "**Step 1: Identify the arithmetic sequence parameters**\n\n- First term \\(a_1 = 3\\)\n- Common difference \\(d = 7-3 = 4\\)\n\n**Step 2: Find the 20th term \\(a_{20}\\)**  \n\nThe \\(n\\)-th term of an arithmetic sequence is  \n\n\\[\na_n = a_1 + (n-1)d\n\\]\n\nSo for \\(n = 20\\):\n\n\\[\na_{20} = 3 + (20-1)\\times 4 = 3 + 19\\times 4 = 3 + 76 = 79\n\\]\n\n**Step 3: Compute the sum of the first 20 terms \\(S_{20}\\"
+      ],
+      "step_scores": [
+        0.014275903300909745,
+        0.2548381152730335
+      ],
+      "average_step_score": 0.13455700928697162
+    },
+    {
+      "average_score": 0.4536763834859947,
+      "score_std": 0.10788697530352172,
+      "solutions": [
+        "**Step\u2011by\u2011step solution**\n\n1. **Introduce a substitution**  \n   The equation contains \\(e^{2x}\\) and \\(e^{x}\\).  \n   Let  \n   \\[\n   y = e^{x}\\quad\\text{(note that }y>0\\text{ because the exponential is always positive).}\n   \\]\n\n2. **Rewrite the equation in terms of \\(y\\)**  \n   \\[\n   e^{2x} - 5e^{x} + 6 = 0\n   \\;\\;\\Longrightarrow\\;\\;\n   (e^{x})^{2} - 5(e^{x}) + 6 = 0\n   \\;\\;\\Longrightarrow\\;\\;\n   y^{2} - 5y + 6 = 0.\n   \\]\n\n3. **Factor the",
+        "**Step\u2011by\u2011step solution**\n\nWe want to solve  \n\n\\[\ne^{2x}-5e^{x}+6=0 .\n\\]\n\n---\n\n### 1.  Reduce the equation to a quadratic form  \n\nNotice that \\(e^{2x}=(e^{x})^{2}\\).  \nLet  \n\n\\[\ny = e^{x}\\quad (\\text{note that } y>0).\n\\]\n\nSubstituting \\(y\\) into the equation gives\n\n\\[\ny^{2}-5y+6=0 .\n\\]\n\nNow we have a standard quadratic equation in \\(y\\).\n\n---\n\n### 2.  Factor the quadratic\n\n\\[\ny^{2}-5y+6 = (y-2)(y-3)=0 .\n\\]\n\nSo the possible values for \\(y\\) are\n\n\\[\ny=2 \\quad \\text{or} \\",
+        "**Step\u2011by\u2011step solution**\n\n1. **Introduce a new variable**  \n   The equation contains \\(e^{2x}\\) and \\(e^{x}\\).  \n   Let  \n   \\[\n   y = e^{x}\\quad\\text{(note that }y>0\\text{ because the exponential is always positive).}\n   \\]\n\n2. **Rewrite the equation in terms of \\(y\\)**  \n   \\[\n   e^{2x} - 5e^{x} + 6 = 0\n   \\]\n   becomes  \n   \\[\n   (e^{x})^{2} - 5(e^{x}) + 6 = 0\n   \\]\n   or  \n   \\[\n   y^{2} - 5y + 6 = 0.\n   \\]\n\n3. **Solve the quadratic"
+      ],
+      "step_scores": [
+        0.774583564054272
+      ],
+      "average_step_score": 0.774583564054272
+    },
+    {
+      "average_score": 0.25360288887684374,
+      "score_std": 0.006300322293608238,
+      "solutions": [
+        "**Step\u2011by\u2011step calculation of the molar mass of calcium carbonate (CaCO\u2083)**  \n\n| Element | Symbol | Atomic mass (g\u202fmol\u207b\u00b9) | Number of atoms in CaCO\u2083 | Contribution to molar mass |\n|---------|--------|-----------------------|--------------------------|-----------------------------|\n| Calcium | Ca     | 40.078                | 1                        | 40.078 \u00d7 1 = **40.078** |\n| Carbon  | C      | 12.011                | 1                        | 12.011 \u00d7 1 = **12.011** |\n| Oxygen  | O      | 15.999                | 3                        | 15.999 \u00d7 3 = **47.997** |\n\n**Add the contributions**\n\n\\[\n\\text{Molar mass} = 40.078 + 12.011 + 47.997\n\\]\n\n",
+        "**Step\u2011by\u2011step calculation of the molar mass of calcium carbonate (CaCO\u2083)**  \n\n| Element | Symbol | Atomic mass (g\u202fmol\u207b\u00b9) | Number in formula | Contribution to molar mass |\n|---------|--------|------------------------|-------------------|-----------------------------|\n| Calcium | Ca     | 40.078                 | 1                 | 40.078 \u00d7 1 = **40.078** |\n| Carbon  | C      | 12.011                 | 1                 | 12.011 \u00d7 1 = **12.011** |\n| Oxygen  | O      | 15.999                 | 3                 | 15.999 \u00d7 3 = **47.997** |\n\n1. **Add the contributions**  \n   \\[\n   40.078 \\;(\\text{Ca",
+        "**Step\u2011by\u2011step calculation of the molar mass of calcium carbonate (CaCO\u2083)**  \n\n| Element | Symbol | Atomic mass (g\u202fmol\u207b\u00b9) | Number in CaCO\u2083 | Contribution to molar mass |\n|---------|--------|------------------------|-----------------|-----------------------------|\n| Calcium | Ca     | 40.078                 | 1               | 40.078 \u00d7 1 = **40.078** |\n| Carbon  | C      | 12.011                 | 1               | 12.011 \u00d7 1 = **12.011** |\n| Oxygen  | O      | 15.999                 | 3               | 15.999 \u00d7 3 = **47.997** |\n\n**Add the contributions**\n\n\\[\n\\text{Molar mass} = 40.078 + 12.011 + 47.997\n\\]\n\n\\[\n\\text{Molar mass} = 100."
+      ],
+      "step_scores": [
+        0.36252067428738394
+      ],
+      "average_step_score": 0.36252067428738394
+    },
+    null,
+    {
+      "average_score": 0.21711126783724186,
+      "score_std": 0.00874671931505969,
+      "solutions": [
+        "**Step\u2011by\u2011step solution**\n\nFor a first\u2011order reaction the relationship between the rate constant \\(k\\) and the half\u2011life \\(t_{1/2}\\) is\n\n\\[\nt_{1/2} = \\frac{\\ln 2}{k}\n\\]\n\nwhere  \n- \\(\\ln 2 \\approx 0.6931\\) (the natural logarithm of 2),  \n- \\(k\\) is given in units of \\(\\text{min}^{-1}\\).\n\n---\n\n### 1. Plug in the given rate constant\n\n\\[\nk = 0.231\\ \\text{min}^{-1}\n\\]\n\n\\[\nt_{1/2} = \\frac{0.6931}{0.231",
+        "**Step\u2011by\u2011step solution**\n\n1. **Recall the first\u2011order half\u2011life formula**  \n   For a first\u2011order reaction the half\u2011life \\(t_{1/2}\\) is related to the rate constant \\(k\\) by  \n\n   \\[\n   t_{1/2} = \\frac{\\ln 2}{k}\n   \\]\n\n   where \\(\\ln 2 \\approx 0.6931\\).\n\n2. **Insert the given rate constant**  \n   The problem gives \\(k = 0.231 \\text{ min}^{-1}\\).  \n   Plug this into the formula:\n\n   \\[\n   t_{1/2} = \\frac{0.6931}{0.231 \\text{",
+        "**Step\u2011by\u2011step solution**\n\n1. **Recall the first\u2011order half\u2011life formula**  \n   For a first\u2011order reaction the half\u2011life (\\(t_{1/2}\\)) is independent of the initial concentration and is given by  \n\n   \\[\n   t_{1/2} = \\frac{\\ln 2}{k}\n   \\]\n\n   where  \n   - \\(\\ln 2 \\approx 0.693\\) (natural logarithm of 2)  \n   - \\(k\\) is the rate constant.\n\n2. **Insert the given rate constant**  \n   The problem states \\(k = 0.231 \\text{ min}^{-1}\\).\n\n   \\[\n   t_{1/2} = \\frac{0.693}{0.231}\n   \\]\n\n3. **Perform the division**  \n   \\[\n   \\frac{0.693}{0"
+      ],
+      "step_scores": [
+        0.588064228178395
+      ],
+      "average_step_score": 0.588064228178395
+    },
+    {
+      "average_score": 0.31697237254042376,
+      "score_std": 0.004030914257384842,
+      "solutions": [
+        "**Step\u2011by\u2011step solution**\n\n1. **Write the equilibrium condition**  \n   In a competitive market equilibrium occurs when quantity demanded equals quantity supplied:\n\n   \\[\n   Q_d = Q_s\n   \\]\n\n2. **Substitute the given equations**  \n\n   \\[\n   100 - 5P \\;=\\; 20 + 3P\n   \\]\n\n3. **Collect the terms containing \\(P\\)**  \n\n   Move the \\(P\\) terms to one side and the constants to the other:\n\n   \\[\n   100 - 20 \\;=\\; 5P + 3P\n   \\]\n\n   \\[\n   80 \\;=\\; 8P\n   \\]\n\n4. **Solve for \\(P\\)**  \n\n   \\[\n   P \\;=\\; \\frac{80}{",
+        "**Step\u2011by\u2011step solution**\n\n1. **Write down the demand and supply equations**\n\n   \\[\n   Q_d = 100 - 5P \\qquad\\text{(demand)}\n   \\]\n   \\[\n   Q_s = 20 + 3P \\qquad\\text{(supply)}\n   \\]\n\n2. **Set demand equal to supply to find the equilibrium price**\n\n   \\[\n   Q_d = Q_s \\;\\;\\Longrightarrow\\;\\; 100 - 5P = 20 + 3P\n   \\]\n\n3. **Solve for \\(P\\)**\n\n   \\[\n   \\begin{aligned}\n   100 - 20 &= 5P + 3P \\\\\n   80 &= 8P \\\\\n   P &= \\frac{",
+        "**Step 1: Write down the two equations**\n\n- Demand:\u2003\\(Q_d = 100 - 5P\\)\n- Supply:\u2003\\(Q_s = 20 + 3P\\)\n\n**Step 2: Set demand equal to supply (equilibrium condition)**  \n\nAt equilibrium the quantity demanded equals the quantity supplied:\n\n\\[\n100 - 5P \\;=\\; 20 + 3P\n\\]\n\n**Step 3: Solve for the equilibrium price \\(P\\)**  \n\n1. Move the terms involving \\(P\\) to one side and the constants to the other:\n\n\\[\n100 - 20 \\;=\\; 5P + 3P\n\\]\n\n2. Simplify:\n\n\\[\n80 \\;=\\; 8P\n\\]\n\n3. Divide by 8:\n\n\\[\nP = \\"
+      ],
+      "step_scores": [
+        0.7338218185904155
+      ],
+      "average_step_score": 0.7338218185904155
+    },
+    null,
+    null,
+    {
+      "average_score": 0.773214794530011,
+      "score_std": 0.010868105267777149,
+      "solutions": [
+        "**Answer:**  \nThe organelle responsible for energy production in eukaryotic cells is the **mitochondrion** (plural: mitochondria).\n\n---\n\n### Step\u2011by\u2011step reasoning\n\n| Step | What we consider | Why it matters | Conclusion |\n|------|------------------|----------------|------------|\n| 1 | **Identify the process** | The question asks about \u201cenergy production.\u201d In biology, the main cellular process that generates usable energy (ATP) is cellular respiration. | We\u2019re looking for the organelle that carries out cellular respiration. |\n| 2 | **Recall the organelles involved in metabolism** | Key organelles in eukaryotic cells include the nucleus, endoplasmic reticulum, Golgi apparatus, lysosomes, peroxisomes, and mitochondria. | Which of these is known for ATP production? |\n| 3 | **Match function to organelle** | - **Nucleus**: genetic information storage. <br> - **Endoplasmic reticulum & Golgi**: protein synthesis/modification and transport. <br> - **",
+        "**Answer: The mitochondrion (plural: mitochondria)**  \n\n---\n\n### Step\u2011by\u2011step explanation\n\n| Step | What you need to know | Why it matters |\n|------|-----------------------|----------------|\n| **1. Identify the organelle that produces ATP** | In eukaryotic cells, the organelle that generates the bulk of cellular ATP is the **mitochondrion**. | ATP is the universal energy currency of the cell; the organelle that makes it is the \u201cpowerhouse.\u201d |\n| **2. Recognize its structure** | Mitochondria have a double membrane: an outer membrane and a highly\u2011folded inner membrane (cristae). | The folds increase surface area for the electron transport chain and ATP synthase. |\n| **3. Understand the main biochemical pathway** | Mitochondria carry out **oxidative phosphorylation** (electron transport chain + chemiosmosis). | This process uses electrons from NADH/F",
+        "**Step\u2011by\u2011step reasoning**\n\n1. **Identify the question**  \n   The question asks: *\u201cWhat organelle is responsible for energy production in eukaryotic cells?\u201d*  \n   We need to name the specific sub\u2011cellular structure that generates the cell\u2019s main energy currency (ATP).\n\n2. **Recall the key organelles in eukaryotic cells**  \n   - Nucleus  \n   - Endoplasmic reticulum (rough & smooth)  \n   - Golgi apparatus  \n   - Lysosomes  \n   - Peroxisomes  \n   - **Mitochondria**  \n   - Chloroplasts (in plant cells)  \n   - Vacuoles, ribosomes, cytoskeleton, etc.\n\n3. **Match the function \u201cenergy production\u201d to an organelle**  \n   - **Mitochondria** are known as the \u201cpowerhouses\u201d of the cell.  \n   - They carry out cellular respiration (glycolysis in the"
+      ],
+      "step_scores": [
+        0.8265356425183864
+      ],
+      "average_step_score": 0.8265356425183864
+    },
+    {
+      "average_score": 0.8508811806944429,
+      "score_std": 0.009565146498509576,
+      "solutions": [
+        "**The role of mRNA in protein synthesis \u2013 a step\u2011by\u2011step walk\u2011through**\n\nProtein synthesis (also called gene expression) is a two\u2011stage process:  \n1. **Transcription** \u2013 DNA \u2192 mRNA  \n2. **Translation** \u2013 mRNA \u2192 polypeptide (protein)\n\nmRNA (messenger RNA) is the key intermediate that carries the genetic information from the nucleus to the ribosome, where it is decoded into a protein. Below is a detailed, step\u2011by\u2011step outline of how mRNA functions in this process.\n\n---\n\n## 1. Transcription (DNA \u2192 mRNA)\n\n| Step | What Happens | Key Players |\n|------|--------------|-------------|\n| **1.1 Initi",
+        "**The role of mRNA in",
+        "**The role of mRNA in protein synthesis \u2013 a step\u2011by\u2011step walk\u2011through**\n\nProtein synthesis (also called gene expression) is the process by which a cell turns the information stored in DNA into a functional protein. The key messenger that carries the genetic code from the nucleus to the ribosome is **messenger RNA (mRNA)**. Below is a detailed, step\u2011by\u2011step description of how mRNA functions in this process.\n\n---\n\n## 1. Transcription \u2013 Making the mRNA copy\n\n| Step | What happens | Why it matters |\n|------|--------------|----------------|\n| **1.1. DNA opening** | The DNA double helix unwinds at the gene of interest. | Exposes the template strand for RNA synthesis. |\n| **1.2. RNA polymerase binding** | RNA polymerase II (in eukaryotes) attaches to the promoter region. | Initiates transcription."
+      ],
+      "step_scores": [
+        0.8609276822571961
+      ],
+      "average_step_score": 0.8609276822571961
+    },
+    {
+      "average_score": 0.8879993133144751,
+      "score_std": 0.008572959662374483,
+      "solutions": [
+        "**Answer:**  \nThe selection that favors heterozygotes is called **heterozygote advantage** (also known as **overdominant selection**).\n\n---\n\n### Step\u2011by\u2011step explanation\n\n1. **Identify the key phrase**  \n   - The question says *\u201cselection favors heterozygotes.\u201d*  \n   - This means individuals that carry two different alleles at a locus (Aa) have a higher fitness than either of the two homozygotes (AA or aa).\n\n2. **Recall the types of selection**  \n   - **Directional selection**: one allele is favored over the other.  \n   - **Disruptive (diversifying) selection**: both homozyg",
+        "**Answer:**  \nThe selection that favors heterozygotes is called **overdominant selection** (also known as **heterozygote advantage**).\n\n---\n\n### Step\u2011by\u2011step reasoning\n\n1. **Identify the key feature**  \n   - The question states that *selection favors heterozygotes*.  \n   - This means individuals with two different alleles at a locus (Aa) have higher fitness than either of the two homozygotes (AA or aa).\n\n2. **Recall the terminology for fitness patterns**  \n   - **Dominant selection**: one allele (A) has higher fitness than the other (a) in all genotypes.  \n   - **Recessive selection**: the opposite, where the recessive",
+        "When a population\u2019s fitness is higher for individuals that carry two different alleles (heterozygotes) than for either homozygote, the selection is called **heterozygote advantage** (also known as **overdominance**).  \n\nThis is a form of **balancing selection**, because it maintains genetic diversity by favoring the heterozygote genotype."
+      ],
+      "step_scores": [
+        0.8537587614368749
+      ],
+      "average_step_score": 0.8537587614368749
+    },
+    {
+      "average_score": 0.6029114650032438,
+      "score_std": 0.1143495887072247,
+      "solutions": [
+        "**Step\u2011by\u2011step solution**\n\n1. **Identify the sample space**  \n   A fair six\u2011sided die has the faces  \n   \\[\n   S=\\{1,2,3,4,5,6\\}\n   \\]\n   Each outcome is equally likely.\n\n2. **Determine the favorable outcomes**  \n   We want a number *greater than 4*.  \n   The numbers that satisfy this are  \n   \\[\n   F=\\{5,6\\}\n   \\]\n\n3. **Count the outcomes**  \n   - Total number of outcomes in the sample space: \\(|S| = 6\\).  \n   - Number of favorable outcomes: \\(|F| = 2\\).\n\n4. **Compute the probability**  \n   For a fair die, the probability of any event is  \n   \\[\n   P(\\text{event}) = \\frac{\\text{number of favorable outcomes}}{\\text{total number of outcomes}}\n   \\]\n   So\n   \\[\n",
+        "**Step\u2011by\u2011step solution**\n\n1. **Identify the sample space**  \n   A fair six\u2011sided die has the numbers \\(\\{1,2,3,4,5,6\\}\\).  \n   So the total number of equally likely outcomes is  \n   \\[\n   |S| = 6.\n   \\]\n\n2. **Determine the favorable outcomes**  \n   We want a number *greater than 4*.  \n   The numbers that satisfy this are \\(5\\) and \\(6\\).  \n   Thus the set of favorable outcomes is  \n   \\[\n   F = \\{5,6\\},\n   \\]\n   and the number of favorable outcomes is  \n   \\[\n   |F| = 2.\n   \\]\n\n3. **Compute the probability**  \n   For a fair die, each outcome is equally likely, so the probability of any event",
+        "**Step 1: Understand the sample space**\n\nA fair six\u2011sided die has the following possible outcomes when rolled:\n\n\\[\n\\{1,\\;2,\\;3,\\;4,\\;5,\\;6\\}\n\\]\n\nThere are \\(6\\) equally likely outcomes.\n\n---\n\n**Step 2: Identify the favorable outcomes**\n\nWe want the probability of rolling a number **greater than 4**.  \nNumbers greater than 4 on a die are:\n\n\\[\n5 \\quad \\text{and} \\quad 6\n\\]\n\nSo there are \\(2\\) favorable outcomes.\n\n---\n\n**Step 3: Compute the probability**\n\nFor a fair die, each outcome has the same probability \\(1/6\\).  \nThe probability of any event is:\n\n\\[\nP(\\text{event}) = \\frac{\\text{number of favorable outcomes}}{\\text{total number of outcomes}}\n\\]\n\nPlugging in our numbers:\n\n\\[\nP(\\text{greater than 4}) = \\frac{2}{6}\n\\]\n\n---\n\n**Step "
+      ],
+      "step_scores": [
+        0.7871511354726246
+      ],
+      "average_step_score": 0.7871511354726246
+    },
+    {
+      "average_score": 0.27773445517820294,
+      "score_std": 0.01787789912205165,
+      "solutions": [
+        "**Step\u2011by\u2011step calculation of the variance**\n\nWe\u2019ll treat the list \\([2, 4, 6, 8, 10]\\) as a *population* of data points (i.e., we divide by \\(n\\), not \\(n-1\\)).  \nIf you need the *sample* variance instead, just replace the final division by \\(n-1\\).\n\n---\n\n### 1. Compute",
+        "**Step\u2011by\u2011step calculation of the variance for the data set**\n\n\\[\n\\text{Data set} = [\\,2,\\;4,\\;6,\\;8,\\;10\\,]\n\\]\n\n---\n\n### 1. Compute the mean (average)\n\n\\[\n\\bar{x} = \\frac{2+4+6+8+10}{5}\n        = \\frac{30}{5}\n        = 6\n\\]\n\n---\n\n### 2. Find each deviation from the mean\n\n| Observation \\(x_i\\) | Deviation \\(x_i - \\bar{x}\\) |\n|----------------",
+        "**Step\u2011by\u2011step calculation of the variance for the data set**\n\nData set: \\([2,\\;4,\\;6,\\;8,\\;10]\\)\n\n---\n\n### 1. Find the mean (average)\n\n\\[\n\\bar{x} = \\frac{2+4+6+8+10}{5}\n        = \\frac{30}{5}\n        = 6\n\\]\n\n---\n\n### 2. Compute each squared deviation from the mean\n\n| Observation \\(x_i\\) | \\("
+      ],
+      "step_scores": [
+        0.4781921731795793
+      ],
+      "average_step_score": 0.4781921731795793
+    },
+    {
+      "average_score": 0.21951690329526904,
+      "score_std": 0.026409322460264215,
+      "solutions": [
+        "**Step\u2011by\u2011step interpretation of an R\u00b2 value of 0.81**\n\n| Step | What you\u2019re looking at | Why it matters | What it tells you |\n|------|------------------------|----------------|-------------------|\n| 1 | **Identify the metric** | R\u00b2 (coefficient of determination) is a standard goodness\u2011of\u2011fit statistic for linear regression. | It quantifies how well the model\u2019s predicted values match the observed values. |\n| 2 | **Understand the scale** | R\u00b2 ranges from 0 to 1 (or can be negative if the model fits worse than a horizontal line). | A value of 0.81 is",
+        "**Step\u2011by\u2011step explanation of what an \\(R^2 = 0.81\\) tells you**\n\n| Step | What you\u2019re looking at | Why it matters | What it means for your model |\n|------|------------------------|----------------|------------------------------|\n| **1. Recall the definition of \\(R^2\\)** | \\(R^2\\) (coefficient of determination) = 1 \u2013 (sum of squared residuals / total sum of squares). | It measures how much of the variation in the dependent variable is captured by the regression. |  |\n| **",
+        "**Step\u2011by\u2011step explanation of what an \\(R^2\\) of 0.81 means**\n\n| Step | What to do | Why it matters |\n|------|------------|----------------|\n| **1. Recall the definition of \\(R^2\\)** | \\(R^2\\) (coefficient of determination) is the proportion of the total variation in the dependent variable that is explained by the regression model. It is calculated as: <br> \\[\n> R^2 = 1 - \\frac{\\text{SS}_{\\text{res}}}{\\text{SS}_{\\text{tot}}}\n> \\] <br> where \\(\\text{SS}_{\\"
+      ],
+      "step_scores": [
+        0.5462946063376306
+      ],
+      "average_step_score": 0.5462946063376306
+    },
+    {
+      "average_score": 0.7716597835633584,
+      "score_std": 0.009220490712881285,
+      "solutions": [
+        "**Step\u2011by\u2011step solution**\n\nWe want to differentiate the product  \n\\[\nf(x)=\\sin(x)\\,\\cos(x).\n\\]\n\n---\n\n### 1. Use the product rule\n\nFor two differentiable functions \\(u(x)\\) and \\(v(x)\\),\n\n\\[\n\\frac{d}{dx}[u(x)v(x)] = u'(x)v(x)+u(x)v'(x).\n\\]\n\nLet  \n\n\\[\nu(x)=\\sin(x), \\qquad v(x)=\\cos(x).\n\\]\n\nCompute their derivatives:\n\n\\[\nu'(x)=\\cos(x), \\qquad v'(x)=-\\sin(x).\n\\]\n\nApply the product rule:\n\n\\[\n\\begin{aligned}\nf'(x) &= u'(x)v(x)+u(x)v'(x) \\\\\n      &= \\cos(x)\\,\\cos(x)+\\sin(x)\\,(-\\sin(x)) \\\\\n      &= \\cos^2(x)-\\sin^2(x).\n\\end{aligned}\n\\]\n\n---\n\n### 2. Simplify using a trigon",
+        "**Problem**\n\nFind the derivative of the function  \n\n\\[\nf(x)=\\sin(x)\\,\\cos(x)\n\\]\n\n---\n\n## Step\u2011by\u2011Step Solution\n\n### 1. Recognize the structure of the function\nThe function is a product of two elementary functions:\n- \\(u(x)=\\sin(x)\\)\n- \\(v(x)=\\cos(x)\\)\n\nSo we will use the **product rule** for differentiation.\n\n### 2. Recall the product rule\nFor two differentiable functions \\(u(x)\\) and \\(v(x)\\),\n\n\\[\n\\frac{d}{dx}[u(x)v(x)] = u'(x)v(x) + u(x)v'(x)\n\\]\n\n### 3. Differentiate each factor\n\n| Function | Derivative |\n|----------|",
+        "**Step\u2011by\u2011step solution**\n\nWe want to differentiate the function  \n\n\\[\nf(x)=\\sin(x)\\,\\cos(x)\n\\]\n\n---\n\n### 1. Recognize the structure  \nThe function is a product of two functions of \\(x\\):\n\n- \\(u(x)=\\sin(x)\\)\n- \\(v(x)=\\cos(x)\\)\n\nSo we can use the **product rule**.\n\n---\n\n### 2. Recall the product rule  \nFor two differentiable functions \\(u(x)\\) and"
+      ],
+      "step_scores": [
+        0.8339252169075616
+      ],
+      "average_step_score": 0.8339252169075616
+    },
+    {
+      "average_score": 0.13552249235593283,
+      "score_std": 0.01200230706347716,
+      "solutions": [
+        "**Step\u2011by\u2011step solution**\n\nWe want to evaluate  \n\n\\[\n\\lim_{x\\to 0}\\frac{\\sin(3x)}{x}.\n\\]\n\n---\n\n### 1. Recognize the standard limit\n\nA fundamental trigonometric limit is  \n\n\\[\n\\lim_{u\\to 0}\\frac{\\sin u}{u}=1.\n\\]\n\nThis holds for any variable \\(u\\) that approaches \\(0\\).\n\n---\n\n### 2. Make the substitution \\(u = 3x\\)\n\nWhen \\(x \\to 0\\), the expression \\(u = 3x\\) also tends to \\(0\\).  \nRewrite the given fraction in terms of \\(u\\):\n\n\\[\n\\frac{\\sin(3x)}{x}\n= \\frac{\\sin u}{x}.\n\\]\n\nBut we still have \\(x\\) in the denominator. Express \\(x\\) in terms of \\(u\\):\n\n\\[\nx = \\frac{u}{3}.\n\\]\n\nSubstitute this",
+        "**Step\u2011by\u2011step solution**\n\nWe want to find  \n\n\\[\n\\lim_{x\\to 0}\\frac{\\sin(3x)}{x}.\n\\]\n\n---\n\n### 1. Recognize the standard limit\n\nA fundamental trigonometric limit is\n\n\\[\n\\lim_{u\\to 0}\\frac{\\sin u}{u}=1.\n\\]\n\nThis is usually proved using the squeeze theorem or L\u2019H\u00f4pital\u2019s rule.  \nWe will use this fact with \\(u = 3x\\).\n\n---\n\n### 2. Rewrite the expression in terms of \\(u = 3x\\)\n\nLet  \n\n\\[\nu = 3x \\quad\\Longrightarrow\\quad x = \\frac{u}{3}.\n\\]\n\nWhen \\(x \\to 0\\), we also have \\(u \\to 0\\).  \nSubstitute \\(x = u/3\\) into the original fraction:\n\n\\[\n\\frac{\\sin(3x)}{x}\n= \\frac{\\sin(u)}",
+        "**Step\u2011by\u2011step solution**\n\nWe want to evaluate  \n\n\\[\n\\lim_{x\\to 0}\\frac{\\sin(3x)}{x}.\n\\]\n\n---\n\n### 1. Recognize the standard limit\n\nThe fundamental trigonometric limit is\n\n\\[\n\\lim_{u\\to 0}\\frac{\\sin u}{u}=1.\n\\]\n\nIf we can rewrite our expression in the form \\(\\sin u / u\\), we can use this result.\n\n---\n\n### 2. Introduce a substitution\n\nLet  \n\n\\[\nu = 3x \\quad\\Longrightarrow\\quad x = \\frac{u}{3}.\n\\]\n\nWhen \\(x \\to 0\\), clearly \\(u = 3x \\to 0\\) as well.\n\nRewrite the fraction:\n\n\\[\n\\frac{\\sin(3x)}{x}\n= \\frac{\\sin u}{u/3}\n= 3\\,\\frac{\\sin u}{u}.\n"
+      ],
+      "step_scores": [
+        0.84669249586857
+      ],
+      "average_step_score": 0.84669249586857
+    },
+    null,
+    {
+      "average_score": 0.5287006964338347,
+      "score_std": 0.006104129488237823,
+      "solutions": [
+        "**Step\u2011by\u2011step solution**\n\nWe want the smallest value of the quadratic function  \n\n\\[\nf(x)=x^{2}+4x+8 .\n\\]\n\nA quadratic \\(ax^{2}+bx+c\\) with \\(a>0\\) opens upward, so its minimum occurs at the vertex of the parabola.  \nThe \\(x\\)-coordinate of the vertex is\n\n\\[\nx_{\\text{min}}=-\\frac{b}{2a}.\n\\]\n\n---\n\n### 1. Identify the coefficients\n\n\\[\na = 1,\\qquad b = 4,\\qquad c = 8.\n\\]\n\n---\n\n### 2. Compute the vertex \\(x\\)-coordinate\n\n\\[\nx_{\\text{min}} = -\\frac{b}{2a}\n               = -\\frac{4}{2\\cdot 1}\n               = -\\frac{4}{2}\n              ",
+        "**Step\u2011by\u2011step solution**\n\nWe want the smallest value of the quadratic function  \n\n\\[\nf(x)=x^{2}+4x+8 .\n\\]\n\nA quadratic of the form \\(ax^{2}+bx+c\\) with \\(a>0\\) is a parabola that opens upward, so it has a single minimum point.  \nThe minimum can be found by **completing the square**.\n\n---\n\n### 1. Rewrite the quadratic\n\nStart with\n\n\\[\nf(x)=x^{2}+4x+8 .\n\\]\n\nTake the coefficient of \\(x\\) (which is \\(4\\)), halve it, and square it:\n\n\\[\n\\left(\\frac{4}{2}\\right)^{2}=2^{2}=4 .\n\\]\n\nAdd and subtract this number inside the expression so that the expression inside the parentheses becomes a perfect square:\n\n\\[\n\\begin{aligned}\nf(x) &= x^{2}+4x+8 \\\\\n     &= \\bigl(x",
+        "**Step\u2011by\u2011step solution**\n\nWe want the smallest value (minimum) of the quadratic function  \n\n\\[\nf(x)=x^{2}+4x+8 .\n\\]\n\nA quadratic of the form \\(ax^{2}+bx+c\\) with \\(a>0\\) opens upward, so its minimum occurs at the vertex of the parabola.  \nThere are two common ways to find that vertex:\n\n---\n\n### 1. Completing the square\n\n1. **Group the \\(x\\)-terms**  \n   \\[\n   f(x)=x^{2}+4x+8.\n   \\]\n\n2. **Take half of the coefficient of \\(x\\)**  \n   The coefficient of \\(x\\) is \\(4\\).  \n   Half of \\(4\\) is \\(2\\), and its square is \\(2^{2}=4\\).\n\n3. **Add and subtract that square inside the expression**  \n   \\[\n   f(x)=\\bigl(x^{2}+4x+4"
+      ],
+      "step_scores": [
+        0.711555162256588
+      ],
+      "average_step_score": 0.711555162256588
+    },
+    null,
+    {
+      "average_score": 0.1677797473906735,
+      "score_std": 0.11940703829693866,
+      "solutions": [
+        "**Step\u2011by\u2011step solution**\n\nWe want to minimize  \n\n\\[\nC(x,y)=3x^{2}+4y^{2}\n\\]\n\nsubject to the linear constraint  \n\n\\[\nx+",
+        "**Step\u2011by\u2011step solution**\n\nWe want to minimize  \n\n\\[\nC(x,y)=3x^{2}+4y^{2}\n\\]\n\nsubject to the linear constraint  \n\n\\[\n",
+        ""
+      ],
+      "step_scores": [
+        0.5737984208789704
+      ],
+      "average_step_score": 0.5737984208789704
+    }
+  ],
+  "analysis": {
+    "overall_average": 0.4059579320952022,
+    "category_averages": {
+      "Physics": 0.4220040317548751,
+      "Mathematics": 0.43435062080799247,
+      "Chemistry": 0.3127783769920952,
+      "Economics": 0.282997507796363,
+      "Statistics": 0.3455371921668606,
+      "Biology": 0.5074036079768557,
+      "Calculus": 0.6072480459632844,
+      "Optimization": 0.38728630735423575
+    },
+    "difficulty_averages": {
+      "Easy": 0.4727336434715682,
+      "Hard": 0.3095147326318591,
+      "Medium": 0.38035421255275054
+    },
+    "step_accuracy": 0.6822285179415756,
+    "consistency": 0.0467207507646578
+  }
+}

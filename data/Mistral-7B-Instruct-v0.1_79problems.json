@@ -1,0 +1,1952 @@
+{
+  "model": "mistralai/Mistral-7B-Instruct-v0.1",
+  "problems": [
+    {
+      "problem": "If a train travels 120 km in 2 hours, what is its average speed in km/h?",
+      "solution": "The average speed of the train is 60 km/h.",
+      "solution_steps": [
+        "Identify the formula: Average speed = Total distance / Total time",
+        "Plug in the values: Average speed = 120 km / 2 hours",
+        "Perform the calculation: Average speed = 60 km/h"
+      ],
+      "category": "Physics",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "A ball is thrown vertically upward with an initial velocity of 20 m/s. How high will it go, ignoring air resistance? (Use g = 9.8 m/s\u00b2)",
+      "solution": "The ball will reach a maximum height of 20.41 meters.",
+      "solution_steps": [
+        "Identify the equation: v\u00b2 = u\u00b2 + 2as, where v (final velocity) = 0 at the highest point",
+        "Rearrange the equation to solve for s (displacement): s = (v\u00b2 - u\u00b2) / (2a)",
+        "Plug in the values: s = (0\u00b2 - 20\u00b2) / (2 * -9.8)",
+        "Calculate: s = 400 / 19.6 = 20.41 meters"
+      ],
+      "category": "Physics",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "A car accelerates uniformly from rest to a speed of 30 m/s over a distance of 100 m. Calculate the acceleration of the car.",
+      "solution": "The acceleration of the car is 4.5 m/s\u00b2.",
+      "solution_steps": [
+        "Identify the equation: v\u00b2 = u\u00b2 + 2as, where u (initial velocity) = 0",
+        "Rearrange the equation to solve for a: a = (v\u00b2 - u\u00b2) / (2s)",
+        "Plug in the values: a = (30\u00b2 - 0\u00b2) / (2 * 100)",
+        "Calculate: a = 900 / 200 = 4.5 m/s\u00b2"
+      ],
+      "category": "Physics",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "A radioactive sample initially contains 100 mg of a certain isotope. After 30 days, 25 mg of the isotope remains. What is the half-life of this isotope?",
+      "solution": "The half-life of the isotope is approximately 15 days.",
+      "solution_steps": [
+        "Use the decay formula: A = A\u2080 * (1/2)^(t/t\u2081/\u2082), where t\u2081/\u2082 is the half-life",
+        "Plug in known values: 25 = 100 * (1/2)^(30/t\u2081/\u2082)",
+        "Simplify: 1/4 = (1/2)^(30/t\u2081/\u2082)",
+        "Take log of both sides: log(1/4) = 30/t\u2081/\u2082 * log(1/2)",
+        "Solve for t\u2081/\u2082: t\u2081/\u2082 = 30 * log(1/2) / log(1/4) \u2248 15 days"
+      ],
+      "category": "Physics",
+      "difficulty": "Hard"
+    },
+    {
+      "problem": "Solve the quadratic equation: 2x\u00b2 - 5x - 12 = 0",
+      "solution": "The solutions are x = 4 and x = -1.5",
+      "solution_steps": [
+        "Identify the quadratic formula: x = (-b \u00b1 \u221a(b\u00b2 - 4ac)) / (2a)",
+        "Identify a, b, and c: a = 2, b = -5, c = -12",
+        "Plug into the formula: x = (5 \u00b1 \u221a((-5)\u00b2 - 4(2)(-12))) / (2(2))",
+        "Simplify: x = (5 \u00b1 \u221a(25 + 96)) / 4 = (5 \u00b1 \u221a121) / 4 = (5 \u00b1 11) / 4",
+        "Calculate the two solutions: x = 16/4 = 4 or x = -6/4 = -1.5"
+      ],
+      "category": "Mathematics",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "Solve the system of equations: 3x + 2y = 14 and x - y = 1",
+      "solution": "The solution is x = 3.2 and y = 2.2",
+      "solution_steps": [
+        "From the second equation, express x in terms of y: x = y + 1",
+        "Substitute this into the first equation: 3(y + 1) + 2y = 14",
+        "Simplify: 3y + 3 + 2y = 14 -> 5y + 3 = 14",
+        "Solve for y: 5y = 11, so y = 11/5 = 2.2",
+        "Substitute back to find x: x = 2.2 + 1 = 3.2"
+      ],
+      "category": "Mathematics",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "What is the pH of a 0.01 M HCl solution?",
+      "solution": "The pH of the 0.01 M HCl solution is 2.",
+      "solution_steps": [
+        "Recall that pH = -log[H\u207a]",
+        "For a strong acid like HCl, [H\u207a] is equal to the concentration of the acid",
+        "Therefore, pH = -log(0.01)",
+        "Calculate: pH = -(-2) = 2"
+      ],
+      "category": "Chemistry",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "In a balanced chemical equation, how many moles of hydrogen gas (H\u2082) are needed to react completely with 3 moles of nitrogen gas (N\u2082) to form ammonia (NH\u2083)?",
+      "solution": "9 moles of hydrogen gas (H\u2082) are needed.",
+      "solution_steps": [
+        "Write the balanced equation: N\u2082 + 3H\u2082 \u2192 2NH\u2083",
+        "Identify the mole ratio of N\u2082 to H\u2082: 1:3",
+        "Set up the proportion: 1 mol N\u2082 : 3 mol H\u2082 = 3 mol N\u2082 : x mol H\u2082",
+        "Solve for x: x = 3 * 3 = 9 mol H\u2082"
+      ],
+      "category": "Chemistry",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "Calculate the molarity of a solution prepared by dissolving 5.85 g of NaCl in enough water to make 500 mL of solution.",
+      "solution": "The molarity of the solution is 0.2 M.",
+      "solution_steps": [
+        "Calculate the moles of NaCl: moles = mass / molar mass",
+        "Molar mass of NaCl = 23 + 35.5 = 58.5 g/mol",
+        "Moles of NaCl = 5.85 g / 58.5 g/mol = 0.1 mol",
+        "Convert volume to liters: 500 mL = 0.5 L",
+        "Calculate molarity: M = moles / liters = 0.1 mol / 0.5 L = 0.2 M"
+      ],
+      "category": "Chemistry",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "A company's revenue grew from $1 million to $1.5 million in one year. What was the percentage increase?",
+      "solution": "The percentage increase in revenue was 50%.",
+      "solution_steps": [
+        "Calculate the absolute increase: $1.5 million - $1 million = $0.5 million",
+        "Set up the percentage formula: Percentage increase = (Increase / Original) \u00d7 100",
+        "Plug in the values: Percentage increase = ($0.5 million / $1 million) \u00d7 100",
+        "Calculate: Percentage increase = 0.5 \u00d7 100 = 50%"
+      ],
+      "category": "Economics",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "If a company's stock price increases by 20% and then decreases by 15%, what is the overall percentage change?",
+      "solution": "The overall percentage change is an increase of 2%.",
+      "solution_steps": [
+        "Calculate the factor after 20% increase: 1 + 0.20 = 1.20",
+        "Calculate the factor after 15% decrease: 1 - 0.15 = 0.85",
+        "Multiply the factors: 1.20 * 0.85 = 1.02",
+        "Convert to percentage change: (1.02 - 1) * 100 = 2%"
+      ],
+      "category": "Economics",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "In a population of 1000 individuals, 490 have brown eyes, 390 have blue eyes, and the rest have green eyes. What is the probability of randomly selecting an individual with green eyes?",
+      "solution": "The probability of selecting an individual with green eyes is 0.12 or 12%.",
+      "solution_steps": [
+        "Calculate the number of individuals with green eyes: 1000 - 490 - 390 = 120",
+        "Set up the probability formula: P(green eyes) = Number with green eyes / Total population",
+        "Plug in the values: P(green eyes) = 120 / 1000",
+        "Calculate: P(green eyes) = 0.12 or 12%"
+      ],
+      "category": "Statistics",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "In a clinical trial, 300 patients were given a new drug, and 270 showed improvement. Calculate the 95% confidence interval for the true proportion of patients who improve with this drug.",
+      "solution": "The 95% confidence interval is approximately (0.866, 0.934).",
+      "solution_steps": [
+        "Calculate the sample proportion: p = 270 / 300 = 0.9",
+        "Calculate the standard error: SE = sqrt(p * (1-p) / n) = sqrt(0.9 * 0.1 / 300) \u2248 0.0173",
+        "For 95% CI, use z-score of 1.96",
+        "Calculate the margin of error: 1.96 * SE \u2248 0.034",
+        "CI: (0.9 - 0.034, 0.9 + 0.034) \u2248 (0.866, 0.934)"
+      ],
+      "category": "Statistics",
+      "difficulty": "Hard"
+    },
+    {
+      "problem": "What is the expected number of heterozygous offspring from a cross between two organisms heterozygous for a single gene (Aa x Aa)?",
+      "solution": "If n offspring are produced, the expected number of heterozygotes is n/2 (since the proportion is 1/2).",
+      "solution_steps": [
+        "Punnett square for Aa \u00d7 Aa gives genotypes: AA, Aa, Aa, aa \u2192 proportions 1/4, 1/2, 1/4.",
+        "The expected proportion of heterozygotes is 1/2.",
+        "For n offspring, expected number = (1/2)\u00b7n = n/2."
+      ],
+      "category": "Biology",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "In a population of moths, 75% have dark wings (dominant allele) and 25% have light wings (recessive allele). Assuming Hardy-Weinberg equilibrium, what proportion of the population are heterozygous for this trait?",
+      "solution": "The proportion of heterozygotes in the population is 0.5 or 50%.",
+      "solution_steps": [
+        "Let p = frequency of dominant allele, q = frequency of recessive allele",
+        "q\u00b2 = 0.25 (proportion of recessive phenotype) \u21d2 q = 0.5",
+        "Calculate p: p = 1 - q = 1 - 0.5 = 0.5",
+        "Frequency of heterozygotes = 2pq = 2 * 0.5 * 0.5 = 0.5"
+      ],
+      "category": "Biology",
+      "difficulty": "Hard"
+    },
+    {
+      "problem": "If f(x) = 2x\u00b2 + 3x - 5, what is f'(x)?",
+      "solution": "The derivative f'(x) = 4x + 3",
+      "solution_steps": [
+        "Apply the power rule to 2x\u00b2: The derivative of 2x\u00b2 is 2 * 2x = 4x",
+        "Apply the coefficient rule to 3x: The derivative of 3x is 3",
+        "The derivative of a constant (-5) is 0",
+        "Combine the terms: f'(x) = 4x + 3"
+      ],
+      "category": "Calculus",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "Find the volume of the solid obtained by rotating the region bounded by y = x\u00b2, y = 0, and x = 2 around the y-axis.",
+      "solution": "The volume of the solid is 8\u03c0 cubic units.",
+      "solution_steps": [
+        "Use the method of cylindrical shells: V = 2\u03c0 \u222b\u2080\u00b2 x (x\u00b2) dx = 2\u03c0 \u222b\u2080\u00b2 x\u00b3 dx",
+        "Evaluate the integral: 2\u03c0 [x\u2074/4]\u2080\u00b2 = 2\u03c0 (16/4) = 2\u03c0 * 4 = 8\u03c0"
+      ],
+      "category": "Calculus",
+      "difficulty": "Hard"
+    },
+    {
+      "problem": "A farmer has 100 meters of fencing and wants to create a rectangular enclosure against a straight river (which requires no fencing). What are the dimensions of the enclosure that will maximize the area?",
+      "solution": "The optimal dimensions are 50 meters along the river and 25 meters perpendicular to the river.",
+      "solution_steps": [
+        "Let x be the width perpendicular to the river and y be the length along the river (river side needs no fencing).",
+        "Set up the fencing constraint: 2x + y = 100.",
+        "Express y in terms of x: y = 100 \u2212 2x.",
+        "Area function: A(x) = x \u00b7 y = x(100 \u2212 2x) = 100x \u2212 2x\u00b2.",
+        "Find the maximum by setting A'(x) = 100 \u2212 4x = 0 \u21d2 x = 25.",
+        "Then y = 100 \u2212 2\u00b725 = 50.",
+        "Optimal dimensions: 50 meters along the river and 25 meters perpendicular to the river."
+      ],
+      "category": "Optimization",
+      "difficulty": "Hard"
+    },
+    {
+      "problem": "A company produces two types of products, A and B. Product A requires 2 hours of labor and 3 units of raw material, while Product B requires 3 hours of labor and 2 units of raw material. The company has 100 hours of labor and 90 units of raw material available. If the profit for Product A is $40 and for Product B is $50, how many of each product should be produced to maximize profit?",
+      "solution": "The company should produce 14 units of Product A and 24 units of Product B for a maximum profit of $1760.",
+      "solution_steps": [
+        "Define variables: x = units of A, y = units of B",
+        "Set up constraints: 2x + 3y \u2264 100 (labor), 3x + 2y \u2264 90 (material)",
+        "Define objective function: P = 40x + 50y",
+        "Graph the constraints and identify the feasible region",
+        "Find the corner points: (30,0), (0,33.33), and the intersection of binding constraints",
+        "Solve intersection of 2x + 3y = 100 and 3x + 2y = 90: x = 14, y = 24",
+        "Evaluate P: P(30,0)=1200; P(0,33.33)\u22481666.67; P(14,24)=1760",
+        "The maximum profit occurs at (14,24) with P = $1760"
+      ],
+      "category": "Optimization",
+      "difficulty": "Hard"
+    },
+    {
+      "problem": "A projectile is launched at 10 m/s at an angle of 30\u00b0 above the horizontal. Ignoring air resistance and using g = 9.8 m/s\u00b2, what is the horizontal range?",
+      "solution": "The horizontal range is approximately 8.84 meters.",
+      "solution_steps": [
+        "Use range formula for level ground: R = (v^2 * sin(2\u03b8)) / g",
+        "Compute v^2 = 10^2 = 100",
+        "Compute sin(2\u03b8) = sin(60\u00b0) = \u221a3 / 2 \u2248 0.8660",
+        "R = (100 * 0.8660) / 9.8 \u2248 8.84 m"
+      ],
+      "category": "Physics",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "Two resistors of 4 \u03a9 and 6 \u03a9 are connected in series across a 12 V battery. Find the circuit current and the voltage across the 6 \u03a9 resistor.",
+      "solution": "The current is 1.2 A and the voltage across the 6 \u03a9 resistor is 7.2 V.",
+      "solution_steps": [
+        "In series: R_total = 4 + 6 = 10 \u03a9",
+        "Ohm\u2019s law: I = V / R_total = 12 / 10 = 1.2 A",
+        "Voltage on 6 \u03a9: V_6 = I * 6 = 7.2 V"
+      ],
+      "category": "Physics",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "Solve the inequality 3(2x \u2212 1) \u2264 5x + 7.",
+      "solution": "The solution set is x \u2264 10.",
+      "solution_steps": [
+        "Expand: 3(2x \u2212 1) = 6x \u2212 3",
+        "Set inequality: 6x \u2212 3 \u2264 5x + 7",
+        "Subtract 5x: x \u2212 3 \u2264 7",
+        "Add 3: x \u2264 10"
+      ],
+      "category": "Mathematics",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "Find the area of a triangle with base 12 units and height 7 units.",
+      "solution": "The area is 42 square units.",
+      "solution_steps": [
+        "Use area formula: A = (1/2) * base * height",
+        "A = (1/2) * 12 * 7 = 6 * 7 = 42"
+      ],
+      "category": "Mathematics",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "How many moles of gas are in a 5.0 L container at 2.0 atm and 300 K? (Use R = 0.082057 L\u00b7atm\u00b7mol\u207b\u00b9\u00b7K\u207b\u00b9.)",
+      "solution": "There are approximately 0.406 moles of gas.",
+      "solution_steps": [
+        "Use ideal gas law: PV = nRT \u2192 n = PV / RT",
+        "Compute numerator: P*V = 2.0 * 5.0 = 10.0 atm\u00b7L",
+        "Compute denominator: R*T = 0.082057 * 300 \u2248 24.6171",
+        "n \u2248 10.0 / 24.6171 \u2248 0.406 mol"
+      ],
+      "category": "Chemistry",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "You have 200 mL of a 0.50 M NaCl solution. To prepare a 0.20 M solution, what should the final volume be, and how much water must be added?",
+      "solution": "Final volume should be 500 mL; add 300 mL of water.",
+      "solution_steps": [
+        "Use dilution: C1 V1 = C2 V2 \u2192 V2 = (C1 * V1) / C2",
+        "V2 = (0.50 * 200 mL) / 0.20 = 100 / 0.20 = 500 mL",
+        "Water added = V2 \u2212 V1 = 500 \u2212 200 = 300 mL"
+      ],
+      "category": "Chemistry",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "Using the arc elasticity formula, compute price elasticity of demand if price rises from 100 to 110 and quantity demanded falls from 1000 to 950.",
+      "solution": "The arc price elasticity of demand is approximately \u22120.54 (inelastic).",
+      "solution_steps": [
+        "Arc elasticity E = [(\u0394Q / avg Q)] / [(\u0394P / avg P)]",
+        "\u0394Q = 950 \u2212 1000 = \u221250, avg Q = (1000 + 950)/2 = 975",
+        "\u0394P = 110 \u2212 100 = 10, avg P = (110 + 100)/2 = 105",
+        "E = (\u221250/975) / (10/105) \u2248 (\u22120.05128) / (0.09524) \u2248 \u22120.5385"
+      ],
+      "category": "Economics",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "Compute the NPV of an investment with an initial outlay of $1000 and cash inflows of $400 at the end of years 1, 2, and 3. Discount rate is 10%.",
+      "solution": "The NPV is approximately \u2212$5 (slightly negative).",
+      "solution_steps": [
+        "NPV = \u22121000 + 400/1.1 + 400/1.1^2 + 400/1.1^3",
+        "400/1.1 \u2248 363.636, 400/1.21 \u2248 330.579, 400/1.331 \u2248 300.752",
+        "Sum inflows \u2248 363.636 + 330.579 + 300.752 \u2248 995.0",
+        "NPV \u2248 \u22121000 + 995.0 \u2248 \u22125.0"
+      ],
+      "category": "Economics",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "An enzyme follows Michaelis\u2013Menten kinetics with Vmax = 100 units and Km = 5 mM. What is the reaction rate at [S] = 5 mM?",
+      "solution": "The rate is 50 units.",
+      "solution_steps": [
+        "Use v = (Vmax [S]) / (Km + [S])",
+        "Substitute: v = (100 * 5) / (5 + 5) = 500 / 10 = 50"
+      ],
+      "category": "Biology",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "In a dihybrid cross AaBb \u00d7 AaBb, what is the probability of an offspring showing both dominant phenotypes (A_B_)?",
+      "solution": "The probability is 9/16 (56.25%).",
+      "solution_steps": [
+        "For each gene: probability of dominant phenotype = 3/4",
+        "Assuming independence: P(A_) * P(B_) = (3/4) * (3/4) = 9/16",
+        "Convert to percentage: (9/16) * 100% = 56.25%"
+      ],
+      "category": "Biology",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "A disease has prevalence 1%. Test sensitivity is 95% and specificity is 90%. If a person tests positive, what is the probability they actually have the disease?",
+      "solution": "Approximately 8.76%.",
+      "solution_steps": [
+        "Use Bayes: PPV = [P(D) * Se] / [P(D)*Se + P(~D)*(1\u2212Sp)]",
+        "P(D)=0.01, Se=0.95, Sp=0.90 \u2192 P(~D)=0.99",
+        "PPV = (0.01*0.95) / (0.01*0.95 + 0.99*0.10)",
+        "PPV = 0.0095 / (0.0095 + 0.099) = 0.0095 / 0.1085 \u2248 0.0876 = 8.76%"
+      ],
+      "category": "Statistics",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "A discrete variable X takes values {0, 1, 2} with probabilities {0.2, 0.5, 0.3}. Compute E[X] and Var(X).",
+      "solution": "E[X] = 1.1 and Var(X) = 0.49.",
+      "solution_steps": [
+        "E[X] = \u03a3 x p(x) = 0*0.2 + 1*0.5 + 2*0.3 = 1.1",
+        "E[X^2] = 0^2*0.2 + 1^2*0.5 + 2^2*0.3 = 0 + 0.5 + 1.2 = 1.7",
+        "Var(X) = E[X^2] \u2212 (E[X])^2 = 1.7 \u2212 (1.1)^2 = 0.49"
+      ],
+      "category": "Statistics",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "Evaluate the definite integral \u222b\u2080\u00b9 (3x\u00b2 \u2212 2x + 1) dx.",
+      "solution": "The value of the integral is 1.",
+      "solution_steps": [
+        "Antiderivative: \u222b(3x\u00b2)dx = x^3; \u222b(\u22122x)dx = \u2212x^2; \u222b1 dx = x",
+        "Evaluate [x^3 \u2212 x^2 + x] from 0 to 1",
+        "At x=1: 1 \u2212 1 + 1 = 1; at x=0: 0",
+        "Result: 1 \u2212 0 = 1"
+      ],
+      "category": "Calculus",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "Find and classify the critical points of f(x) = x^3 \u2212 3x.",
+      "solution": "Critical points at x = \u22121 (local maximum, f = 2) and x = 1 (local minimum, f = \u22122).",
+      "solution_steps": [
+        "First derivative: f'(x) = 3x^2 \u2212 3; set f'(x) = 0 \u2192 3x^2 \u2212 3 = 0 \u2192 x = \u00b11",
+        "Second derivative: f''(x) = 6x",
+        "At x = \u22121: f''(\u22121) = \u22126 < 0 \u2192 local maximum; f(\u22121) = (\u22121)^3 \u2212 3(\u22121) = 2",
+        "At x = 1: f''(1) = 6 > 0 \u2192 local minimum; f(1) = 1 \u2212 3 = \u22122"
+      ],
+      "category": "Calculus",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "Minimize f(x) = x^2 \u2212 6x + 13. Find the minimizer and minimum value.",
+      "solution": "Minimum at x = 3 with value f(3) = 4.",
+      "solution_steps": [
+        "Complete the square: x^2 \u2212 6x + 13 = (x \u2212 3)^2 + 4",
+        "Minimum of (x \u2212 3)^2 is 0 at x = 3",
+        "Thus minimum value is 4 at x = 3"
+      ],
+      "category": "Optimization",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "0/1 Knapsack: Given items with (value, weight): A(4,2), B(5,3), C(7,4) and capacity 5, choose items to maximize total value.",
+      "solution": "Choose items A and B (total weight 5, total value 9).",
+      "solution_steps": [
+        "List feasible subsets within capacity 5:",
+        "A only: value 4, weight 2; B only: value 5, weight 3; C only: value 7, weight 4",
+        "A+B: value 9, weight 5 (feasible); A+C: weight 6 (infeasible); B+C: weight 7 (infeasible)",
+        "Best feasible is A+B with value 9"
+      ],
+      "category": "Optimization",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "Two carts collide elastically on a frictionless track. Cart A (m = 2 kg) moves at +3 m/s and Cart B (m = 1 kg) moves at \u22122 m/s. Find the final velocities of A and B after a 1D elastic collision.",
+      "solution": "vA' = \u22121/3 m/s and vB' = 14/3 m/s (\u2248 \u22120.333 m/s and 4.667 m/s).",
+      "solution_steps": [
+        "Use 1D elastic collision formulas:",
+        "v1' = [(m1 \u2212 m2)/(m1 + m2)] v1 + [2 m2/(m1 + m2)] v2",
+        "v2' = [2 m1/(m1 + m2)] v1 + [(m2 \u2212 m1)/(m1 + m2)] v2",
+        "Substitute m1=2, m2=1, v1=+3, v2=\u22122:",
+        "vA' = [(2\u22121)/3](3) + [2(1)/3](\u22122) = (1/3)(3) + (2/3)(\u22122) = 1 \u2212 4/3 = \u22121/3 m/s",
+        "vB' = [2(2)/3](3) + [(1\u22122)/3](\u22122) = (4/3)(3) + (\u22121/3)(\u22122) = 4 + 2/3 = 14/3 m/s"
+      ],
+      "category": "Physics",
+      "difficulty": "Hard"
+    },
+    {
+      "problem": "A 5 kg block is pulled up a rough incline (\u03b8 = 30\u00b0) at constant speed by a 50 N force parallel to the plane. The coefficient of kinetic friction is \u03bck = 0.2. Find the work done by the pulling force over 4 m.",
+      "solution": "The work done by the pulling force is 200 J.",
+      "solution_steps": [
+        "At constant speed, net force along plane is zero: but work by pulling force is W = F d cos(0).",
+        "Compute W = 50 \u00d7 4 = 200 J."
+      ],
+      "category": "Physics",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "How many distinct permutations are there of the letters in the word 'MISSISSIPPI'?",
+      "solution": "There are 34,650 distinct permutations.",
+      "solution_steps": [
+        "Total letters = 11. Multiplicities: M=1, I=4, S=4, P=2.",
+        "Count permutations: 11! / (4! 4! 2! 1!) = 39,916,800 / 1,152 = 34,650"
+      ],
+      "category": "Mathematics",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "Solve for x > 9: log10(x) + log10(x \u2212 9) = 2.",
+      "solution": "x = (9 + \u221a481) / 2 \u2248 15.466.",
+      "solution_steps": [
+        "Combine logs: log10[x(x\u22129)] = 2 \u21d2 x(x\u22129) = 100",
+        "Form quadratic: x^2 \u2212 9x \u2212 100 = 0",
+        "Solve: x = [9 \u00b1 \u221a(81 + 400)]/2 = [9 \u00b1 \u221a481]/2",
+        "Domain requires x > 9 \u21d2 x = (9 + \u221a481)/2"
+      ],
+      "category": "Mathematics",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "Limiting reagent: 2Al + 3Cl2 \u2192 2AlCl3. If 10.0 g Al (M=26.98 g/mol) reacts with 20.0 g Cl2 (M=70.90 g/mol), what mass of AlCl3 (M=133.34 g/mol) can form?",
+      "solution": "Chlorine is limiting; theoretical yield is \u2248 25.1 g AlCl3.",
+      "solution_steps": [
+        "n(Al) = 10.0/26.98 \u2248 0.3707 mol; n(Cl2) = 20.0/70.90 \u2248 0.2822 mol",
+        "Stoichiometry needs 1.5 mol Cl2 per mol Al \u21d2 needed Cl2 \u2248 0.556 mol > 0.2822 \u21d2 Cl2 limiting",
+        "From 3 Cl2 \u2192 2 AlCl3: n(AlCl3) = (2/3) n(Cl2) \u2248 0.1881 mol",
+        "Mass = 0.1881 \u00d7 133.34 \u2248 25.1 g"
+      ],
+      "category": "Chemistry",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "An experiment produced 8.50 g of aspirin (theoretical yield 10.0 g). What is the percent yield?",
+      "solution": "Percent yield = 85.0%.",
+      "solution_steps": [
+        "Percent yield = (actual / theoretical) \u00d7 100% = (8.50 / 10.0) \u00d7 100% = 85.0%"
+      ],
+      "category": "Chemistry",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "A firm has fixed costs of $50,000 and variable cost per unit of $30. The product sells for $50 per unit. What is the break-even quantity?",
+      "solution": "Break-even quantity is 2,500 units.",
+      "solution_steps": [
+        "Break-even Q = Fixed Costs / (Price \u2212 Variable Cost)",
+        "Q = 50,000 / (50 \u2212 30) = 2,500"
+      ],
+      "category": "Economics",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "A market basket costs $200 in the base year and $230 this year. Compute the CPI this year (base year CPI = 100) and the inflation rate.",
+      "solution": "CPI = 115; inflation rate = 15%.",
+      "solution_steps": [
+        "CPI = (Current cost / Base cost) \u00d7 100 = (230 / 200) \u00d7 100 = 115",
+        "Inflation rate = (CPI \u2212 100) / 100 \u00d7 100% = 15%"
+      ],
+      "category": "Economics",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "In a sample of 100 individuals, genotype counts are AA=40, Aa=40, aa=20. Compute allele frequencies p and q.",
+      "solution": "p = 0.60 and q = 0.40.",
+      "solution_steps": [
+        "p = (2*AA + Aa) / (2N) = (2*40 + 40)/(200) = 120/200 = 0.60",
+        "q = 1 \u2212 p = 0.40"
+      ],
+      "category": "Biology",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "Parents with genotypes AO and BO for the ABO blood group have a child. What is the probability the child has blood type O?",
+      "solution": "Probability = 1/4 = 25%.",
+      "solution_steps": [
+        "Cross AO \u00d7 BO \u2192 gametes: A,O and B,O",
+        "Offspring genotypes: AB, AO, BO, OO",
+        "Type O corresponds to OO: 1 of 4 outcomes \u2192 25%"
+      ],
+      "category": "Biology",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "What minimum sample size is needed to estimate a population proportion within \u00b13% at 95% confidence using the conservative p = 0.5?",
+      "solution": "n \u2248 1,068.",
+      "solution_steps": [
+        "Use n = (z^2 p(1\u2212p)) / E^2 with z = 1.96, p = 0.5, E = 0.03",
+        "Compute numerator: 1.96^2 * 0.25 = 3.8416 * 0.25 = 0.9604",
+        "Divide by E^2: 0.9604 / 0.0009 \u2248 1067.1 \u2192 round up to 1,068"
+      ],
+      "category": "Statistics",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "A normal population has \u03c3 = 12. For n = 36 observations, the sample mean is 74. Test H0: \u03bc = 70 vs. H1: \u03bc \u2260 70 at \u03b1 = 0.05.",
+      "solution": "z = 2.00, p \u2248 0.0455 < 0.05 \u21d2 reject H0.",
+      "solution_steps": [
+        "Compute standard error: SE = \u03c3/\u221an = 12/6 = 2",
+        "z = (x\u0304 \u2212 \u03bc0)/SE = (74 \u2212 70) / 2 = 2.00",
+        "Two-tailed p-value \u2248 2 * (1 \u2212 \u03a6(2)) \u2248 2 * 0.0228 = 0.0455",
+        "Since p < 0.05, reject H0"
+      ],
+      "category": "Statistics",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "Differentiate y = (3x^2 \u2212 x + 1)^5.",
+      "solution": "dy/dx = 5(3x^2 \u2212 x + 1)^4 (6x \u2212 1).",
+      "solution_steps": [
+        "Use chain rule: d/dx [u^5] = 5u^4 * du/dx with u = 3x^2 \u2212 x + 1",
+        "du/dx = 6x \u2212 1",
+        "Thus dy/dx = 5(3x^2 \u2212 x + 1)^4 (6x \u2212 1)"
+      ],
+      "category": "Calculus",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "Evaluate \u222b x e^{2x} dx.",
+      "solution": "\u222b x e^{2x} dx = (x e^{2x})/2 \u2212 (e^{2x})/4 + C.",
+      "solution_steps": [
+        "Integration by parts: let u = x (du = dx), dv = e^{2x} dx (v = e^{2x}/2)",
+        "\u222b x e^{2x} dx = u v \u2212 \u222b v du = x(e^{2x}/2) \u2212 \u222b (e^{2x}/2) dx",
+        "= (x e^{2x})/2 \u2212 (e^{2x}/4) + C"
+      ],
+      "category": "Calculus",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "Maximize f(x,y) = x y subject to the constraint x + 2y = 12, x, y \u2265 0. Find the optimal (x, y) and maximum value.",
+      "solution": "Optimal at x = 6, y = 3 with maximum value 18.",
+      "solution_steps": [
+        "Use Lagrange multipliers or substitution: y = (12 \u2212 x)/2",
+        "f(x) = x(12 \u2212 x)/2 = 6x \u2212 x^2/2",
+        "Maximize parabola: f'(x) = 6 \u2212 x = 0 \u21d2 x = 6, y = 3",
+        "f_max = 6*3 = 18"
+      ],
+      "category": "Optimization",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "Linear program: Maximize P = 3x + 5y subject to x + 2y \u2264 18, 3x + y \u2264 21, x \u2265 0, y \u2265 0. Find the optimal solution.",
+      "solution": "Optimal at (x, y) = (4.8, 6.6) with P = 47.4.",
+      "solution_steps": [
+        "Find intersection of x + 2y = 18 and 3x + y = 21:",
+        "From 3x + y = 21 \u21d2 y = 21 \u2212 3x; substitute into first: x + 2(21 \u2212 3x) = 18",
+        "x + 42 \u2212 6x = 18 \u21d2 \u22125x = \u221224 \u21d2 x = 4.8, y = 21 \u2212 14.4 = 6.6",
+        "Evaluate P at corners and intersection: best is (4.8, 6.6) with P = 47.4"
+      ],
+      "category": "Optimization",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "Find all real solutions to the equation x\u2074 \u2212 5x\u00b2 + 4 = 0.",
+      "solution": "The real solutions are x = \u00b11 and x = \u00b12.",
+      "solution_steps": [
+        "Let y = x\u00b2 \u2192 equation becomes y\u00b2 \u2212 5y + 4 = 0.",
+        "Factorize: (y \u2212 4)(y \u2212 1) = 0 \u2192 y = 4 or y = 1.",
+        "Then x = \u00b1\u221a4 = \u00b12 and x = \u00b1\u221a1 = \u00b11."
+      ],
+      "category": "Mathematics",
+      "difficulty": "Hard"
+    },
+    {
+      "problem": "At 298 K, the equilibrium constant for the reaction N\u2082O\u2084 \u21cc 2NO\u2082 is Kp = 0.15. If initially only N\u2082O\u2084 is present at 0.5 atm, calculate the equilibrium partial pressures of N\u2082O\u2084 and NO\u2082.",
+      "solution": "At equilibrium: P(NO\u2082) \u2248 0.239 atm, P(N\u2082O\u2084) \u2248 0.381 atm.",
+      "solution_steps": [
+        "Let x = pressure of N\u2082O\u2084 that dissociates: N\u2082O\u2084 \u21cc 2NO\u2082.",
+        "Initial pressures: P\u2080(N\u2082O\u2084)=0.5, P\u2080(NO\u2082)=0.",
+        "At equilibrium: P(N\u2082O\u2084)=0.5\u2212x, P(NO\u2082)=2x.",
+        "Kp = (P(NO\u2082)\u00b2) / (P(N\u2082O\u2084)) = (4x\u00b2)/(0.5\u2212x) = 0.15.",
+        "Rearrange: 4x\u00b2 = 0.15(0.5\u2212x) \u2192 4x\u00b2 + 0.15x \u2212 0.075 = 0",
+        "Using quadratic formula: x = [\u22120.15 + \u221a(0.0225 + 1.2)] / 8 \u2248 0.1195",
+        "Thus P(NO\u2082) = 2(0.1195) \u2248 0.239 atm, P(N\u2082O\u2084) = 0.5 \u2212 0.1195 \u2248 0.381 atm",
+        "Check: Kp = (0.239)\u00b2/0.381 \u2248 0.150 \u2713"
+      ],
+      "category": "Chemistry",
+      "difficulty": "Hard"
+    },
+    {
+      "problem": "A monopolist faces demand P = 100 \u2212 2Q and has total cost C = 20Q + 100. Determine the profit-maximizing output, price, and profit.",
+      "solution": "Optimal output Q* = 20, price P* = 60, and profit = 700.",
+      "solution_steps": [
+        "Revenue: R = P\u00d7Q = (100 \u2212 2Q)Q = 100Q \u2212 2Q\u00b2.",
+        "Marginal revenue: MR = dR/dQ = 100 \u2212 4Q.",
+        "Marginal cost: MC = dC/dQ = 20.",
+        "Set MR = MC \u2192 100 \u2212 4Q = 20 \u2192 Q = 20.",
+        "Price: P = 100 \u2212 2\u00d720 = 60.",
+        "Profit: TR \u2212 TC = (60\u00d720) \u2212 (20\u00d720 + 100) = 1200 \u2212 500 = 700."
+      ],
+      "category": "Economics",
+      "difficulty": "Hard"
+    },
+    {
+      "problem": "A pendulum has a period of 2.0 seconds. What is its length? (Use g = 9.8 m/s\u00b2)",
+      "solution": "The length of the pendulum is approximately 0.994 m.",
+      "solution_steps": [
+        "Formula: T = 2\u03c0\u221a(L/g)",
+        "Rearrange: L = g(T / 2\u03c0)\u00b2 = 9.8 \u00d7 (2 / 6.283)\u00b2 \u2248 0.994 m"
+      ],
+      "category": "Physics",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "A 0.5 kg object moves in a circle of radius 2 m at a constant speed of 4 m/s. Find the centripetal force.",
+      "solution": "The centripetal force is 4 N.",
+      "solution_steps": [
+        "Fc = m v\u00b2 / r = 0.5 \u00d7 4\u00b2 / 2 = 4 N"
+      ],
+      "category": "Physics",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "A 1 kg block attached to a spring oscillates with amplitude 0.1 m and frequency 2 Hz. Find its maximum acceleration.",
+      "solution": "The maximum acceleration is 15.8 m/s\u00b2.",
+      "solution_steps": [
+        "a_max = \u03c9\u00b2 A = (2\u03c0f)\u00b2 \u00d7 0.1 = (4\u03c0\u00b2) \u00d7 0.1 \u2248 15.8 m/s\u00b2"
+      ],
+      "category": "Physics",
+      "difficulty": "Hard"
+    },
+    {
+      "problem": "Simplify: (2x\u00b3y\u00b2)\u00b2 \u00f7 (4x\u00b2y\u00b3).",
+      "solution": "Result = x\u2074y.",
+      "solution_steps": [
+        "(2x\u00b3y\u00b2)\u00b2 = 4x\u2076y\u2074",
+        "Divide by 4x\u00b2y\u00b3: (4x\u2076y\u2074)/(4x\u00b2y\u00b3) = x\u2076\u207b\u00b2y\u2074\u207b\u00b3 = x\u2074y"
+      ],
+      "category": "Mathematics",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "A right triangle has legs 6 and 8. Find the hypotenuse.",
+      "solution": "The hypotenuse is 10 units.",
+      "solution_steps": [
+        "Use Pythagoras: c = \u221a(6\u00b2 + 8\u00b2) = \u221a100 = 10"
+      ],
+      "category": "Mathematics",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "Find the sum of the first 20 terms of the arithmetic sequence 3, 7, 11, ...",
+      "solution": "The sum is 820.",
+      "solution_steps": [
+        "Common difference d = 4; n = 20; a\u2081 = 3; a\u2082\u2080 = 3 + 19\u00d74 = 79",
+        "S\u2099 = n(a\u2081 + a\u2099)/2 = 20(3 + 79)/2 = 20\u00d782/2 = 820"
+      ],
+      "category": "Mathematics",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "Solve for x: e^{2x} \u2212 5e^{x} + 6 = 0.",
+      "solution": "x = ln(2) or x = ln(3).",
+      "solution_steps": [
+        "Let y = e^x \u2192 y\u00b2 \u2212 5y + 6 = 0 \u2192 y = 2 or 3 \u2192 x = ln(2), ln(3)"
+      ],
+      "category": "Mathematics",
+      "difficulty": "Hard"
+    },
+    {
+      "problem": "What is the molar mass of calcium carbonate (CaCO\u2083)?",
+      "solution": "The molar mass is 100.09 g/mol.",
+      "solution_steps": [
+        "Ca=40.08, C=12.01, O\u2083=48 \u2192 total = 100.09 g/mol"
+      ],
+      "category": "Chemistry",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "Calculate the percent composition of oxygen in ethanol (C\u2082H\u2086O).",
+      "solution": "Oxygen makes up 34.7% of ethanol by mass.",
+      "solution_steps": [
+        "M = 2\u00d712.01 + 6\u00d71.008 + 16.00 = 46.07 g/mol",
+        "%O = 16.00 / 46.07 \u00d7 100 = 34.7%"
+      ],
+      "category": "Chemistry",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "The rate constant for a first-order reaction is 0.231 min\u207b\u00b9. What is the half-life?",
+      "solution": "The half-life is 3.00 minutes.",
+      "solution_steps": [
+        "t\u00bd = ln(2)/k = 0.693/0.231 = 3.00 min"
+      ],
+      "category": "Chemistry",
+      "difficulty": "Hard"
+    },
+    {
+      "problem": "If demand Qd = 100 \u2212 5P and supply Qs = 20 + 3P, find the equilibrium price and quantity.",
+      "solution": "Equilibrium price = 10, quantity = 50.",
+      "solution_steps": [
+        "100 \u2212 5P = 20 + 3P \u2192 80 = 8P \u2192 P = 10 \u2192 Q = 50"
+      ],
+      "category": "Economics",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "A bond with a face value of $1,000 pays a 6% annual coupon and matures in 5 years. If the market rate is 5%, what is its price?",
+      "solution": "The bond price is approximately $1,043.",
+      "solution_steps": [
+        "PV = 60\u00d7[1 \u2212 (1+0.05)\u207b\u2075]/0.05 + 1000/(1.05)\u2075 \u2248 259.9 + 783.5 \u2248 1043.4"
+      ],
+      "category": "Economics",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "Given a Cobb\u2013Douglas production function Q = A L^0.5 K^0.5 with A = 10, L = 25, and K = 16, compute output and marginal products.",
+      "solution": "Q = 200; MPL = 4; MPK = 6.25.",
+      "solution_steps": [
+        "Q = 10\u00d7\u221a(25\u00d716) = 10\u00d720 = 200",
+        "MPL = 0.5A(K/L)^0.5 = 0.5\u00d710\u00d7(16/25)^0.5 = 5\u00d7(4/5) = 4",
+        "MPK = 0.5A(L/K)^0.5 = 0.5\u00d710\u00d7(25/16)^0.5 = 5\u00d7(5/4) = 6.25"
+      ],
+      "category": "Economics",
+      "difficulty": "Hard"
+    },
+    {
+      "problem": "What organelle is responsible for energy production in eukaryotic cells?",
+      "solution": "The mitochondrion.",
+      "solution_steps": [
+        "Mitochondria generate ATP through cellular respiration."
+      ],
+      "category": "Biology",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "Explain the role of mRNA in protein synthesis.",
+      "solution": "mRNA carries genetic information from DNA to ribosomes for translation.",
+      "solution_steps": [
+        "mRNA is transcribed from DNA and serves as a template for amino acid assembly."
+      ],
+      "category": "Biology",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "In a population, selection favors heterozygotes. What type of selection is this?",
+      "solution": "Balancing (heterozygote advantage) selection.",
+      "solution_steps": [
+        "Maintains both alleles in population by giving heterozygotes higher fitness."
+      ],
+      "category": "Biology",
+      "difficulty": "Hard"
+    },
+    {
+      "problem": "A fair die is rolled. What is the probability of getting a number greater than 4?",
+      "solution": "Probability = 1/3.",
+      "solution_steps": [
+        "Outcomes >4 are {5,6}: 2/6 = 1/3"
+      ],
+      "category": "Statistics",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "Compute the variance of the dataset [2, 4, 6, 8, 10].",
+      "solution": "Variance = 8.",
+      "solution_steps": [
+        "Mean=6; deviations\u00b2=(16+4+0+4+16)=40; divide by n=5 \u2192 8"
+      ],
+      "category": "Statistics",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "A regression model yields R\u00b2 = 0.81. What does this indicate?",
+      "solution": "81% of the variance in the dependent variable is explained by the model.",
+      "solution_steps": [
+        "R\u00b2 measures explained variance fraction; 0.81 = 81% explained."
+      ],
+      "category": "Statistics",
+      "difficulty": "Hard"
+    },
+    {
+      "problem": "Find the derivative of sin(x)cos(x).",
+      "solution": "f\u2032(x) = cos\u00b2(x) \u2212 sin\u00b2(x).",
+      "solution_steps": [
+        "Product rule: f\u2032 = cos(x)cos(x) \u2212 sin(x)sin(x)"
+      ],
+      "category": "Calculus",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "Evaluate the limit lim\u2093\u21920 (sin(3x)/x).",
+      "solution": "The limit is 3.",
+      "solution_steps": [
+        "lim sin(3x)/x = 3\u00b7lim sin(3x)/(3x) = 3"
+      ],
+      "category": "Calculus",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "Determine the inflection points of f(x)=x^4\u22124x^3+6x^2.",
+      "solution": "There are no inflection points.",
+      "solution_steps": [
+        "Compute f''(x)=12x^2\u221224x+12=12(x\u22121)^2 \u2265 0 for all x.",
+        "The concavity is never negative and does not change sign; f''(1)=0 but with no sign change.",
+        "Therefore, f has no inflection points."
+      ],
+      "category": "Calculus",
+      "difficulty": "Hard"
+    },
+    {
+      "problem": "Find the minimum of f(x)=x\u00b2+4x+8.",
+      "solution": "Minimum at x=\u22122, f(\u22122)=4.",
+      "solution_steps": [
+        "f'(x)=2x+4=0\u2192x=\u22122\u2192f=4"
+      ],
+      "category": "Optimization",
+      "difficulty": "Easy"
+    },
+    {
+      "problem": "Maximize f(x,y)=x\u00b2y subject to x+y=6.",
+      "solution": "x=4,y=2,f=32.",
+      "solution_steps": [
+        "Substitute y=6\u2212x\u2192f=x\u00b2(6\u2212x)=6x\u00b2\u2212x\u00b3\u2192f\u2032=12x\u22123x\u00b2=0\u2192x=4,y=2."
+      ],
+      "category": "Optimization",
+      "difficulty": "Medium"
+    },
+    {
+      "problem": "A company minimizes C=3x\u00b2+4y\u00b2 subject to x+2y=10. Find x and y.",
+      "solution": "x = 2.5, y = 3.75; minimum cost at (2.5, 3.75).",
+      "solution_steps": [
+        "Set up Lagrangian: L = 3x\u00b2 + 4y\u00b2 + \u03bb(x + 2y \u2212 10).",
+        "Stationary conditions: \u2202L/\u2202x = 6x + \u03bb = 0 \u21d2 \u03bb = \u22126x; \u2202L/\u2202y = 8y + 2\u03bb = 0 \u21d2 8y \u2212 12x = 0 \u21d2 3x = 2y \u21d2 y = 1.5x.",
+        "Use the constraint: x + 2y = 10 \u21d2 x + 3x = 10 \u21d2 x = 2.5; then y = 1.5\u00b72.5 = 3.75.",
+        "Conclusion: (x, y) = (2.5, 3.75) minimizes C subject to the constraint."
+      ],
+      "category": "Optimization",
+      "difficulty": "Hard"
+    }
+  ],
+  "evaluations": [
+    {
+      "average_score": 0.6752252570694283,
+      "score_std": 0.0,
+      "solutions": [
+        "\nA: 60",
+        "\nA: 60",
+        "\nA: 60"
+      ],
+      "step_scores": [
+        0.6184808952175466
+      ],
+      "average_step_score": 0.6184808952175466
+    },
+    {
+      "average_score": 0.3719270976144944,
+      "score_std": 0.0032096317966486118,
+      "solutions": [
+        "\n\nStep 1: We are given the initial velocity (v\u2080) of the ball as 20 m/s. We also know the acceleration due to gravity (g) as 9.8 m/s\u00b2.\n\nStep 2: To find out how high the ball will go, we need to consider the motion under the influence of gravity alone. The equation for vertical motion under gravity is given by:\n\nh(t) = h\u2080 + v\u2080t - 0.5gt\u00b2\n\nwhere h(t) is the height of the ball at time t, h\u2080 is the initial height, v\u2080 is the initial velocity, t is time, and g is the acceleration due to gravity.\n\nStep 3: Since the ball is thrown vertically upward, we can assume that the initial height (h\u2080) is zero. So, h(t) = v\u2080t - 0.5gt\u00b2.\n\nStep 4: We want to find the maximum height reached by the ball. To do this, we can differentiate the equation h(t) with respect to time (t) and set it equal to zero:\n\nd/dt [v\u2080t - 0.5gt\u00b2] = 0\n\nStep 5: Simplifying the expression, we get:\n\nv",
+        "\n\nStep 1: We are given the initial velocity (v\u2080) of the ball as 20 m/s. We also know the acceleration due to gravity (g) as 9.8 m/s\u00b2.\n\nStep 2: To find out how high the ball will go, we need to use the equation for vertical motion:\n\nh = h\u2080 + v\u2080t - 0.5gt\u00b2\n\nwhere h is the final height, h\u2080 is the initial height, t is time, and v\u2080 is the initial velocity.\n\nStep 3: Since the ball is thrown vertically upward, we can assume that the initial height (h\u2080) is zero. So, h = v\u2080t - 0.5gt\u00b2.\n\nStep 4: We want to find the maximum height reached by the ball, which occurs when the vertical velocity (v) becomes zero. At this point, the ball has reached its terminal velocity, given by:\n\nv = \u221a(2gh)\n\nSubstituting v = 0 into the equation for terminal velocity, we get:\n\n0 = \u221a(2gh)\n\nStep 5: Solving for h, we find:\n\nh = (v\u2080\u00b2/g) - v\u2080t\n\nPlugging in",
+        "\n\nStep 1: We are given the initial velocity (v\u2080) of the ball as 20 m/s. We also know the acceleration due to gravity (g) as 9.8 m/s\u00b2.\n\nStep 2: To find out how high the ball will go, we need to consider the motion under the influence of gravity alone. The equation for this is given by:\n\nh = h\u2080 + (1/2) * v\u2080\u00b2 * t\n\nwhere h is the final height, h\u2080 is the initial height, t is the time taken, and v\u2080 is the initial velocity.\n\nStep 3: Since the ball is thrown vertically upward, its initial height (h\u2080) is zero. So, we have:\n\nh = (1/2) * v\u2080\u00b2 * t\n\nStep 4: We want to find the maximum height reached by the ball. This occurs when the ball has been thrown for the maximum possible time. To determine this time, we can use the following relation:\n\nt = v\u2080 / sqrt(2 * g)\n\nThis gives us the maximum time the ball can be in the air before it starts falling back down due to gravity.\n\nStep 5: Substitute the value of t from step 4 into the equation for h:"
+      ],
+      "step_scores": [
+        0.2122201894350675,
+        0.058938310631019473,
+        0.17288710656755227,
+        0.17018749886099263
+      ],
+      "average_step_score": 0.15355827637365796
+    },
+    {
+      "average_score": 0.27966276772521304,
+      "score_std": 0.0,
+      "solutions": [
+        "\nA: 3 m/s\u00b2",
+        "\nA: 3 m/s\u00b2",
+        "\nA: 3 m/s\u00b2"
+      ],
+      "step_scores": [
+        0.15171856926549088
+      ],
+      "average_step_score": 0.15171856926549088
+    },
+    {
+      "average_score": 0.15059395379485613,
+      "score_std": 0.0,
+      "solutions": [
+        "\nA: 10 days",
+        "\nA: 10 days",
+        "\nA: 10 days"
+      ],
+      "step_scores": [
+        0.14090157096547418
+      ],
+      "average_step_score": 0.14090157096547418
+    },
+    {
+      "average_score": 0.5328529628150874,
+      "score_std": 0.026518586035071224,
+      "solutions": [
+        ".\nA: -3, -4, 2",
+        ".\nAnswer: -3, -4, 2",
+        ".\nAnswer: -3, -4, 2"
+      ],
+      "step_scores": [
+        0.6991585212772624
+      ],
+      "average_step_score": 0.6991585212772624
+    },
+    {
+      "average_score": 0.07711357637779075,
+      "score_std": 0.03460795161281315,
+      "solutions": [
+        " for x.\nAnswer: 3",
+        " for x.\nA: 4",
+        " for x.\nAnswer: 4"
+      ],
+      "step_scores": [
+        0.12419683366232306
+      ],
+      "average_step_score": 0.12419683366232306
+    },
+    {
+      "average_score": 0.09444651602193012,
+      "score_std": 0.0,
+      "solutions": [
+        "\nA: -1",
+        "\nA: -1",
+        "\nA: -1"
+      ],
+      "step_scores": [
+        0.6348184055058936
+      ],
+      "average_step_score": 0.6348184055058936
+    },
+    {
+      "average_score": 0.25027415676360637,
+      "score_std": 0.025919988947012,
+      "solutions": [
+        "\n\nStep 1: Find the stoichiometric coefficients for the reactants and products in the balanced chemical equation.\n\nThe balanced chemical equation for the reaction between hydrogen gas and nitrogen gas to form ammonia is:\n\nN\u2082 + H\u2082 \u2192 NH\u2083\n\nIn this equation, the stoichiometric coefficients for the reactants are 1 (N\u2082) and 1 (H\u2082), while the stoichiometric coefficient for the product is 1 (NH\u2083).\n\nStep 2: Determine the number of moles of each reactant needed to balance the equation.\n\nTo balance the equation, we need to make sure that the number of atoms of each element is the same on both sides of the equation. Since both nitrogen and hydrogen are present in the equation, we need to determine the number of moles of each reactant required to balance the equation.\n\nLet's assume that we have x moles of hydrogen gas (H\u2082) and y moles of nitrogen gas (N\u2082) in the equation. Then, the balanced equation would be:\n\nyN\u2082 + xH\u2082 \u2192 yNH\u2083\n\nNow, we can set up an equation to balance the number of nitrogen atoms:\n\nyN\u2082 + xH\u2082 \u2192 yNH\u2083\nyN\u2082 + xH\u2082 \u2192 yNH\u2083\n\nSince the number of",
+        "\n\nStep 1: Write the balanced chemical equation for the reaction between hydrogen gas and nitrogen gas to form ammonia.\nThe chemical equation is:\nN\u2082 + 3H\u2082 \u2192 NH\u2083\n\nStep 2: Determine the number of moles of hydrogen gas required for the reaction.\nTo do this, we need to divide the number of moles of nitrogen gas by the coefficient of the hydrogen gas in the equation.\nThe coefficient of hydrogen gas is 3.\n\nSo, the number of moles of hydrogen gas needed is:\nNumber of moles of H\u2082 = Number of moles of N\u2082 / Coefficient of H\u2082\n= 3 moles / 3\n= 1 mole\n\nTherefore, 1 mole of hydrogen gas is needed to react completely with 3 moles of nitrogen gas to form ammonia.",
+        "\n\nStep 1: Write the balanced chemical equation for the reaction between hydrogen gas and nitrogen gas to form ammonia.\nThe chemical equation is:\nN\u2082 + 3H\u2082 \u2192 NH\u2083\n\nStep 2: Determine the number of moles of hydrogen gas required to react completely with 3 moles of nitrogen gas.\nTo do this, we need to divide the number of moles of nitrogen gas by the coefficient of hydrogen gas in the chemical equation (which is 3).\nNumber of moles of hydrogen gas = Number of moles of nitrogen gas / Coefficient of hydrogen gas\nNumber of moles of hydrogen gas = 3 / 3\nNumber of moles of hydrogen gas = 1\n\nSo, 1 mole of hydrogen gas is needed to react completely with 3 moles of nitrogen gas to form ammonia."
+      ],
+      "step_scores": [
+        0.3306808568181944,
+        0.2819288408676518
+      ],
+      "average_step_score": 0.3063048488429231
+    },
+    {
+      "average_score": 0.21048542363640252,
+      "score_std": 2.7755575615628914e-17,
+      "solutions": [
+        "\nA: 0.585 M",
+        "\nA: 0.585 M",
+        "\nA: 0.585 M"
+      ],
+      "step_scores": [
+        0.6629654875680284
+      ],
+      "average_step_score": 0.6629654875680284
+    },
+    {
+      "average_score": 0.705263592947563,
+      "score_std": 0.0,
+      "solutions": [
+        "\nA: 50%",
+        "\nA: 50%",
+        "\nA: 50%"
+      ],
+      "step_scores": [
+        0.08756102259814418
+      ],
+      "average_step_score": 0.08756102259814418
+    },
+    {
+      "average_score": 0.1712426555592986,
+      "score_std": 2.7755575615628914e-17,
+      "solutions": [
+        "\nAnswer: 5%",
+        "\nAnswer: 5%",
+        "\nAnswer: 5%"
+      ],
+      "step_scores": [
+        0.1790207047592004
+      ],
+      "average_step_score": 0.1790207047592004
+    },
+    {
+      "average_score": 0.06366054501765066,
+      "score_std": 0.009676420283616828,
+      "solutions": [
+        "\nAnswer: 120",
+        "\nA: 120",
+        "\nAnswer: 120"
+      ],
+      "step_scores": [
+        0.2652080894494818
+      ],
+      "average_step_score": 0.2652080894494818
+    },
+    {
+      "average_score": 0.3588262401665863,
+      "score_std": 0.11775263651815414,
+      "solutions": [
+        "\nA: 0.907 - 0.993",
+        "\n\nStep 1: Calculate the sample proportion of patients who improve.\nSample proportion = Number of patients who improve / Total number of patients\nSample proportion = 270 / 300\nSample proportion = 0.9\n\nStep 2: Calculate the margin of error.\nTo calculate the margin of error, we'll use the formula:\nMargin of error = Z * (standard error)\nwhere Z is the Z-score corresponding to the desired confidence level (in this case, 1.96 for 95% confidence).\n\nStep 3: Calculate the standard error.\nStandard error = Sample proportion * (1 - Sample proportion) / Total sample size\nStandard error = 0.9 * (1 - 0.9) / 300\nStandard error = 0.095\n\nStep 4: Calculate the margin of error.\nMargin of error = 1.96 * 0.095\nMargin of error = 0.194\n\nStep 5: Calculate the confidence interval.\nConfidence interval = Sample proportion +/- Margin of error\nConfidence interval = 0.9 +/- 0.194\nConfidence interval = (0.706, 1.094)\n\nSo, the 95% confidence interval for the true",
+        "\n\nStep 1: Calculate the sample proportion of patients who improve.\nSample proportion = Number of patients who improved / Total number of patients\nSample proportion = 270 / 300\nSample proportion = 0.9\n\nStep 2: Calculate the margin of error.\nTo find the margin of error, we'll use the formula:\nMargin of error = Z * (Standard error)\nWhere Z is the Z-score corresponding to the desired confidence level (we'll use 1.96 for 95% confidence).\n\nStep 3: Calculate the standard error.\nStandard error = Square root of (Sample size * (1 - Sample proportion))\nStandard error = square root of (300 * (1 - 0.9))\nStandard error = square root of (300 * 0.1)\nStandard error = 10\n\nStep 4: Calculate the margin of error.\nMargin of error = 1.96 * 10\nMargin of error = 19.6\n\nStep 5: Calculate the confidence interval.\nConfidence interval = Sample proportion +/- Margin of error\nConfidence interval = 0.9 +/- 19.6\nConfidence interval = (0.9 - 19.6) to (0.9 + 19."
+      ],
+      "step_scores": [
+        0.149094227859156
+      ],
+      "average_step_score": 0.149094227859156
+    },
+    {
+      "average_score": 0.6770818837875741,
+      "score_std": 0.12260796798085632,
+      "solutions": [
+        "\nA: 1/2",
+        "\nA: 1/2",
+        "\nA. 0.5\nB. 1\nC. 2\nD. 3\n\nAnswer: A. 0.5\n\nExplanation:\n\n1. When two heterozygous organisms (Aa) are crossed, each offspring will inherit one allele (A or a) from each parent.\n2. Since there are two possible combinations of alleles (AA and aa), each offspring has a 50% chance of being either homozygous (AA or aa) or heterozygous (Aa).\n3. Therefore, the expected number of heterozygous offspring is 0.5, which is equal to 50%."
+      ],
+      "step_scores": [
+        0.42598881405581823
+      ],
+      "average_step_score": 0.42598881405581823
+    },
+    {
+      "average_score": 0.4343327550985199,
+      "score_std": 0.0,
+      "solutions": [
+        "\nA: 50%",
+        "\nA: 50%",
+        "\nA: 50%"
+      ],
+      "step_scores": [
+        0.6268468385023647
+      ],
+      "average_step_score": 0.6268468385023647
+    },
+    {
+      "average_score": 0.7416601302462927,
+      "score_std": 1.1102230246251565e-16,
+      "solutions": [
+        "\nA: 4x + 3",
+        "\nA: 4x + 3",
+        "\nA: 4x + 3"
+      ],
+      "step_scores": [
+        0.41451385454678397
+      ],
+      "average_step_score": 0.41451385454678397
+    },
+    {
+      "average_score": 0.6011423768773955,
+      "score_std": 0.24980807961771642,
+      "solutions": [
+        "\nA: 8\u03c0",
+        "\nA: 8\u03c0",
+        "\nA: 16\u03c0"
+      ],
+      "step_scores": [
+        0.1660571576445703
+      ],
+      "average_step_score": 0.1660571576445703
+    },
+    {
+      "average_score": 0.26972399225277205,
+      "score_std": 0.02409705042881183,
+      "solutions": [
+        "\n\nStep 1: Understand the problem\nThe farmer has 100 meters of fencing and wants to create a rectangular enclosure. However, he doesn't need to fence off the river, so the length of the enclosure will be determined by the width of the river.\n\nStep 2: Determine the width of the enclosure\nSince the farmer can't fence off the river, the width of the enclosure will be equal to the width of the river. Let's say the river is 20 meters wide.\n\nStep 3: Calculate the possible lengths of the enclosure\nNow that we know the width of the enclosure, we can calculate the possible lengths of the enclosure. Since the length of the enclosure determines the amount of fencing needed, it must be a multiple of 20 meters (the width of the river).\n\nPossible lengths for the enclosure could be: 20 meters, 40 meters, 60 meters, 80 meters, or 100 meters.\n\nStep 4: Calculate the area of each possible enclosure\nNext, we'll calculate the area of each possible enclosure. The area of a rectangle is given by the formula:\n\nArea = Length \u00d7 Width\n\nFor the 20-meter enclosure:\nArea = 20 meters \u00d7 20",
+        "\n\nStep 1: Understand the constraints\nThe farmer has 100 meters of fencing, but he doesn't need any fencing along the river. This means that the length of the enclosure must be less than or equal to 100 meters.\n\nStep 2: Determine the variables\nLet's denote the length of the enclosure as L and the width as W. We know that L must be less than or equal to 100 meters.\n\nStep 3: Set up the equation for the perimeter\nThe perimeter of a rectangle is given by the formula P = 2L + 2W. Since the farmer has 100 meters of fencing, the perimeter must be equal to 100 meters.\n\nStep 4: Write the equation for the area\nThe area of a rectangle is given by the formula A = LW. Our goal is to maximize the area, so we'll treat this as an optimization problem.\n\nStep 5: Formulate the objective function\nTo maximize the area, we want to maximize the function A(L, W) = LW.\n\nStep 6: Apply the constraints\nWe have two constraints: L must be less than or equal to 100 meters, and the perimeter must be equal to 100 meters. The perimeter constraint can be written as",
+        "\n\nStep 1: Understand the constraints.\nThe farmer has 100 meters of fencing, but he doesn't need any fencing along the river. This means that the two sides of the rectangle adjacent to the river do not need to be fenced in.\n\nStep 2: Determine the variables.\nLet's denote the length of the rectangle as L and the width as W. We know that L + W = 100 (since the total amount of fencing is 100 meters).\n\nStep 3: Set up the equation for the area.\nThe area of a rectangle is given by the formula A = LW. Since we want to maximize the area, we can set up an equation:\n\nA = LW\n\nStep 4: Solve for W in terms of L.\nFrom the constraint equation L + W = 100, we can solve for W:\n\nW = 100 - L\n\nStep 5: Substitute this expression for W into the area equation.\nNow we have A = L(100 - L).\n\nStep 6: Find the critical points.\nTo maximize the area, we need to find the critical points of the function A(L). The critical points are given by the derivative of A with respect to L:\n\ndA/dL = 1"
+      ],
+      "step_scores": [
+        0.8617677449787842,
+        0.21225160042432228,
+        0.36794122890938297,
+        0.15693369319110761
+      ],
+      "average_step_score": 0.39972356687589927
+    },
+    {
+      "average_score": 0.28788436932094325,
+      "score_std": 0.021366704074428818,
+      "solutions": [
+        "\n\nLet x represent the number of Product A and y represent the number of Product B. We have the following constraints:\n\nLabor constraint: 2x + 3y \u2264 100\nRaw material constraint: 3x + 2y \u2264 90\n\nWe want to maximize the profit function P(x, y) = 40x + 50y.\n\nFirst, let's find the possible values of x and y that satisfy both constraints:\n\nBy solving the labor constraint equation (2x + 3y \u2264 100), we get x \u2264 (100 - 3y)/2.\nSubstituting this into the raw material constraint equation (3x + 2y \u2264 90), we get:\n3((100 - 3y)/2) + 2y \u2264 90\n\nSimplifying and solving for y, we find that y \u2264 20.\n\nNow, substitute the possible values of y back into the equation for x:\nx \u2264 (100 - 3(20))/2 = 40\n\nSo, the possible production levels are x \u2264 40 and y \u2264 20.\n\nNext, we'll evaluate the profit function at each of these production levels to find the maximum value:",
+        "\n\nLet x represent the number of Product A and y represent the number of Product B. We have the following constraints:\n\nLabor constraint: 2x + 3y \u2264 100\nRaw material constraint: 3x + 2y \u2264 90\n\nWe want to maximize the profit function P(x, y) = 40x + 50y.\n\nFirst, let's find the possible values of x and y that satisfy the labor constraint:\n\n2x + 3y \u2264 100\nDivide both sides by 3:\nx + y \u2264 33.333...\n\nSince we cannot produce a fraction of a product, we round down to the nearest whole number:\nx + y \u2264 33\n\nNow, let's find the possible values of x and y that satisfy the raw material constraint:\n\n3x + 2y \u2264 90\nDivide both sides by 3:\nx + (2/3)y \u2264 30\n\nSince we cannot produce a fraction of a product, we round down to the nearest whole number:\nx + (2/3)y \u2264 30\nx + y \u2264 10\n\nNow, we need to find the intersection of these two constraints:\n\nx + y \u2264",
+        "\n\nLet x represent the number of Product A and y represent the number of Product B. We have the following constraints:\n\nLabor constraint: 2x + 3y \u2264 100\nRaw material constraint: 3x + 2y \u2264 90\n\nWe want to maximize the profit function P(x, y) = 40x + 50y.\n\nFirst, let's find the possible values of x and y that satisfy both constraints:\n\nBy solving the labor constraint equation (2x + 3y \u2264 100), we get x \u2264 (100 - 3y)/2.\nSubstituting this into the raw material constraint equation (3x + 2y \u2264 90), we get:\n3((100 - 3y)/2) + 2y \u2264 90\n150 - 9y + 2y \u2264 90\n-7y \u2264 -60\ny \u2265 60/7 \u2248 8.57\n\nSince y must be a whole number, we can round down to y = 8.\nNow, substituting y = 8 back into the equation for x, we get:\nx \u2264 (100 - 3(8))/2 = 20\n\n"
+      ],
+      "step_scores": [
+        0.6492783250978247
+      ],
+      "average_step_score": 0.6492783250978247
+    },
+    {
+      "average_score": 0.1634211722504404,
+      "score_std": 0.00047203852088511237,
+      "solutions": [
+        "\nA: 100 m",
+        "\nA: 30 m",
+        "\nA: 100 m"
+      ],
+      "step_scores": [
+        0.07058653248874935
+      ],
+      "average_step_score": 0.07058653248874935
+    },
+    {
+      "average_score": 0.5599609422958217,
+      "score_std": 0.26479207900205104,
+      "solutions": [
+        "\nAnswer: 2 A, 4 V",
+        "\nA: First, we need to find the total resistance of the circuit. Since the two resistors are connected in series, their resistances add up:\n\nTotal resistance = 4 \u03a9 + 6 \u03a9 = 10 \u03a9\n\nNext, we can use Ohm's law to find the circuit current:\n\nI = V / R\nI = 12 V / 10 \u03a9\nI = 1.2 A\n\nFinally, to find the voltage across the 6 \u03a9 resistor, we can use the fact that the current flows through both resistors in series:\n\nV = I \u00d7 R\nV = 1.2 A \u00d7 6 \u03a9\nV = 7.2 V\n\nSo, the circuit current is 1.2 A, and the voltage across the 6 \u03a9 resistor is 7.2 V.",
+        "\nA: First, we need to find the total resistance of the circuit. Since the two resistors are connected in series, we add their individual resistances together: 4 \u03a9 + 6 \u03a9 = 10 \u03a9.\nNext, we use Ohm's law to find the circuit current. Ohm's law states that the current flowing through a resistor is equal to the voltage across the resistor divided by the resistance of the resistor. In this case, the voltage across the 10 \u03a9 resistor is 12 V, and the current flowing through the resistor is I. So, we can write the equation: I = 12 V / 10 \u03a9.\nSimplifying the equation, we get: I = 1.2 A.\nNow, we need to find the voltage across the 6 \u03a9 resistor. Since the two resistors are connected in series, the same current flows through both of them. So, we can use Ohm's law again to find the voltage across the 6 \u03a9 resistor: V = I x R.\nIn this case, the current flowing through the resistor is 1.2 A, and the resistance of the resistor is 6 \u03a9. So, we can write the equation: V = 1.2 A x 6 \u03a9.\nSimplifying the equation, we get: V"
+      ],
+      "step_scores": [
+        0.32506363481072936
+      ],
+      "average_step_score": 0.32506363481072936
+    },
+    {
+      "average_score": 0.19164679977050247,
+      "score_std": 0.0038166842440067665,
+      "solutions": [
+        "\nA: 2x \u2264 1",
+        "\nA: 2x \u2264 3",
+        "\nA: 2x \u2264 2"
+      ],
+      "step_scores": [
+        0.4515557456290501
+      ],
+      "average_step_score": 0.4515557456290501
+    },
+    {
+      "average_score": 0.8048594869969549,
+      "score_std": 0.007932922374364448,
+      "solutions": [
+        "\n\nStep 1: We know that the formula for the area of a triangle is (base * height) / 2.\n\nStep 2: In this case, the base of the triangle is 12 units and the height is 7 units.\n\nStep 3: Plug these values into the formula: (12 * 7) / 2.\n\nStep 4: Calculate the result: 84 / 2 = 42.\n\nSo, the area of the triangle is 42 square units.",
+        "\n\nStep 1: We know that the formula for the area of a triangle is (base * height) / 2.\n\nStep 2: In this case, the base is 12 units and the height is 7 units.\n\nStep 3: Plug these values into the formula: (12 * 7) / 2.\n\nStep 4: Calculate the product: 84 / 2.\n\nStep 5: Divide by 2: 42.\n\nSo, the area of the triangle is 42 square units.",
+        "\n\nStep 1: We know that the formula for the area of a triangle is (base * height) / 2.\n\nStep 2: In this case, the base of the triangle is 12 units and the height is 7 units.\n\nStep 3: Plug these values into the formula: (12 * 7) / 2.\n\nStep 4: Calculate the result: 84 / 2 = 42.\n\nSo, the area of the triangle is 42 square units."
+      ],
+      "step_scores": [
+        0.34020869664604814,
+        0.38014934678265566
+      ],
+      "average_step_score": 0.3601790217143519
+    },
+    {
+      "average_score": 0.22694652352822028,
+      "score_std": 0.0026967080207974973,
+      "solutions": [
+        "\n\nStep 1: Identify the given information.\nWe are given the volume of the container (V = 5.0 L), the pressure (P = 2.0 atm), and the temperature (T = 300 K). We are also given the gas constant (R = 0.082057 L\u00b7atm\u00b7mol\u207b\u00b9\u00b7K\u207b\u00b9).\n\nStep 2: Use the ideal gas law to calculate the number of moles of gas (n).\nThe ideal gas law is given by PV = nRT, where P is the pressure, V is the volume, n is the number of moles of gas, R is the gas constant, and T is the temperature.\n\nSubstitute the given values into the ideal gas law:\n\n5.0 L * 2.0 atm = n * 0.082057 L\u00b7atm\u00b7mol\u207b\u00b9\u00b7K\u207b\u00b9 * 300 K\n\nStep 3: Solve for the number of moles of gas (n).\nDivide both sides of the equation by 0.082057 L\u00b7atm\u00b7mol\u207b\u00b9\u00b7K\u207b\u00b9 and 300 K:\n\nn = (5.0 L * 2.0 atm) / (",
+        "\n\nStep 1: Identify the given information.\nWe are given the volume of the container (V = 5.0 L), the pressure (P = 2.0 atm), and the temperature (T = 300 K). We are also given the gas constant (R = 0.082057 L\u00b7atm\u00b7mol\u207b\u00b9\u00b7K\u207b\u00b9).\n\nStep 2: Use the ideal gas law to calculate the number of moles of gas (n).\nThe ideal gas law is given by PV = nRT, where P is the pressure, V is the volume, n is the number of moles of gas, R is the gas constant, and T is the temperature.\n\nSubstitute the given values into the ideal gas law:\n\nPV = nRT\n2.0 atm * 5.0 L = n * 0.082057 L\u00b7atm\u00b7mol\u207b\u00b9\u00b7K\u207b\u00b9 * 300 K\n\nStep 3: Solve for the number of moles of gas (n).\nDivide both sides of the equation by R and T:\n\nn = (2.0 atm * 5.0 L) / (0.082057 L\u00b7atm\u00b7mol\u207b\u00b9\u00b7K",
+        "\n\nStep 1: Identify the given information.\nWe are given the volume of the container (V = 5.0 L), the pressure (P = 2.0 atm), and the temperature (T = 300 K). We are also given the gas constant (R = 0.082057 L\u00b7atm\u00b7mol\u207b\u00b9\u00b7K\u207b\u00b9).\n\nStep 2: Use the ideal gas law to calculate the number of moles of gas (n).\nThe ideal gas law is given by PV = nRT, where P is the pressure, V is the volume, n is the number of moles of gas, R is the gas constant, and T is the temperature.\n\nSubstitute the given values into the ideal gas law:\n\n5.0 L \u00b7 2.0 atm = n \u00b7 0.082057 L\u00b7atm\u00b7mol\u207b\u00b9\u00b7K\u207b\u00b9 \u00b7 300 K\n\nStep 3: Solve for the number of moles of gas (n).\nDivide both sides of the equation by 0.082057 L\u00b7atm\u00b7mol\u207b\u00b9\u00b7K\u207b\u00b9 and 300 K:\n\nn = (5.0 L \u00b7 2.0 atm) / ("
+      ],
+      "step_scores": [
+        0.7593625405063427,
+        0.5878866386889512,
+        0.5024459116744858
+      ],
+      "average_step_score": 0.6165650302899266
+    },
+    {
+      "average_score": 0.7271352324689019,
+      "score_std": 0.11975979436992422,
+      "solutions": [
+        "\n\nStep 1: Determine the number of moles of NaCl in the 0.50 M solution.\nSince the solution is 0.50 M, there are 0.50 moles of NaCl per liter (or 500 millimoles per milliliter).\n\nStep 2: Calculate the number of moles of NaCl needed for a 0.20 M solution.\nTo prepare a 0.20 M solution, you need half the number of moles of NaCl as in the 0.50 M solution: 0.50 moles / 2 = 0.25 moles.\n\nStep 3: Determine the final volume of the 0.20 M solution.\nTo find the final volume, divide the number of moles of NaCl needed by the concentration of NaCl in the final solution: 0.25 moles / 0.20 M = 1.25 L (rounded to two decimal places).\n\nStep 4: Calculate the amount of water that must be added.\nSince the initial volume is 200 mL, and the final volume is 1.25 L, you need to add 1.25 L - 200 mL = 0.25 L of water.\n\nSo, the final volume",
+        "\n\nStep 1: Determine the number of moles of NaCl in the 0.50 M solution.\nMoles of NaCl = Volume of solution * Concentration\nMoles of NaCl = 200 mL * 0.50 M\nMoles of NaCl = 100 mol\n\nStep 2: Calculate the number of moles of NaCl needed for a 0.20 M solution.\nMoles of NaCl needed = Final volume * Desired concentration\nMoles of NaCl needed = x mL * 0.20 M\n\nSince we know the number of moles of NaCl from step 1, we can set up an equation:\n\n100 mol = x mL * 0.20 M\n\nStep 3: Solve for x to find the final volume.\nDivide both sides by 0.20 M:\nx mL = 100 mol / 0.20 M\nx mL = 500 mL\n\nSo, the final volume should be 500 mL.\n\nStep 4: Calculate the amount of water that must be added.\nWater added = Final volume - Initial volume\nWater added = 500 mL - 200 mL\nWater added = 300 mL",
+        "\nA: First, we need to determine the amount of NaCl needed to make a 0.20 M solution. To do this, we can use the formula:\nM1V1 = M2V2\nwhere M1 is the initial molarity, V1 is the initial volume, M2 is the final molarity, and V2 is the final volume.\nWe are given:\nM1 = 0.50 M\nV1 = 200 mL\nM2 = 0.20 M\nWe need to solve for V2:\n0.50 M * 200 mL = 0.20 M * V2\n100 mL = 0.20 M * V2\nV2 = 100 mL / 0.20 M\nV2 = 500 mL\nTherefore, the final volume should be 500 mL, and 300 mL of water must be added to make a 0.20 M solution."
+      ],
+      "step_scores": [
+        0.15524562294183536,
+        0.484830318792549,
+        0.18931452742594287
+      ],
+      "average_step_score": 0.2764634897201091
+    },
+    {
+      "average_score": 0.056548119863750274,
+      "score_std": 0.0,
+      "solutions": [
+        "\nA: -5",
+        "\nA: -5",
+        "\nA: -5"
+      ],
+      "step_scores": [
+        0.5779449226366804
+      ],
+      "average_step_score": 0.5779449226366804
+    },
+    {
+      "average_score": 0.24226742106093627,
+      "score_std": 0.010581604360262505,
+      "solutions": [
+        "\n\nStep 1: Determine the NPV formula\nThe NPV (Net Present Value) of an investment is calculated by discounting the future cash inflows to their present value using the given discount rate. The formula for NPV is:\n\nNPV = -I + C1 / (1 + r)^1 + C2 / (1 + r)^2 + C3 / (1 + r)^3\n\nwhere:\n- I is the initial outlay\n- C1, C2, and C3 are the cash inflows in years 1, 2, and 3 respectively\n- r is the discount rate\n\nStep 2: Plug in the values into the formula\nWe are given the initial outlay (I) as $1000, and the cash inflows (C1, C2, and C3) as $400 at the end of years 1, 2, and 3 respectively. The discount rate (r) is 10%. So we can plug these values into the NPV formula:\n\nNPV = -1000 + 400 / (1 + 0.1)^1 + 400 / (1 + 0.1)^2 + 400 / (1 + 0.1)^3\n\nStep 3: Calculate the NPV\nFirst",
+        "\n\nStep 1: Determine the NPV formula\nNPV = I - (CF1 / (1 + r)^1) - (CF2 / (1 + r)^2) - ... - (CFn / (1 + r)^n)\n\nwhere:\n- I is the initial outlay\n- CF1, CF2, ..., CFn are the cash inflows at the end of years 1, 2, ..., n\n- r is the discount rate\n\nStep 2: Plug in the given values into the NPV formula\nNPV = $1000 - ($400 / (1 + 0.1)^1) - ($400 / (1 + 0.1)^2) - ($400 / (1 + 0.1)^3)\n\nStep 3: Calculate the NPV\nNPV = $1000 - ($400 / 1.1) - ($400 / 1.21) - ($400 / 1.331)\nNPV \u2248 $1000 - $363.64 - $326.56 - $254.72\nNPV \u2248 -$100.36\n\nThe NPV of the investment is approximately negative $10",
+        "\n\nStep 1: Determine the NPV formula\nNPV = I - (CF1 / (1 + r)^1) - (CF2 / (1 + r)^2) - ... - (CFn / (1 + r)^n)\n\nwhere:\n- I is the initial outlay\n- CF1, CF2, ..., CFn are the cash inflows in years 1, 2, ..., n\n- r is the discount rate\n\nStep 2: Plug in the given values into the formula\nNPV = $1000 - ($400 / (1 + 0.1)^1) - ($400 / (1 + 0.1)^2) - ($400 / (1 + 0.1)^3)\n\nStep 3: Calculate the NPV\nNPV = $1000 - ($400 / 1.1) - ($400 / 1.21) - ($400 / 1.331)\nNPV \u2248 $1000 - $363.64 - $326.56 - $254.84\nNPV \u2248 $1000 - $1144.44\nNPV \u2248 -$144.44\n\n"
+      ],
+      "step_scores": [
+        0.49867007645268085,
+        0.2342829788671558,
+        0.11903125529522546
+      ],
+      "average_step_score": 0.28399477020502073
+    },
+    {
+      "average_score": 0.44306437771013396,
+      "score_std": 0.29292138614627433,
+      "solutions": [
+        "\nAnswer: 10 units/min",
+        "\nA: 50 units/min",
+        "\nA: V = Vmax * [S] / (Km + [S]) = 100 * 5 / (5 + 5) = 100 / 10 = 10 units/min"
+      ],
+      "step_scores": [
+        0.6659589723762047
+      ],
+      "average_step_score": 0.6659589723762047
+    },
+    {
+      "average_score": 0.15956713806451406,
+      "score_std": 0.0,
+      "solutions": [
+        "\nA: 1/4",
+        "\nA: 1/4",
+        "\nA: 1/4"
+      ],
+      "step_scores": [
+        0.426679980502499
+      ],
+      "average_step_score": 0.426679980502499
+    },
+    {
+      "average_score": 0.14557438638819992,
+      "score_std": 0.01916672650447969,
+      "solutions": [
+        "\n\nFirst, we need to determine the probability of a person testing positive given that they have the disease. This is known as the probability of a true positive (TP). We are given the sensitivity of the test, which is 95%.\n\nTP = Sensitivity\nTP = 0.95\n\nNext, we need to determine the probability of a person testing positive given that they do not have the disease. This is known as the probability of a false positive (FP). We are given the specificity of the test, which is 90%.\n\nFP = 1 - Specificity\nFP = 1 - 0.90\nFP = 0.10\n\nNow, we can calculate the probability of a person testing positive using Bayes' theorem:\n\nP(Positive | Disease) = TP / (TP + FP)\nP(Positive | Disease) = 0.95 / (0.95 + 0.10)\nP(Positive | Disease) = 0.95 / 0.95\nP(Positive | Disease) = 1.00\n\nSo, if a person tests positive, there is a 100% chance that they actually have the disease.",
+        "\nA: 0.019",
+        "\n\nWe can use Bayes' theorem to solve this problem:\n\nP(D|T) = P(T|D) * P(D) / P(T)\n\nwhere:\n- P(D|T) is the probability of having the disease given a positive test result\n- P(T|D) is the probability of testing positive given that you have the disease\n- P(D) is the prevalence of the disease (1% in this case)\n- P(T) is the probability of testing positive, which can be calculated as the sum of probabilities for people with and without the disease: P(T) = P(T|D) * P(D) + P(T|\u00acD) * P(\u00acD)\n\nFirst, let's find P(T|D):\nP(T|D) = 0.95 (given that the test sensitivity is 95%)\n\nNext, let's find P(D):\nP(D) = 0.01 (prevalence of the disease is 1%)\n\nNow we need to find P(T|\u00acD), which is the probability of testing positive if you don't have the disease. Since the specificity of the test is 90%, this probability is:\n\nP(T|\u00acD) = 0.9 * P("
+      ],
+      "step_scores": [
+        0.7038925423051776
+      ],
+      "average_step_score": 0.7038925423051776
+    },
+    {
+      "average_score": 0.44061338518436405,
+      "score_std": 5.551115123125783e-17,
+      "solutions": [
+        "\nA: E[X] = 1.5, Var(X) = 0.5",
+        "\nA: E[X] = 1.5, Var(X) = 0.5",
+        "\nA: E[X] = 1.5, Var(X) = 0.5"
+      ],
+      "step_scores": [
+        0.4205150201932323
+      ],
+      "average_step_score": 0.4205150201932323
+    },
+    {
+      "average_score": 0.16589582551696605,
+      "score_std": 0.014262536457921558,
+      "solutions": [
+        "\nA: \u222b\u2080\u00b9 (3x\u00b2 \u2212 2x + 1) dx = [(3/3)x\u00b3 - (2/2)x\u00b2 + (1/1)x]\u2080\u00b9 = (1/4)x\u2080\u00b2 - (1/6)x\u2080\u00b3 + (1/4)x",
+        "\nA: \u222b\u2080\u00b9 (3x\u00b2 \u2212 2x + 1) dx = [x\u00b3 - (2/3)x\u00b2 + (1/3)x]\u2080\u00b9 = 1 - (2/3) = 1/3",
+        "\nAnswer: \u222b\u2080\u00b9 (3x\u00b2 \u2212 2x + 1) dx = [x\u00b3 - (2/3)x\u00b2 + (1/3)x]\u2080\u00b9 = 1 - (2/3) = 1/3"
+      ],
+      "step_scores": [
+        0.8028291749515151
+      ],
+      "average_step_score": 0.8028291749515151
+    },
+    {
+      "average_score": 0.8011568565357425,
+      "score_std": 0.009732142775190494,
+      "solutions": [
+        "\nA: Find the derivative of f(x) and set it equal to zero. Then determine if the critical points are a maximum, minimum, or neither.\n\nStep 1: Find the derivative of f(x)\nf'(x) = d/dx (x^3 \u2212 3x)\n\nUsing basic differentiation rules, we get:\nf'(x) = 3x^2 \u2212 3\n\nStep 2: Set the derivative equal to zero and solve for x\n0 = 3x^2 \u2212 3\n\nDivide both sides by 3:\n0 = x^2 \u2212 1\n\nNow, factor the quadratic equation on the right side:\n0 = (x + 1)(x - 1)\n\nThis gives us two possible solutions for x: x = -1 or x = 1.\n\nStep 3: Determine if the critical points are a maximum, minimum, or neither\nTo do this, we can use the second derivative test. First, find the second derivative of f(x):\n\nf''(x) = d^2/dx^2 (x^3 \u2212 3x)\n\nUsing basic differentiation rules again, we get:\nf''(x) = 6x\n\nNow, evaluate the second derivative at each of the critical points found in step 2:\n\nf''(-",
+        "\nA: Find the derivative of f(x) with respect to x and set it equal to zero. Then, determine the nature of the critical points by testing the second derivative.\n\nStep 1: Find the derivative of f(x) with respect to x.\nf'(x) = d/dx (x^3 \u2212 3x)\n\nUsing basic differentiation rules, we get:\nf'(x) = 3x^2 \u2212 3\n\nStep 2: Set the derivative equal to zero and solve for x.\n3x^2 \u2212 3 = 0\n\nDivide both sides by 3:\nx^2 \u2212 1 = 0\n\nTake the square root of both sides:\nx = \u00b11\n\nSo, the critical points are x = 1 and x = -1.\n\nStep 3: Test the second derivative to determine the nature of the critical points.\nf''(x) = d^2/dx^2 (x^3 \u2212 3x)\n\nUsing basic differentiation rules again, we get:\nf''(x) = 6x\n\nNow, evaluate the second derivative at each critical point:\nf''(1) = 6(1) = 6\nf''(-1) = 6(-1) = -6\n\nSince f''(1) > 0, the",
+        "\nA: Find the derivative of f(x) and set it equal to zero to find the critical points. Then, test each critical point to determine if it is a maximum, minimum, or neither.\nStep 1: Find the derivative of f(x)\nf'(x) = d/dx (x^3 \u2212 3x)\nUsing basic differentiation rules, we get:\nf'(x) = 3x^2 \u2212 3\nStep 2: Set f'(x) equal to zero to find the critical points\n3x^2 \u2212 3 = 0\nDividing both sides by 3, we get:\nx^2 - 1 = 0\nTaking the square root of both sides, we get:\nx \u00b1 \u221a1 = 0\nSo the critical points are x = 1 and x = -1.\nStep 3: Test each critical point to determine if it is a maximum, minimum, or neither\nTo test x = 1, we can plug it back into the original function and compare it to the values of the function on either side of 1.\nf(1) = (1)^3 - 3(1) = -2\nf(-1) = (-1)^3 - 3(-1) = 4\nSince f(-1) is greater than f(1), x = -1 is a minimum."
+      ],
+      "step_scores": [
+        0.2402323436334796,
+        0.27708733605124597,
+        0.6077122873081109,
+        0.624065169866979
+      ],
+      "average_step_score": 0.43727428421495385
+    },
+    {
+      "average_score": 0.2631778914998094,
+      "score_std": 0.2566077158735168,
+      "solutions": [
+        "\nA: -2, 13",
+        "\nAnswer: x = 3, f(x) = 4",
+        "\nAnswer: -1"
+      ],
+      "step_scores": [
+        0.4071117154270837
+      ],
+      "average_step_score": 0.4071117154270837
+    },
+    {
+      "average_score": 0.5677170820219571,
+      "score_std": 0.0073097390779184234,
+      "solutions": [
+        "\nA: Choose C(7,4) and B(5,3)\n\nTotal value = 7 + 5 = 12\n\nSo, the solution is to choose items C and B, resulting in a total value of 12.",
+        "\nA: Choose B and C. Total value = 5 + 7 = 12.",
+        "\nA: Choose B and C. Total value = 5 + 7 = 12."
+      ],
+      "step_scores": [
+        0.6296522113829603
+      ],
+      "average_step_score": 0.6296522113829603
+    },
+    {
+      "average_score": 0.2919139919681876,
+      "score_std": 0.06007118489414522,
+      "solutions": [
+        "\n\nStep 1: Determine the total mass of the system.\nThe total mass of the system is the sum of the masses of Cart A and Cart B: m_total = m_A + m_B = 2 kg + 1 kg = 3 kg.\n\nStep 2: Determine the initial momentum of the system.\nThe initial momentum of the system can be found by multiplying the initial velocities of each cart by their respective masses: p_total_i = v_A * m_A + v_B * m_B = (3 m/s) * (2 kg) + (-2 m/s) * (1 kg) = 6 kg m/s.\n\nStep 3: Apply the law of conservation of momentum.\nSince the collision is elastic, the total momentum of the system remains constant after the collision. Therefore, the final momentum of the system (p_total_f) is equal to the initial momentum (p_total_i): p_total_f = p_total_i = 6 kg m/s.\n\nStep 4: Determine the final velocities of A and B.\nTo find the final velocities of A and B, we need to solve for v_A and v_B using the equation p_total_f = m_A * v_A + m_B * v_B. We",
+        "\nA: Cart A: +1.5 m/s, Cart B: +4.5 m/s",
+        "\n\nStep 1: Determine the total mass of the system.\nThe total mass of the system is the sum of the masses of both carts: m_total = m_A + m_B = 2 kg + 1 kg = 3 kg.\n\nStep 2: Determine the initial momentum of the system.\nThe initial momentum of the system can be found by multiplying the initial velocities of each cart by their respective masses: p_total = v_A * m_A + v_B * m_B = (3 m/s) * (2 kg) + (-2 m/s) * (1 kg) = 6 kg m/s - 2 kg m/s = 4 kg m/s.\n\nStep 3: Apply the conservation of momentum principle.\nSince the collision is elastic and frictionless, the total momentum of the system before the collision must be equal to the total momentum after the collision. Therefore, we have:\n\np_total_initial = p_total_final\n\nStep 4: Calculate the final velocities of A and B.\nWe know that the total mass of the system is 3 kg, so we can find the final velocity of the system by dividing the total final momentum by the total mass:\n\nv_total_final = p_total_final / m_total = (4 kg"
+      ],
+      "step_scores": [
+        0.5904145874066952,
+        0.6572927911977862,
+        0.13378877522355154,
+        0.20822944001267635
+      ],
+      "average_step_score": 0.3974313984601773
+    },
+    {
+      "average_score": 0.21015213692217483,
+      "score_std": 0.0,
+      "solutions": [
+        "\nA: 160 J",
+        "\nA: 160 J",
+        "\nA: 160 J"
+      ],
+      "step_scores": [
+        0.04074976993027755
+      ],
+      "average_step_score": 0.04074976993027755
+    },
+    {
+      "average_score": 0.07998619068434469,
+      "score_std": 0.05764386497341876,
+      "solutions": [
+        "\nA: 10,872",
+        "\nAnswer: 11,520",
+        "\nA: 10,880"
+      ],
+      "step_scores": [
+        0.07534343271801125
+      ],
+      "average_step_score": 0.07534343271801125
+    },
+    {
+      "average_score": 0.47922174351807206,
+      "score_std": 0.0,
+      "solutions": [
+        "\nA: log10(x(x \u2212 9)) = 2",
+        "\nA: log10(x(x \u2212 9)) = 2",
+        "\nA: log10(x(x \u2212 9)) = 2"
+      ],
+      "step_scores": [
+        0.7865528862830209
+      ],
+      "average_step_score": 0.7865528862830209
+    },
+    {
+      "average_score": 0.3063236125218216,
+      "score_std": 0.0,
+      "solutions": [
+        "\nA: 16.67 g AlCl3",
+        "\nA: 16.67 g AlCl3",
+        "\nA: 16.67 g AlCl3"
+      ],
+      "step_scores": [
+        0.25785182997854755
+      ],
+      "average_step_score": 0.25785182997854755
+    },
+    {
+      "average_score": 0.6652211240850826,
+      "score_std": 0.25093514368646386,
+      "solutions": [
+        "\nAnswer: 85.0%",
+        "\nA: 85%",
+        "\nAnswer: 85.0%"
+      ],
+      "step_scores": [
+        0.4056095903104804
+      ],
+      "average_step_score": 0.4056095903104804
+    },
+    {
+      "average_score": 0.2318224431311805,
+      "score_std": 0.04141055728364822,
+      "solutions": [
+        "\nA: 1000 units",
+        "\nA: 1000 units",
+        "\nA: 1,667 units"
+      ],
+      "step_scores": [
+        0.5928629737178323
+      ],
+      "average_step_score": 0.5928629737178323
+    },
+    {
+      "average_score": 0.6376855195454073,
+      "score_std": 0.0910788253286493,
+      "solutions": [
+        "\nA: CPI = 115, Inflation rate = 5%",
+        "\nA: 15%",
+        "\nA: CPI = 115, Inflation rate = 5.5%"
+      ],
+      "step_scores": [
+        0.46990699830484817
+      ],
+      "average_step_score": 0.46990699830484817
+    },
+    {
+      "average_score": 0.42982503320483484,
+      "score_std": 0.0044059274878599725,
+      "solutions": [
+        "\nA: p=0.6, q=0.4",
+        "\nA: p=0.6, q=0.4",
+        "\nAnswer: p=0.6, q=0.4"
+      ],
+      "step_scores": [
+        0.2464825358446972
+      ],
+      "average_step_score": 0.2464825358446972
+    },
+    {
+      "average_score": 0.34030171238614876,
+      "score_std": 0.16655616068852774,
+      "solutions": [
+        "\n\nSolution:\n\n1. We know that the child's parents have genotypes AO and BO, which means they have blood types A and O, respectively.\n2. Since the child's parents have different blood types, the child cannot inherit both of their blood types.\n3. The child can inherit either the A or O blood type from their parents.\n4. If the child inherits the A blood type, then their other parent must have the O blood type (BO). However, this would mean that the child has blood type A, not O.\n5. Therefore, the child cannot inherit the A blood type from their parents.\n6. So, the child must inherit the O blood type from their parent with the O blood type (BO).\n7. Since the child's parents have different blood types, the child has a 50% chance of inheriting either the A or O blood type.\n8. However, we know that the child cannot inherit the A blood type, so the only possible outcome is that the child inherits the O blood type.\n\nFinal answer: The probability the child has blood type O is 100%.",
+        "\n\nStep 1: Understand the information given.\nThe parents have genotypes AO and BO, which means they have type A and type B blood, respectively. However, we don't know their specific blood types (A or O).\n\nStep 2: Determine the possible blood types for the child.\nSince both parents have type A and type B blood, there are four possible blood types for their child: AA, AB, BA, and BO.\n\nStep 3: Calculate the probability of the child having blood type O.\nTo do this, we need to consider the number of favorable outcomes (children with blood type O) and the total number of possible outcomes.\n\nThere are two favorable outcomes:\n- If one parent has type A blood and the other has type O blood, the child will have type A blood (AA or AB).\n- If both parents have type B blood, the child will have type B blood (BO).\n\nThe total number of possible outcomes is four: AA, AB, BA, and BO.\n\nSo, the probability of the child having blood type O is:\n(Number of favorable outcomes) / (Total number of possible outcomes) = 2 / 4 = 0.5 or 50%\n\nFinal answer: The probability the child has blood type O is 50%.",
+        "\n\nStep 1: Understand the information given.\nThe parents have genotypes AO and BO, which means they have type A and type B blood, respectively. However, we don't know their specific alleles (A or O for type A and B or O for type B).\n\nStep 2: Determine the possible combinations of alleles.\nSince there are two possible alleles for each blood type (A and O for type A, and B and O for type B), we can create a table with all possible combinations:\n\n| Parent 1 (A) | Parent 2 (B) | Child |\n|-------------|-------------|-------|\n| A           | A           | A     |\n| A           | B           | O     |\n| B           | A           | O     |\n| B           | B           | B     |\n\nStep 3: Calculate the probabilities.\nTo find the probability the child has blood type O, we need to consider the cases where both parents have type O blood (AO and BO) or when one parent has type O blood and the other has type A blood (AO). \n\nThere are two favorable outcomes:\n- Both parents have type O blood (AO and BO): 1/4 * 1/4 = 1/16\n- One parent has type O blood and the other has"
+      ],
+      "step_scores": [
+        0.6441179048755695
+      ],
+      "average_step_score": 0.6441179048755695
+    },
+    {
+      "average_score": 0.12636023237895275,
+      "score_std": 0.014122879428673397,
+      "solutions": [
+        "\nA: 384",
+        "\nA: 384",
+        "\nA: 385"
+      ],
+      "step_scores": [
+        0.04747932799547015
+      ],
+      "average_step_score": 0.04747932799547015
+    },
+    {
+      "average_score": 0.1742730956989981,
+      "score_std": 0.042512479037679074,
+      "solutions": [
+        "\nA: 1.96",
+        "\nA: 1.96",
+        "\nA: H0 is rejected."
+      ],
+      "step_scores": [
+        0.1466440762502318
+      ],
+      "average_step_score": 0.1466440762502318
+    },
+    {
+      "average_score": 0.510523017625112,
+      "score_std": 0.19983415200731502,
+      "solutions": [
+        "\nA: 15x(3x^3 \u2212 x^2 + x)",
+        "\nA: 5y^4(6x^3 - x^2 + x - 1)",
+        "\nA: 15x(3x^3 \u2212 x^2 + x)"
+      ],
+      "step_scores": [
+        0.3847017668440017
+      ],
+      "average_step_score": 0.3847017668440017
+    },
+    {
+      "average_score": 0.6341697380573935,
+      "score_std": 0.013458067438982688,
+      "solutions": [
+        "\nA: e^{2x} + C",
+        "\nAnswer: e^{2x} + C",
+        "\nA: e^{2x} + C"
+      ],
+      "step_scores": [
+        0.7543863812224283
+      ],
+      "average_step_score": 0.7543863812224283
+    },
+    {
+      "average_score": 0.49770391902867644,
+      "score_std": 0.004755124204829116,
+      "solutions": [
+        "\nA: x = 4, y = 3, maximum value = 12",
+        "\nAnswer: x = 4, y = 3, maximum value = 12",
+        "\nA: x = 4, y = 3, maximum value = 12"
+      ],
+      "step_scores": [
+        0.5680511625969868
+      ],
+      "average_step_score": 0.5680511625969868
+    },
+    {
+      "average_score": 0.2938186552066795,
+      "score_std": 0.018844558889711538,
+      "solutions": [
+        "\nA: The optimal solution is x = 6 and y = 4.\n\nStep 1: Graph the constraints.\n\nThe first constraint, x + 2y \u2264 18, is a line with slope -2 and y-intercept 18. It passes through the point (18, 0).\nThe second constraint, 3x + y \u2264 21, is a line with slope 3/1 and y-intercept 21. It passes through the point (0, 21).\n\nStep 2: Find the feasible region.\n\nThe feasible region is the area below the line x + 2y \u2264 18 and to the right of the line 3x + y \u2264 21.\n\nStep 3: Find the vertices of the feasible region.\n\nThe vertices of the feasible region are where the lines intersect: (18, 0) and (0, 21).\n\nStep 4: Evaluate P at each vertex.\n\nP(18, 0) = 3(18) + 5(0) = 54\nP(0, 21) = 3(0) + 5(21) = 105\n\nStep 5: Choose the vertex with the highest value of P.\n",
+        "\nAnswer: The optimal solution is x = 6 and y = 3.",
+        "\nA: The optimal solution is x = 6 and y = 3."
+      ],
+      "step_scores": [
+        0.18872988205039923,
+        0.7616946970976874,
+        0.2745447315135731,
+        0.22425298469267907
+      ],
+      "average_step_score": 0.3623055738385847
+    },
+    {
+      "average_score": 0.46950223487952564,
+      "score_std": 0.0,
+      "solutions": [
+        "\nA: -1, 0, 1, 2",
+        "\nA: -1, 0, 1, 2",
+        "\nA: -1, 0, 1, 2"
+      ],
+      "step_scores": [
+        0.1464935997070813
+      ],
+      "average_step_score": 0.1464935997070813
+    },
+    {
+      "average_score": 0.2596541975363356,
+      "score_std": 0.06475292482880032,
+      "solutions": [
+        "\nA: 0.5 atm, 0 atm",
+        "\nAnswer: 0.5 atm, 0 atm",
+        "\nAnswer: PNO\u2082 = 0.3 atm, PN\u2082O\u2084 = 0.2 atm"
+      ],
+      "step_scores": [
+        0.11938664756538306
+      ],
+      "average_step_score": 0.11938664756538306
+    },
+    {
+      "average_score": 0.4609468925030296,
+      "score_std": 0.08140850873083326,
+      "solutions": [
+        "\nA: To maximize profit, the monopolist should produce the output where marginal revenue (MR) equals marginal cost (MC). We can find the profit-maximizing output by setting MR equal to MC and solving for Q.\n\nMR = d(P)/dQ = -2\nMC = d(C)/dQ = 20\n\nSetting MR equal to MC, we get:\n-2 = 20\n\nThis equation has no solution, which means there is no profit-maximizing output.\n\nHowever, we can still find the profit-maximizing price and profit by plugging in the profit-maximizing output into the given equations.\n\nPrice = P = 100 - 2Q\nProfit = PQ - C = (100 - 2Q)(Q) - (20Q + 100)\n\nSubstituting the profit-maximizing output, we get:\n\nPrice = 100 - 2(Q)\nProfit = (100 - 2Q)(Q) - (20Q + 100)\n\nSince there is no profit-maximizing output, the profit-maximizing price and profit do not exist.",
+        "\nA: First, we need to find the profit-maximizing output. To do this, we'll take the derivative of the total revenue (TR) with respect to Q and set it equal to zero. The total revenue is given by TR = PQ - C.\n\nTR' = d(PQ - C)/dQ = P - 20Q\n\nSetting TR' equal to zero, we get:\n\nP - 20Q = 0\n\nSince P = 100 \u2212 2Q, we can substitute this expression into the equation above:\n\n100 - 2Q - 20Q = 0\n\nCombining like terms, we get:\n\n-22Q = -100\n\nDividing both sides by -22, we find:\n\nQ = 4.55 (rounded to two decimal places)\n\nNow that we have the profit-maximizing output, we can find the corresponding price and profit. Plugging Q back into the expressions for P and C, we get:\n\nP = 100 - 2(4.55) = 91.05\n\nC = 20(4.55) + 100 = 111.0\n\nFinally, we can calculate the profit using the formula Profit =",
+        "\nA: To find the profit-maximizing output, we need to take the derivative of total revenue (TR) with respect to output (Q) and set it equal to zero. The total revenue is given by the price multiplied by the quantity, so TR = PQ.\n\nTR = PQ\n\nThe derivative of TR with respect to Q is:\n\nd(TR)/dQ = P\n\nSetting d(TR)/dQ equal to zero, we get:\n\nP = 0\n\nThis means that the monopolist should produce the quantity where the price is zero. To find this quantity, we can substitute the given demand function into the equation:\n\n0 = 100 - 2Q\n\n2Q = 100\n\nQ = 50\n\nSo the profit-maximizing output is 50 units.\n\nNext, we need to find the corresponding price. We can do this by substituting the profit-maximizing output into the demand function:\n\nP = 100 - 2(50)\n\nP = 100 - 100\n\nP = 0\n\nSo the profit-maximizing price is zero.\n\nFinally, we can calculate the profit by substituting the profit-maximizing output and price into the total cost equation:\n\nProfit"
+      ],
+      "step_scores": [
+        0.7923612857361021
+      ],
+      "average_step_score": 0.7923612857361021
+    },
+    {
+      "average_score": 0.34731643835249165,
+      "score_std": 0.009503098335990652,
+      "solutions": [
+        "\n\nStep 1: We know that the period of a pendulum is given by the formula T = 2\u03c0\u221a(L/g), where T is the period, L is the length of the pendulum, and g is the acceleration due to gravity.\n\nStep 2: We are given the period (T = 2.0 seconds) and the acceleration due to gravity (g = 9.8 m/s\u00b2). We need to solve for the length of the pendulum (L).\n\nStep 3: Substitute the values into the formula:\n\n2\u03c0\u221a(L/9.8) = 2.0\n\nStep 4: Square both sides of the equation:\n\n(2\u03c0\u221a(L/9.8))\u00b2 = (2.0)\u00b2\n\nStep 5: Simplify the left side of the equation:\n\n4\u03c0\u00b2(L/9.8) = 4\n\nStep 6: Multiply both sides by 9.8 to isolate L:\n\n4\u03c0\u00b2(L) = 39.2\n\nStep 7: Divide both sides by 4\u03c0\u00b2:\n\nL = 39.2 / (4\u03c0\u00b2)\n\nStep 8: Calculate the result:\n\nL \u2248 1.04 m\n\nSo",
+        "\n\nStep 1: We know that the period of a pendulum is given by the formula T = 2\u03c0\u221a(L/g), where T is the period, L is the length of the pendulum, and g is the acceleration due to gravity.\n\nStep 2: We are given the period (T = 2.0 seconds) and the acceleration due to gravity (g = 9.8 m/s\u00b2). We need to solve for the length of the pendulum (L).\n\nStep 3: Substitute the values into the formula:\n\n2\u03c0\u221a(L/9.8) = 2.0\n\nStep 4: Square both sides of the equation:\n\n(2\u03c0\u221a(L/9.8))\u00b2 = (2.0)\u00b2\n\nStep 5: Simplify the left side of the equation:\n\n4\u03c0\u00b2(L/9.8) = 4\n\nStep 6: Multiply both sides by 9.8 to isolate L:\n\n4\u03c0\u00b2(L) = 39.2\n\nStep 7: Divide both sides by 4\u03c0\u00b2:\n\nL = 39.2 / (4\u03c0\u00b2)\n\nStep 8: Calculate the result:\n\nL \u2248 1.066 meters\n\n",
+        "\n\nStep 1: We know that the period T of a pendulum is given by the formula T = 2\u03c0\u221a(L/g), where L is the length of the pendulum and g is the acceleration due to gravity.\n\nStep 2: We are given the period T as 2.0 seconds. We need to solve for L.\n\nStep 3: First, let's plug in the values we know into the formula: T = 2\u03c0\u221a(L/g).\n\nStep 4: Since we want to find the length L, we can rearrange the equation to isolate L: L = T\u00b2/\u03c0\u00b2 * g.\n\nStep 5: Plugging in the given values, we get: L = (2.0)\u00b2/\u03c0\u00b2 * (9.8 m/s\u00b2).\n\nStep 6: Simplifying this expression, we find that L \u2248 0.988 meters or approximately 0.988 meters.\n\nSo, the length of the pendulum is approximately 0.988 meters."
+      ],
+      "step_scores": [
+        0.7873105621882801,
+        0.4238243125904552
+      ],
+      "average_step_score": 0.6055674373893677
+    },
+    {
+      "average_score": 0.29480395907229734,
+      "score_std": 0.2560343380341548,
+      "solutions": [
+        "\nA: 16 N",
+        "\nA: 8 N",
+        "\nA: 4 N"
+      ],
+      "step_scores": [
+        0.1300836452603757
+      ],
+      "average_step_score": 0.1300836452603757
+    },
+    {
+      "average_score": 0.21884288278897657,
+      "score_std": 0.02179621820501317,
+      "solutions": [
+        "\nA: -3.2 m/s^2",
+        "\n\nFirst, we can use the equation for the position of the block in terms of time:\n\nx(t) = A sin(\u03c9t)\n\nwhere x(t) is the position of the block at time t, A is the amplitude, \u03c9 is the angular frequency, and sin is the sine function.\n\nSince the block is oscillating with constant amplitude and frequency, its velocity and acceleration will also be sinusoidal functions of time with the same period. We can find the velocity using the derivative of the position equation:\n\nv(t) = dx/dt = A \u03c9 cos(\u03c9t)\n\nNow, we can find the acceleration using the derivative of the velocity equation:\n\na(t) = dv/dt = -A \u03c9^2 sin(\u03c9t)\n\nWe are asked to find the maximum acceleration, which occurs when the sine function has its maximum value (1) or minimum value (-1). Since sin(\u03c9t) = 1 when t = \u03c0/\u03c9 and sin(\u03c9t) = -1 when t = 3\u03c0/\u03c9, the maximum acceleration occurs at t = \u03c0/\u03c9 and t = 3\u03c0/\u03c9.\n\nSince the angular frequency \u03c9 = 2 Hz, we have:\n\nt = \u03c0/\u03c9 = \u03c0/(2) \u2248 1.5",
+        "\nA: -3.2 m/s^2"
+      ],
+      "step_scores": [
+        0.39322804638034364
+      ],
+      "average_step_score": 0.39322804638034364
+    },
+    {
+      "average_score": 0.798762574602747,
+      "score_std": 0.008907698324294043,
+      "solutions": [
+        "\nA: 16x\u2076y\u00b2 \u00f7 4x\u00b2y\u00b3",
+        "\nA: 4x\u2076y\u00b2 \u00f7 4x\u00b2y\u00b3\nA: x\u2076y\u00b2 \u00f7 xy\u00b3\nA: x\u2075y\u00b2 \u00f7 y\u00b3\nA: x\u2075y\u00b2/y\u00b3\nA: x\u2075y",
+        "\nA: 16x\u2076y\u00b2 \u00f7 4x\u00b2y\u00b3"
+      ],
+      "step_scores": [
+        0.6225377761985329
+      ],
+      "average_step_score": 0.6225377761985329
+    },
+    {
+      "average_score": 0.7983245350174965,
+      "score_std": 0.020157587596500673,
+      "solutions": [
+        "\n\nWe can use the Pythagorean theorem to solve this problem. The theorem states that in a right triangle, the square of the length of the hypotenuse (c) is equal to the sum of the squares of the lengths of the other two sides (a and b). Mathematically, this can be written as:\n\nc^2 = a^2 + b^2\n\nIn this case, we are given the lengths of the legs (a and b) as 6 and 8. So, we can plug these values into the formula:\n\nc^2 = 6^2 + 8^2\nc^2 = 36 + 64\nc^2 = 100\n\nNow, to find the length of the hypotenuse (c), we need to take the square root of both sides of the equation:\n\nc = \u221a100\nc = 10\n\nSo, the length of the hypotenuse is 10 units.",
+        "\n\nStep 1: We know that in a right triangle, the square of the length of the hypotenuse (c) is equal to the sum of the squares of the lengths of the other two sides (a and b). In equation form:\n\nc^2 = a^2 + b^2\n\nStep 2: We are given the lengths of the legs (a and b) as 6 and 8. So, we can plug these values into the equation from Step 1:\n\nc^2 = 6^2 + 8^2\nc^2 = 36 + 64\nc^2 = 100\n\nStep 3: To find the length of the hypotenuse (c), we need to take the square root of both sides of the equation from Step 2:\n\nc = \u221a100\nc = 10\n\nSo, the length of the hypotenuse is 10 units.",
+        "\n\nStep 1: We know that in a right triangle, the Pythagorean theorem holds. This theorem states that the square of the hypotenuse (the side opposite the right angle) is equal to the sum of the squares of the other two sides. In equation form:\n\nc^2 = a^2 + b^2\n\nwhere c is the hypotenuse and a and b are the legs.\n\nStep 2: In this problem, we are given the legs as 6 and 8. So we can plug these values into the equation:\n\nc^2 = 6^2 + 8^2\nc^2 = 36 + 64\nc^2 = 100\n\nStep 3: Now we need to find the value of c by taking the square root of both sides of the equation:\n\nc = \u221a100\nc = 10\n\nSo the hypotenuse of the right triangle is 10 units."
+      ],
+      "step_scores": [
+        0.8273116058615699
+      ],
+      "average_step_score": 0.8273116058615699
+    },
+    {
+      "average_score": 0.16132907075449318,
+      "score_std": 0.025792889564467965,
+      "solutions": [
+        ", 41.\n\nStep 1: Identify the common difference (d) between consecutive terms.\nThe common difference is 4 because each term is 4 more than the previous term.\n\nStep 2: Use the formula for the sum of an arithmetic sequence:\nSum = (n * (a1 + an)) / 2\n\nwhere n is the number of terms, a1 is the first term, and an is the last term.\n\nStep 3: Determine the number of terms (n).\nThere are 20 terms in the sequence.\n\nStep 4: Find the first term (a1) and the last term (an).\nThe first term is 3, and the last term is 41.\n\nStep 5: Plug the values into the formula.\nSum = (20 * (3 + 41)) / 2\n\nStep 6: Simplify the expression.\nSum = (20 * 44) / 2\n\nStep 7: Calculate the sum.\nSum = 880 / 2\n\nStep 8: Solve for the final answer.\nSum = 440\n\nSo, the sum of the first 20 terms of the arithmetic sequence 3, 7, 11, ..., 41 is 44",
+        ", 41.\n\nStep 1: Determine the common difference (d) between consecutive terms.\nThe common difference is the difference between any two consecutive terms. We can find it by subtracting one term from the next:\n\n7 - 3 = 4\n11 - 7 = 4\n11 - 11 = 0\n\nSo, the common difference is 4.\n\nStep 2: Use the formula for the sum of an arithmetic sequence.\nThe formula for the sum of an arithmetic sequence is:\n\nS_n = (n/2) * (a_1 + a_n)\n\nwhere S_n is the sum of the first n terms, a_1 is the first term, a_n is the nth term, and n is the number of terms.\n\nStep 3: Plug in the values into the formula.\nWe are given that there are 20 terms in total (n = 20), so we need to find the first term (a_1) and the 20th term (a_20).\n\na_1 = 3 (given)\na_20 = 3 + 19 * 4 = 41 (calculated)\n\nNow, we can plug these values into the formula:\n\nS_20 =",
+        ", 41.\n\nStep 1: Determine the common difference (d) between consecutive terms.\nThe common difference is the difference between any two consecutive terms. We can find it by subtracting one term from the next:\n\nd = 7 - 3 = 4\n\nStep 2: Use the formula for the sum of an arithmetic sequence.\nThe formula for the sum of an arithmetic sequence is:\n\nS_n = (n * (a_1 + a_n)) / 2\n\nwhere S_n is the sum of the first n terms, a_1 is the first term, a_n is the nth term, and n is the number of terms.\n\nStep 3: Plug in the values into the formula.\nWe are given that there are 20 terms (n = 20), the first term (a_1) is 3, and the last term (a_20) is 41. We need to find the sum of these terms:\n\nS_20 = (20 * (3 + 41)) / 2\n\nStep 4: Simplify the expression.\nFirst, distribute the 20 inside the parentheses:\n\nS_20 = (20 * 44) / 2\n\nNext, multiply 20"
+      ],
+      "step_scores": [
+        0.06407343093776784,
+        0.16150273128201195
+      ],
+      "average_step_score": 0.11278808110988989
+    },
+    {
+      "average_score": 0.41657574070812253,
+      "score_std": 0.02674364515732672,
+      "solutions": [
+        "\nAnswer: -1, 0, 3",
+        "\nA: -1, 0, 2",
+        "\nA: -1, 0, 3"
+      ],
+      "step_scores": [
+        0.3710332592024741
+      ],
+      "average_step_score": 0.3710332592024741
+    },
+    {
+      "average_score": 0.27376380658093485,
+      "score_std": 0.010946219656562362,
+      "solutions": [
+        "\n\nTo find the molar mass of a compound, we need to add up the atomic masses of all its elements. In this case, calcium carbonate is made up of calcium (Ca), carbon (C), and oxygen (O) atoms.\n\n1. Calculate the atomic mass of each element:\n   - Calcium (Ca): 40.08 g/mol\n   - Carbon (C): 12.01 g/mol\n   - Oxygen (O): 15.999 g/mol\n\n2. Multiply the atomic mass of each element by the number of atoms in the formula unit:\n   - Calcium (Ca): 1 Ca atom\n   - Carbon (C): 1 C atom\n   - Oxygen (O): 3 O atoms\n\n3. Add up the products from step 2:\n   Molar mass = (40.08 g/mol * 1) + (12.01 g/mol * 1) + (15.999 g/mol * 3)\n              = 40.08 g/mol + 12.01 g/mol + 47.997 g/mol\n              = 100.106 g/mol",
+        "\n\nTo find the molar mass of a compound, we need to add up the atomic masses of all its elements. In this case, calcium carbonate is made up of calcium (Ca), carbon (C), and oxygen (O) atoms.\n\n1. Calculate the atomic mass of each element:\n   - Calcium (Ca): 40.08 g/mol\n   - Carbon (C): 12.01 g/mol\n   - Oxygen (O): 15.999 g/mol\n\n2. Multiply the atomic mass of each element by the number of atoms in the formula unit of the compound. For calcium carbonate, the formula unit is CaCO\u2083, which means there is one calcium atom, one carbon atom, and three oxygen atoms.\n\n   - Calcium (Ca): 1 x 40.08 g/mol = 40.08 g/mol\n   - Carbon (C): 1 x 12.01 g/mol = 12.01 g/mol\n   - Oxygen (O): 3 x 15.999 g/mol = 47.997 g/mol\n\n3. Add up the atomic masses of all the elements to get the total",
+        "\n\nTo find the molar mass of a compound, we need to add up the atomic masses of all its elements. In this case, calcium carbonate is made up of calcium (Ca), carbon (C), and oxygen (O) atoms.\n\n1. Calculate the atomic mass of each element:\n   - Calcium (Ca): 40.08 g/mol\n   - Carbon (C): 12.01 g/mol\n   - Oxygen (O): 15.999 g/mol\n\n2. Multiply the atomic mass of each element by the number of atoms in the formula unit. For calcium carbonate, the formula unit is CaCO\u2083, which means there is one calcium atom, one carbon atom, and three oxygen atoms.\n\n   - Calcium (Ca): 1 x 40.08 g/mol = 40.08 g/mol\n   - Carbon (C): 1 x 12.01 g/mol = 12.01 g/mol\n   - Oxygen (O): 3 x 15.999 g/mol = 47.997 g/mol\n\n3. Add up the atomic masses of all the elements to get the total molar mass"
+      ],
+      "step_scores": [
+        0.5715917620147803
+      ],
+      "average_step_score": 0.5715917620147803
+    },
+    {
+      "average_score": 0.19253893496385857,
+      "score_std": 0.0,
+      "solutions": [
+        "\nA: 16.67%",
+        "\nA: 16.67%",
+        "\nA: 16.67%"
+      ],
+      "step_scores": [
+        0.21016494028453453
+      ],
+      "average_step_score": 0.21016494028453453
+    },
+    {
+      "average_score": 0.2014933134071165,
+      "score_std": 0.0016091901980436073,
+      "solutions": [
+        "\nA: 2.98 min",
+        "\nA: 2.817 min",
+        "\nA: 2.974 min"
+      ],
+      "step_scores": [
+        0.2654524319036201
+      ],
+      "average_step_score": 0.2654524319036201
+    },
+    {
+      "average_score": 0.18881096245860454,
+      "score_std": 0.15070763357808548,
+      "solutions": [
+        "\nA: 5",
+        "\nA: -1",
+        "\nA: 10"
+      ],
+      "step_scores": [
+        0.19686959139381868
+      ],
+      "average_step_score": 0.19686959139381868
+    },
+    {
+      "average_score": 0.31216026387728396,
+      "score_std": 0.11962222128462024,
+      "solutions": [
+        "\nA: $958.97",
+        "\nA: $941.18",
+        "\nA: $970.50\n\nHere's the reasoning:\n\n1. First, we need to determine the present value of the bond's coupon payments. We can do this using the formula for the present value of an annuity: PV = PMT * [(1 - (1 + r)^(-n)) / r], where PV is the present value, PMT is the payment amount, r is the interest rate, and n is the number of periods.\n2. In this case, PMT = $60 (the bond's annual coupon payment), r = 5% (the market rate), and n = 5 (the number of years until maturity). Plugging these values into the formula, we get: PV = $60 * [(1 - (1 + 0.05)^(-5)) / 0.05] = $60 * [4.21231] \u2248 $2,527.98.\n3. Next, we need to account for the bond's face value, which will be paid at maturity. To do this, we can use the formula for the future value of an ordinary annuity: FV = PMT * [(1 + r)^n - 1] / r.\n4. With the same values as before (PMT = $6"
+      ],
+      "step_scores": [
+        0.13755579562796255
+      ],
+      "average_step_score": 0.13755579562796255
+    },
+    {
+      "average_score": 0.3257770337252018,
+      "score_std": 0.06490303972264751,
+      "solutions": [
+        "\nA: Q = 10 L^0.5 K^0.5 = 10 (25)^0.5 (16)^0.5 = 10 (5)^2 = 100\n\nThe output is 100.\n\nTo compute the marginal products, we take the partial derivatives of the production function with respect to L and K:\n\n\u2202Q/\u2202L = A L^(-0.5) K^0.5 = 10 (25)^(-0.5) (16)^0.5 = -5 (25)^(-0.5) = -5/5 = -1\n\n\u2202Q/\u2202K = A L^0.5 K^(-0.5) = 10 (25)^0.5 (16)^(-0.5) = 5 (25)^0.5 = 5/4\n\nSo the marginal product of labor is -1 and the marginal product of capital is 5/4.",
+        "\nA: Q = 10 L^0.5 K^0.5 = 10 (25)^0.5 (16)^0.5 = 100\n\nThe output is 100 units.\n\nTo compute the marginal products, we take the partial derivatives of the production function with respect to L and K:\n\n\u2202Q/\u2202L = A L^(-0.5) K^0.5 = 10 L^(-0.5) (16)^0.5 = -8 L^(-0.5)\n\n\u2202Q/\u2202K = A L^0.5 K^(-0.5) = 10 (25)^0.5 (16)^(-0.5) = 40 L^0.5\n\nSo the marginal product of labor (L) is -8 units per unit of labor, and the marginal product of capital (K) is 40 units per unit of capital.",
+        "\nA: Q = 10 L^0.5 K^0.5 = 10 (25)^0.5 (16)^0.5 = 100"
+      ],
+      "step_scores": [
+        0.521283328036438
+      ],
+      "average_step_score": 0.521283328036438
+    },
+    {
+      "average_score": 0.7543453520958288,
+      "score_std": 0.011027380877880112,
+      "solutions": [
+        "\n\nStep 1: Identify the type of cell being referred to.\nIn this case, the problem mentions eukaryotic cells. Eukaryotic cells are cells that have a defined nucleus and other membrane-bound organelles.\n\nStep 2: Determine the function of the organelle in question.\nThe problem asks for the organelle responsible for energy production. In eukaryotic cells, the primary organelle responsible for energy production is the mitochondrion.\n\nStep 3: Provide the name of the organelle.\nThe organelle responsible for energy production in eukaryotic cells is the mitochondrion.",
+        "\n\nStep 1: Identify the type of cell being referred to.\nIn this case, the problem mentions eukaryotic cells. Organelles are specific components of cells, and their functions vary depending on the type of cell.\n\nStep 2: Recall the general structure of eukaryotic cells.\nEukaryotic cells have a nucleus surrounded by membrane-bound organelles. These organelles include mitochondria, endoplasmic reticulum, Golgi apparatus, lysosomes, peroxisomes, ribosomes, and chloroplasts, among others.\n\nStep 3: Determine the organelle's location within the cell.\nThe organelle responsible for energy production in eukaryotic cells is located in the cytoplasm, which is the fluid-filled compartment outside the nucleus and organelles.\n\nStep 4: Identify the specific organelle.\nThe organelle responsible for energy production in eukaryotic cells is the mitochondrion.\n\nSo, the answer is the mitochondrion.",
+        "\n\nStep 1: Identify the type of cell being referred to.\nIn this case, the problem mentions eukaryotic cells. Organelles are specific to eukaryotic cells, so we can assume that the organelle responsible for energy production in eukaryotic cells is also responsible for energy production in this particular cell type.\n\nStep 2: Recall the main organelle involved in energy production.\nThe primary organelle responsible for energy production in eukaryotic cells is the mitochondrion. Mitochondria generate energy through a process called cellular respiration, which involves converting nutrients into ATP (adenosine triphosphate), the molecule that provides energy for most cellular processes.\n\nSo, the organelle responsible for energy production in eukaryotic cells is the mitochondrion."
+      ],
+      "step_scores": [
+        0.5963614717062508
+      ],
+      "average_step_score": 0.5963614717062508
+    },
+    {
+      "average_score": 0.8756824338318828,
+      "score_std": 0.010421773165804105,
+      "solutions": [
+        "\n\nmRNA, or messenger RNA, is a type of RNA molecule that plays a crucial role in protein synthesis. Protein synthesis is the process by which cells create proteins, which are complex molecules that serve a wide range of functions within the cell.\n\nThe process of protein synthesis begins with the transcription of a gene. During transcription, the DNA code of the gene is copied into a molecule of mRNA. This mRNA molecule then leaves the nucleus of the cell and enters the cytoplasm, where it is translated into a protein by ribosomes.\n\nThe ribosomes read the sequence of codons (sets of three nucleotides) in the mRNA molecule and use this information to assemble the amino acids that make up the protein. The amino acids are linked together by peptide bonds to form a long chain, which then folds into a specific three-dimensional structure to create the final protein.\n\nIn summary, mRNA plays a vital role in protein synthesis by carrying the genetic code from the nucleus to the ribosomes, where it is used to assemble the amino acids that make up proteins. Without mRNA, protein synthesis would not be possible, and cells would be unable to create the complex molecules that are essential for life.",
+        "\n\nmRNA, or messenger RNA, is a type of RNA molecule that plays a crucial role in protein synthesis. Protein synthesis is the process by which cells create proteins, which are complex molecules that play a wide range of functions in the body.\n\nThe process of protein synthesis begins with the transcription of a gene. During transcription, the DNA molecule that contains the gene is copied into a molecule of mRNA. This mRNA molecule carries the genetic information from the DNA to the ribosomes in the cell's cytoplasm.\n\nOnce the mRNA molecule reaches the ribosomes, it is translated into a protein. The ribosomes read the sequence of nucleotides in the mRNA molecule and use this information to assemble the amino acids that make up the protein. The amino acids are linked together by peptide bonds to form a long chain, which then folds into a specific three-dimensional structure to create the final protein.\n\nIn summary, the role of mRNA in protein synthesis is to carry the genetic information from the DNA to the ribosomes, where it is translated into a protein. Without mRNA, protein synthesis would not be possible, and cells would be unable to create the complex molecules that are essential for life.",
+        "\n\nmRNA, or messenger RNA, is a type of RNA molecule that plays a crucial role in protein synthesis. Protein synthesis is the process by which cells create proteins, which are complex molecules that serve a wide range of functions within the cell.\n\nThe process of protein synthesis begins with the transcription of a gene. During transcription, the DNA code of the gene is read by an enzyme called RNA polymerase, which creates a molecule of mRNA. This mRNA molecule carries the genetic code from the DNA to the ribosomes, which are located in the cytoplasm of the cell.\n\nOnce the mRNA molecule reaches the ribosomes, it is translated into a protein. During translation, the ribosomes read the mRNA code and use it to create a chain of amino acids, which are the building blocks of proteins. The amino acids are linked together in a specific sequence determined by the mRNA code, forming a unique protein.\n\nIn summary, the role of mRNA in protein synthesis is to carry the genetic code from the DNA to the ribosomes, where it is translated into a protein. Without mRNA, protein synthesis would not be possible, and cells would be unable to create the complex molecules that are essential for their functioning."
+      ],
+      "step_scores": [
+        0.8954899856814268
+      ],
+      "average_step_score": 0.8954899856814268
+    },
+    {
+      "average_score": 0.8454619146281385,
+      "score_std": 0.008280979536472147,
+      "solutions": [
+        "\n\nStep 1: Define heterozygotes.\nHeterozygotes are individuals that have two different alleles (variations) of a gene. In other words, they have one allele from each parent.\n\nStep 2: Understand the concept of selection.\nSelection is the process by which certain traits become more or less common in a population over time. This can happen due to various reasons, such as natural disasters, climate change, or mating preferences.\n\nStep 3: Determine the outcome of selection.\nIn this case, the outcome of selection is that heterozygotes are favored. This means that individuals with two different alleles are more likely to survive and reproduce than those with only one allele.\n\nStep 4: Identify the type of selection.\nBased on the information provided, we can conclude that this type of selection is called balancing selection. Balancing selection occurs when both alleles of a gene provide some advantage, leading to a stable frequency of the alleles in the population. In this case, heterozygotes have an advantage because they can better adapt to changing environmental conditions or predator populations.",
+        "\n\nStep 1: Define heterozygotes.\nHeterozygotes are individuals that have two different alleles (variations) of a gene. In other words, they are individuals that carry one copy of each allele.\n\nStep 2: Understand the concept of selection.\nSelection is the process by which certain traits become more or less common in a population over time. This can happen due to various reasons, such as natural disasters, climate change, or mating preferences.\n\nStep 3: Determine the type of selection favoring heterozygotes.\nIf selection favors heterozygotes, it means that individuals with two different alleles have a higher chance of surviving and reproducing compared to homozygotes (individuals with two identical alleles). This type of selection is called balancing selection.\n\nSo, the type of selection favoring heterozygotes is balancing selection.",
+        "\n\nStep 1: Define heterozygosity.\nHeterozygosity refers to the presence of two different alleles (variations of a gene) within an individual. In other words, it is the condition where an organism has one copy of each variant of a particular gene.\n\nStep 2: Understand the concept of selection.\nSelection is a process in which certain traits become more or less common in a population over time due to differences in reproductive success among individuals with those traits. There are several types of selection, including natural selection, sexual selection, and stabilizing selection.\n\nStep 3: Determine the type of selection described in the problem.\nThe problem states that selection favors heterozygotes. This means that individuals with two different alleles for a particular gene have a higher chance of surviving and reproducing compared to individuals with either homozygous allele (two copies of the same allele). \n\nStep 4: Conclusion.\nBased on the information provided, the type of selection described in the problem is natural selection. Natural selection favors traits that increase an organism's ability to survive and reproduce in their environment, and in this case, having two different alleles confers an advantage in terms of reproductive success."
+      ],
+      "step_scores": [
+        0.7961601120575885
+      ],
+      "average_step_score": 0.7961601120575885
+    },
+    {
+      "average_score": 0.19503491393707048,
+      "score_std": 0.0,
+      "solutions": [
+        "\nA: 3/6",
+        "\nA: 3/6",
+        "\nA: 3/6"
+      ],
+      "step_scores": [
+        0.412876202987829
+      ],
+      "average_step_score": 0.412876202987829
+    },
+    {
+      "average_score": 0.14149240551453993,
+      "score_std": 0.004066528511844808,
+      "solutions": [
+        "\nA: 16",
+        "\nA: 24",
+        "\nA: 20"
+      ],
+      "step_scores": [
+        0.20118408883880995
+      ],
+      "average_step_score": 0.20118408883880995
+    },
+    {
+      "average_score": 0.8151369197499209,
+      "score_std": 1.1102230246251565e-16,
+      "solutions": [
+        "\n\nAnswer: R\u00b2 = 0.81 indicates that the regression model explains 81% of the variance in the response variable.",
+        "\n\nAnswer: R\u00b2 = 0.81 indicates that the regression model explains 81% of the variance in the response variable.",
+        "\n\nAnswer: R\u00b2 = 0.81 indicates that the regression model explains 81% of the variance in the response variable."
+      ],
+      "step_scores": [
+        0.904872766768048
+      ],
+      "average_step_score": 0.904872766768048
+    },
+    {
+      "average_score": 0.8127105554647684,
+      "score_std": 0.01375614629072454,
+      "solutions": [
+        "\nA: cos(x)sin(x)",
+        "\nAnswer: cos(x)sin(x)",
+        "\nA: cos(x)sin(x)"
+      ],
+      "step_scores": [
+        0.8375958286769171
+      ],
+      "average_step_score": 0.8375958286769171
+    },
+    {
+      "average_score": 0.13388870340170547,
+      "score_std": 0.04601152549978741,
+      "solutions": [
+        "\nA: 3",
+        "\nAnswer: 3",
+        "\nAnswer: 3"
+      ],
+      "step_scores": [
+        0.5880790337239118
+      ],
+      "average_step_score": 0.5880790337239118
+    },
+    {
+      "average_score": 0.6033642514013029,
+      "score_std": 0.004392200387068646,
+      "solutions": [
+        "\nAnswer: x=0, x=1",
+        "\nAnswer: -2, 0, 1",
+        "\nAnswer: 0, 1, 3"
+      ],
+      "step_scores": [
+        0.2943722479664674
+      ],
+      "average_step_score": 0.2943722479664674
+    },
+    {
+      "average_score": 0.2206492685568414,
+      "score_std": 0.023270638451426264,
+      "solutions": [
+        "\nA: -4",
+        "\nAnswer: -4",
+        "\nAnswer: -4"
+      ],
+      "step_scores": [
+        0.34022610929857167
+      ],
+      "average_step_score": 0.34022610929857167
+    },
+    {
+      "average_score": 0.6811194674946955,
+      "score_std": 0.0050760426369676585,
+      "solutions": [
+        "\nAnswer: x=2, y=4",
+        "\nA: x=2, y=4",
+        "\nA: x=2, y=4"
+      ],
+      "step_scores": [
+        0.3152249349694434
+      ],
+      "average_step_score": 0.3152249349694434
+    },
+    {
+      "average_score": 0.060248981812057185,
+      "score_std": 0.0,
+      "solutions": [
+        "\nA: -2, 3",
+        "\nA: -2, 3",
+        "\nA: -2, 3"
+      ],
+      "step_scores": [
+        0.33168514831313806
+      ],
+      "average_step_score": 0.33168514831313806
+    }
+  ],
+  "analysis": {
+    "overall_average": 0.38837965910545513,
+    "category_averages": {
+      "Physics": 0.323983690895853,
+      "Mathematics": 0.43728862873864877,
+      "Chemistry": 0.3098438946831101,
+      "Economics": 0.33325249046722555,
+      "Statistics": 0.27344134711514256,
+      "Biology": 0.5510736223119529,
+      "Calculus": 0.5560568283474088,
+      "Optimization": 0.34911595857715905
+    },
+    "difficulty_averages": {
+      "Easy": 0.47621195524545984,
+      "Medium": 0.3251464484882075,
+      "Hard": 0.3928567801454993
+    },
+    "step_accuracy": 0.4181009852246574,
+    "consistency": 0.04557511960693598
+  }
+}
